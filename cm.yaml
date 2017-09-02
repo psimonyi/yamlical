@@ -1,0 +1,99 @@
+types:
+    big: &big
+        title: Contra dance
+        title[fr]: Contredanse
+        location: Ukranian Hall, 405 Fairmount West (at Hutchison)
+        location[fr]: Salle Ukrainienne, 405 Fairmount ouest (coin Hutchison)
+        time: 7:30pm
+        endtime: 11pm
+    community: &community
+        title: Community contra dance
+        title[fr]: Contredanse communautaire
+        location: House of Friendship, 120 Duluth East (at De Bullion)
+        location[fr]: Maison de l'Amitié, 120 Rue Duluth est (à De Bullion)
+        time: 7:30pm
+        endtime: 11pm
+
+dances:
+    - date: Saturday, September 24, 2016
+      performers: Steve Jones, Gareth Jones, Brad Hurley / On Call
+      <<: *community
+
+    - date: Friday, September 30, 2016
+      performers: Richard Forest + / June Harmon
+      <<: *big
+
+    - date: Saturday, October 22, 2016
+      performers: Alexis Chartrand and Marc Maziade / On Call
+      performers[fr]: Alexis Chartrand et Marc Maziade / On Call
+      <<: *community
+
+    - date: Sunday, November 13, 2016
+      title: Klezmer Contra
+      performers: Rachel Lemisch & friends / Leah Dolgoy
+      performers[fr]: Rachel Lemisch et amis / Leah Dolgoy
+      location: Portugese Hall, 4170 Saint-Urbain
+      location[fr]: Salle Portuguaise, 4170 Saint-Urbain
+      time: 6:30pm
+      endtime: 10pm
+
+    - date: Saturday, November 26, 2016
+      performers: Alexis Chartrand and Marc Maziade / On Call
+      performers[fr]: Alexis Chartrand et Marc Maziade / On Call
+      <<: *community
+
+    - date: Friday, December 2, 2016
+      performers: Genticorum / Dave Eisenstadter
+      <<: *big
+
+    - date: Friday, January 6, 2017
+      performers: Frost and Fire / Marian Rose
+      <<: *big
+
+    - date: Saturday, January 28, 2017
+      performers: "The Bombadils: Sarah Frank, Luke Fraser / On Call"
+      performers[fr]: "The Bombadils: Sarah Frank et Luke Fraser / On Call"
+      <<: *community
+
+    - date: Friday, February 3, 2017
+      performers: M+K+W Trio / Luke Donforth
+      <<: *big
+
+    - date: Saturday, February 25, 2017
+      performers: "The Bombadils: Sarah Frank, Luke Fraser / On Call"
+      performers[fr]: "The Bombadils: Sarah Frank et Luke Fraser / On Call"
+      <<: *community
+
+    - date: Sunday, March 5, 2017
+      title: English Country Dance for contra dancers
+      title[fr]: Danse anglaise pour danseurs de contra
+      performers: Peregrine Road / Adina Gordon
+      location: Ukranian Hall, 405 Fairmount West (at Hutchison)
+      location[fr]: Salle Ukrainienne, 405 Fairmount ouest (coin Hutchison)
+      time: 3pm
+
+    - date: Saturday, March 25, 2017
+      performers: Steve Jones, Gareth Jones, Brad Hurley / On Call
+      performers[fr]: Steve Jones, Gareth Jones et Brad Hurley / On Call
+      <<: *community
+
+    - date: Friday, March 31, 2017
+      performers: Peach Jam / Dugan Murphy
+      <<: *big
+
+    - date: Saturday, April 22, 2017
+      performers: TBA / On Call
+      <<: *community
+
+    - date: Friday, May 5, 2017
+      performers: Sassafras Stomp / Mary Wesley
+      <<: *big
+
+    - date: Saturday, May 27, 2017
+      performers: Alexis Chartrand and Marc Maziade / On Call
+      performers[fr]: Alexis Chartrand et Marc Maziade / On Call
+      <<: *community
+
+    - date: Friday, June 2, 2017
+      performers: Barefoot / Will Mentor
+      <<: *big

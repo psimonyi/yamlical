@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+PRODID:-//Yorba Foundation//NONSGML California Calendar 0.4.0//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2016-09-11T13:31:55-0400-22037-1000-1-00000004@phyllis
+DTSTAMP:20160911T133256
+SUMMARY:Manotick community dance
+LOCATION:Manotick United Church
+DESCRIPTION:$10 regular ($5 ages 12-18\, $20 whole family)
+DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
+ 20161104T190000
+DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
+ 20161104T220000
+CREATED:20160911T173256Z
+LAST-MODIFIED:20160911T173256Z
+END:VEVENT
+END:VCALENDAR

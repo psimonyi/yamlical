@@ -1,0 +1,203 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//PTS//contraical.py//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P7D
+SOURCE;VALUE=URI:https://csclub.uwaterloo.ca/~ptsimony/calendars/ContraMon
+ treal.en.ics
+URL:http://contramontreal.org/
+X-PUBLISHED-TTL;VALUE=DURATION:P7D
+X-WR-CALNAME:ContraMontreal
+X-WR-TIMEZONE:America/Montreal
+BEGIN:VTIMEZONE
+TZID:America/Montreal
+BEGIN:STANDARD
+DTSTART:20061106T020000
+RRULE:FREQ=YEARLY;BYDAY=+1SU;BYMONTH=11
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20060313T020000
+RRULE:FREQ=YEARLY;BYDAY=+2SU;BYMONTH=3
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Community contra dance
+DTSTART;TZID=America/Montreal:20160924T193000
+DTEND;TZID=America/Montreal:20160924T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:3388dab6-ba54-4303-9446-1dd6e74bc5be
+DESCRIPTION:Band: Steve Jones\, Gareth Jones\, Brad Hurley\nCallers: On Ca
+ ll
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Contra dance
+DTSTART;TZID=America/Montreal:20160930T193000
+DTEND;TZID=America/Montreal:20160930T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:06112f40-98c0-44b6-86e8-0043fdce82d9
+DESCRIPTION:Band: Richard Forest +\nCaller: June Harmon
+LOCATION:Ukranian Hall\, 405 Fairmount West (at Hutchison)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Community contra dance
+DTSTART;TZID=America/Montreal:20161022T193000
+DTEND;TZID=America/Montreal:20161022T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:ada8d8a8-8089-45d7-a8de-23a0eb488819
+DESCRIPTION:Band: Alexis Chartrand and Marc Maziade\nCallers: On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Klezmer Contra
+DTSTART;TZID=America/Montreal:20161113T183000
+DTEND;TZID=America/Montreal:20161113T220000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:19f973b4-cc92-4814-9828-4165b202c47c
+DESCRIPTION:Band: Rachel Lemisch & friends\nCaller: Leah Dolgoy
+LOCATION:Portugese Hall\, 4170 Saint-Urbain
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Community contra dance
+DTSTART;TZID=America/Montreal:20161126T193000
+DTEND;TZID=America/Montreal:20161126T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:34388d1f-0b41-44fe-8ff3-33d5608d4df1
+DESCRIPTION:Band: Alexis Chartrand and Marc Maziade\nCallers: On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Contra dance
+DTSTART;TZID=America/Montreal:20161202T193000
+DTEND;TZID=America/Montreal:20161202T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:b950f542-d3a6-4c1e-8faa-f2e0fde2c5a1
+DESCRIPTION:Band: Genticorum\nCaller: Dave Eisenstadter
+LOCATION:Ukranian Hall\, 405 Fairmount West (at Hutchison)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Contra dance
+DTSTART;TZID=America/Montreal:20170106T193000
+DTEND;TZID=America/Montreal:20170106T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:5ff202d3-b22f-4363-a102-2c822f72e7ea
+DESCRIPTION:Band: Frost and Fire\nCaller: Marian Rose
+LOCATION:Ukranian Hall\, 405 Fairmount West (at Hutchison)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Community contra dance
+DTSTART;TZID=America/Montreal:20170128T193000
+DTEND;TZID=America/Montreal:20170128T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:291be679-ab74-41f1-9d77-1d5fe7ae908a
+DESCRIPTION:Band: The Bombadils: Sarah Frank\, Luke Fraser\nCallers: On Ca
+ ll
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Contra dance
+DTSTART;TZID=America/Montreal:20170203T193000
+DTEND;TZID=America/Montreal:20170203T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:6b6c6f89-b1d0-4852-8194-64a548a9814e
+DESCRIPTION:Band: M+K+W Trio\nCaller: Luke Donforth
+LOCATION:Ukranian Hall\, 405 Fairmount West (at Hutchison)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Community contra dance
+DTSTART;TZID=America/Montreal:20170225T193000
+DTEND;TZID=America/Montreal:20170225T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:0dae7980-0e28-4f73-bc4e-e89bd8a58d2d
+DESCRIPTION:Band: The Bombadils: Sarah Frank\, Luke Fraser\nCallers: On Ca
+ ll
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:English Country Dance for contra dancers
+DTSTART;TZID=America/Montreal:20170305T150000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:a330726c-39a4-4aae-92c2-84f8a036917d
+DESCRIPTION:Band: Peregrine Road\nCaller: Adina Gordon
+LOCATION:Ukranian Hall\, 405 Fairmount West (at Hutchison)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Community contra dance
+DTSTART;TZID=America/Montreal:20170325T193000
+DTEND;TZID=America/Montreal:20170325T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:4288986c-b4eb-40c4-a499-c142b0a6736d
+DESCRIPTION:Band: Steve Jones\, Gareth Jones\, Brad Hurley\nCallers: On Ca
+ ll
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Contra dance
+DTSTART;TZID=America/Montreal:20170331T193000
+DTEND;TZID=America/Montreal:20170331T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:905a9485-529d-44a1-bfa0-8e6885042ae0
+DESCRIPTION:Band: Peach Jam\nCaller: Dugan Murphy
+LOCATION:Ukranian Hall\, 405 Fairmount West (at Hutchison)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Community contra dance
+DTSTART;TZID=America/Montreal:20170422T193000
+DTEND;TZID=America/Montreal:20170422T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:e5ed06c6-4098-4192-ab0e-9db41ab0e565
+DESCRIPTION:Band: TBA\nCallers: On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Contra dance
+DTSTART;TZID=America/Montreal:20170505T193000
+DTEND;TZID=America/Montreal:20170505T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:07c2ff68-fb25-4e4b-b819-07e8bdadfe0d
+DESCRIPTION:Band: Sassafras Stomp\nCaller: Mary Wesley
+LOCATION:Ukranian Hall\, 405 Fairmount West (at Hutchison)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Community contra dance
+DTSTART;TZID=America/Montreal:20170527T193000
+DTEND;TZID=America/Montreal:20170527T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:4d2904f5-4b64-4b48-94bf-383d4e23e22a
+DESCRIPTION:Band: Alexis Chartrand and Marc Maziade\nCallers: On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Contra dance
+DTSTART;TZID=America/Montreal:20170602T193000
+DTEND;TZID=America/Montreal:20170602T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:5c94a58c-57dc-447f-a975-c398a3079b25
+DESCRIPTION:Band: Barefoot\nCaller: Will Mentor
+LOCATION:Ukranian Hall\, 405 Fairmount West (at Hutchison)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,18 @@
+manotick: &common
+    title: Manotick community dance
+    location: Manotick United Church
+    time: 7pm
+    endtime: 11pm
+    caller: Pippa Hall
+    band: the Ever Hopeful String Band
+    admission: "$10 regular ($5 ages 12-18, max $20 per family)"
+
+dances:
+    - date: Friday, September 30, 2016
+      <<: *common
+    - date: Friday, November 4, 2016
+      <<: *common
+    - date: Friday, February 24, 2017
+      <<: *common
+    - date: Friday, April 28, 2017
+      <<: *common
