@@ -120,6 +120,7 @@ common:
     _parkdale: &parkdale
         location: Parkdale United Church, 429 Parkdale Ave., Ottawa
         note_location: "**Different location**
+
         This dance is at the Parkdale United Church (Parkdale at Gladstone)"
 
 calendar:
