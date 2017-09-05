@@ -18,6 +18,8 @@ def main():
     parser = ArgumentParser()
     parser.add_argument('yaml', metavar='IN.yaml', type=Path)
     parser.add_argument('ical', metavar='OUT.ical', type=Path)
+    parser.add_argument('--update-yaml', action='store_true')
+    parser.add_argument('--print-uids', action='store_true')
     args = parser.parse_args()
     return do_main(args)
 
@@ -35,6 +37,13 @@ def do_main(args):
     cal = make_ical(data, args)
     with args.ical.open('wb') as f:
         f.write(cal.to_ical())
+
+    if args.update_yaml:
+        yaml.dump(data, args.yaml)
+
+    if args.print_uids:
+        for evdata in data['events']:
+            print(evdata['uid'])
 
 class YamlJinjaTemplate:
     yaml_tag = '!jinja'
@@ -119,7 +128,7 @@ def make_ical(data, args):
                 end = arrow.get(evdata['end'], DT_FORMATS)
 
         event = Event()
-        uid = evdata.get('uid', make_uid())
+        uid = evdata.setdefault('uid', make_uid()) # Updates evdata if needed.
         event.add('uid', uid)
         event.add('dtstamp', datetime.utcnow()) # TODO
         event.add('dtstart', dt_ical(start))
