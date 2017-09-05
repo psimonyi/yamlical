@@ -41,7 +41,7 @@ class YamlJinjaTemplate:
 
     @classmethod
     def to_yaml(cls, representer, node):
-        return representer.represent_scalar(cls.yaml_tag, node.template)
+        return representer.represent_scalar(cls.yaml_tag, node.source)
 
     @classmethod
     def from_yaml(cls, constructor, node):
