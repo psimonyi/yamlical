@@ -1,0 +1,102 @@
+types:
+    big: &big
+        title[en]: ContraMontreal big dance
+        title[fr]: ContraMontreal grande danse
+        location[en]: Ukranian Hall, 405 Fairmount West (at Hutchison)
+        location[fr]: Salle Ukrainienne, 405 Fairmount ouest (coin Hutchison)
+        time: 7:30pm
+        endtime: 11pm
+        url: http://contramontreal.org/
+    community: &community
+        title[en]: ContraMontreal community dance
+        title[fr]: ContraMontreal danse communautaire
+        location[en]: House of Friendship, 120 Duluth East (at De Bullion)
+        location[fr]: Maison de l'Amitié, 120 Rue Duluth est (coin De Bullion)
+        time: 7:30pm
+        endtime: 11pm
+        url: http://contramontreal.org/
+        caller: On Call
+
+calendar:
+    name: ContraMontreal
+    url: http://contramontreal.org/
+    languages: [en, fr]
+    organizer:
+        cn: ContraMontreal
+        uri: http://contramontreal.org/
+
+events:
+    - <<: *community
+      date: Saturday, September 9, 2017
+      music: musicians
+      band: Alexis Chartrand and Peter Senn
+
+    - <<: *community
+      date: Saturday, October 14, 2017
+      music: musicians
+      band: Gareth Jones, Steve Jones, and Qristina Brooke
+
+    - <<: *community
+      date: Saturday, November 11, 2017
+      music: musician
+      band: Alexis Chartrand
+
+    - <<: *big
+      date: Friday, December 1, 2017
+      music: musicians
+      band: Alexis Chartrand and Peter Senn
+      caller: Luke Donforth
+
+    - <<: *community
+      date: Saturday, December 9, 2017
+      music: musicians
+      band: Carmen Guérard, Sylvie Ladouceur, and Peter Senn
+
+    - <<: *big
+      date: Friday, January 5, 2018
+      music: band
+      band: New Brew
+      caller: Bob Nicholson
+
+    - <<: *community
+      date: Saturday, January 13, 2018
+      music: musician
+      band: Alexis Chartrand
+
+    - <<: *big
+      date: Friday, February 2, 2018
+      music: band
+      band: Tempest
+      caller: Bev Bernbaum
+
+    - <<: *community
+      date: Saturday, February 10, 2018
+      music: musicians
+      band: Gareth and Steve Jones
+
+    - <<: *big
+      date: Friday, March 2, 2018
+      music: musicians
+      band: Aaron Marcus, Alex Kehler, and Nicholas Williams
+      caller: David Smukler
+
+    - <<: *community
+      date: Saturday, March 10, 2018
+      music: musicians
+      band: Carmen Guérard, Sylvie Ladouceur, and Peter Senn
+
+    - <<: *community
+      date: Saturday, April 14, 2018
+      music: musicians
+      band: Gareth and Steve Jones
+
+    - <<: *big
+      date: Friday, May 4, 2018
+      music: musicians
+      band: Dave Langford, Bethany Waickman, and Glen Loper
+      caller: Will Mentor
+
+    - <<: *community
+      date: Saturday, May 12, 2018
+      music: musicians
+      band: Carmen Guérard, Sylvie Ladouceur, and Peter Senn
