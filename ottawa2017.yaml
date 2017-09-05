@@ -1,0 +1,376 @@
+# An event should have these fields:
+# - start and end OR date, time, and endtime
+# - summary, description, location, url
+# Each event will inherit its organizer from the calendar.
+# !jinja scalars are given the event as template context
+# Unfortunately, ruamel.yaml doesn't seem to support folded block scalars.
+
+common:
+    _dance: &dance
+        title: Ottawa Contra Dance
+        time: 7:30pm
+        endtime: 11pm
+        location: Churchill Seniors Recreation Centre, 345 Richmond Rd., Ottawa
+        url: !jinja http://ottawacontra.ca/view/?schedule#{{date|urldate}}
+        description: !jinja "
+        Ottawa Contra Dance: A welcoming community of social
+        dancing to live traditional music
+
+        This dance features {{band}} with
+        {% if caller.plural %}callers{% else %}caller{% endif %} {{caller}}.
+        {% if note_location %}\
+        \n\n\n{{note_location}}\
+        {% endif %}\
+        {% if youth %}\
+        \n\n\nYouth Dance — to encourage young dancers to come enjoy contra,
+        youth under 30 get in free! Tell your friends!\
+        {% endif %}\
+        {% if note %}\
+        \n\n\n{{note}}\
+        {% endif %}\
+        {% if montreal %}\
+        \n\n\nMake it a weekend! The same caller and band play in Montreal on
+        Friday.  See http://contramontreal.org/\
+        {% endif %}
+
+
+
+        {{url}}
+
+
+        7:30–8:00 is an introduction to contra — recommended if you're new!
+        Social dancing starts about 8:00.
+
+
+        Admission: $14 (students $10, ages 16 and under free).
+
+
+        Everyone is welcome, no dance experience required.  Come alone or with
+        friends or family.  What to bring: light casual clothing (it gets
+        warm), regular indoor shoes (to protect the floor and for comfort
+        dancing), a water bottle (stay hydrated), and a smile!"
+
+    _tuesdance: &tuesdance
+        title: Community Tuesday Contra Dance
+        time: 7:30pm
+        endtime: 10pm
+        location: Orange Hall, 41 Rosemount Ave., Ottawa
+        description: !jinja "
+        A great mid-week dance held in a beautiful century hall.
+        Local musicians and callers do their stuff.
+
+
+        Admission: $8 (students $6, ages 16 and under free).
+
+        
+        Everyone is welcome, no dance experience required.  Come alone or with
+        friends or family.  What to bring: light casual clothing (it gets
+        warm), regular indoor shoes (to protect the floor and for comfort
+        dancing), a water bottle (stay hydrated), and a smile!"
+
+    _familydance: &familydance
+        title: Family Dance
+        time: 3:30pm
+        endtime: 5pm
+        location: Churchill Seniors Recreation Centre, 345 Richmond Rd., Ottawa
+        url: http://www.ottawacontra.ca/view/?familydance
+        description: !jinja "
+        Kids dancing with parents, grandparents, and friends.
+
+
+        There is always live music and all the kid-accessible dances are
+        taught.  Babies welcome in carriers.  For all ages with or without
+        kids! 
+
+
+        After the dance, join us for a pot-luck dinner at 5:00pm.  Bring
+        something to share and enjoy dinner with other families.
+
+        
+        Admission: $20/family (max. 2 adults), or $10 for ages 16+, $5 for ages
+        3-15, free for ages 0-2."
+
+    _afternoon: &afternoon
+        title: Ottawa Contra Afternoon Dance
+        time: 3:30pm
+        endtime: 5:30pm
+        url: !jinja http://ottawacontra.ca/view/?schedule#{{date|urldate}}
+        location: Churchill Seniors Recreation Centre, 345 Richmond Rd., Ottawa
+        description: !jinja "
+        A special afternoon session: \"{{topic}}\" with {{caller}}
+        and music by {{band}}
+
+
+        {{detail}}
+
+
+        {% if potluck %}\
+        There is a pot-luck dinner between the afternoon and evening dances.
+        Bring a meal item to share (plus a plate & cutlery). These are popular
+        and friendly!
+
+
+        {% endif %}
+
+        Admission: $12 (ages 16 and under free)
+
+        Or for the afternoon and evening together: $23 (students $20)
+        "
+
+    _parkdale: &parkdale
+        location: Parkdale United Church, 429 Parkdale Ave., Ottawa
+        note_location: "**Different location**
+        This dance is at the Parkdale United Church (Parkdale at Gladstone)"
+
+calendar:
+    name: Ottawa Contra
+    url: http://www.ottawacontra.ca/view/?schedule
+    languages: [en]
+    organizer:
+        cn: Ottawa Contra Dance
+        uri: http://ottawacontra.ca
+
+events:
+    - <<: *dance
+      <<: *parkdale
+      date:  Sep 16, 2017
+      band:  the Old Sod Band
+      caller: Catherine Burns
+
+    - <<: *tuesdance
+      date: Sep 26, 2017
+
+    - title: Ottawa Contra AGM and Pot-luck
+      date: Sep 26, 2017
+      time: 6:00pm
+      endtime: 7:30pm
+      location: Orange Hall, 41 Rosemount Ave., Ottawa
+      description: "Pot-luck dinner at 6pm — bring food to share, your own plate
+      & cutlery. Come share a meal, enjoy conversation (find out what your
+      dance buddies have been doing all summer) and then what contra committee
+      has been doing all year at the AGM (6:30pm). We'll keep the meeting short
+      and interesting!"
+
+    - <<: *dance
+      youth: True
+      date:   Oct 7, 2017
+      band:   Les Quatres Coins
+      caller: David Smukler
+
+    - <<: *dance
+      <<: *parkdale
+      date:   Oct 21, 2017
+      band:   Peach Jam
+      caller: Ken Panton
+
+    - <<: *tuesdance
+      date: Oct 24, 2017
+
+    - title: Hey Fever! Contra dance weekend
+      start: 2017-11-03 7:00pm
+      end: 2017-11-05 3:45pm
+      location: Churchill Seniors Recreation Centre, 345 Richmond Rd., Ottawa
+      url: http://www.ottawacontra.ca/heyFever/
+      description: "Our very own dance weekend with music from The O’Schraves
+      and Julie Vallimont & Friends with Mary Wesley and Dave Eisenstadter
+      calling.
+
+
+      Important: Registration is required.  You cannot purchase tickets at the
+      door on Saturday night.  Sign up early, as this has sold out in past
+      years!
+
+     
+      Registration: http://www.ottawacontra.ca/heyFever/registration.asp"
+
+    - title: Hey Fever! Early registration deadline
+      start: 2017-09-22 0:00
+      url: http://www.ottawacontra.ca/heyFever/registration.asp
+      description: !jinja "Regular admission weekend passes cost $11.30 more if
+      you don't buy them before September 22nd.
+
+      {{url}}"
+
+    - <<: *dance
+      date:   Nov 18, 2017
+      band:   the Old Sod Band 
+      caller: Chrissy Fowler
+
+    - <<: *familydance
+      date:   Nov 18, 2017
+      band:   the Old Sod Band 
+      caller: Chrissy Fowler
+
+    - <<: *tuesdance
+      date: Nov 28, 2017
+
+    - <<: *dance
+      date:   Dec 2, 2017
+      montreal: True
+      band:   Alexis Chartrand & Peter Senn
+      caller: Luke Donforth
+
+    - <<: *afternoon
+      date: Dec 2, 2017
+      band: Greg Brown & Emily Addison
+      caller: Luke Donforth
+      topic: "Connecting with your waltz partner"
+      detail: "This workshop focuses on the connection and body communication
+      between you and your waltz partner. It assumes familiarity and comfort
+      with waltzing. We will rotate partners in the workshop. Luke will teach
+      some moves that may be new to you. They are as a vehicle for exploring
+      frame and opportunity for connection. The workshop will run for the first
+      45 minutes of the waltz session, with open waltzing for the rest of the
+      afternoon."
+
+    - <<: *dance
+      date:   Dec 16, 2017
+      band:   the Old Sod Band
+      caller: Catherine Burns
+      note: "This is our seasonal dance with pot-luck snacks, carols, and other
+      fun at the break! Bring a sweet or savoury snack to share. Wear red and
+      green! Ho ho ho!"
+
+    - <<: *dance
+      title: Ottawa Contra Ball
+      date:   Jan 6, 2018
+      time: 8:00pm
+      montreal: True
+      band:   New Brew
+      caller: Bob Nicholson
+      note: "This is our New Year's Contra Ball!  Dress up in you finery to
+      celebrate the new year!  There will be snacks provided at the break, a
+      few other dance styles mixed in among the contras, and no introductory
+      lesson this time."
+
+    - <<: *dance
+      youth: True
+      date:   Jan 20, 2018
+      band:   Les Quatres Coins
+      caller: Sarah VanNorstrand
+
+    - <<: *familydance
+      date:   Jan 20, 2018
+      band:   Greg Brown, Paul Hawtin, and Richard Forest
+      caller: Sarah VanNorstrand
+
+    - <<: *tuesdance
+      date: Jan 23, 2018
+
+    - <<: *dance
+      date:   Feb 3, 2018
+      montreal: True
+      band:   Tempest
+      caller: Bev Bernbaum
+
+    - <<: *afternoon
+      date:   Feb 3, 2018
+      band:   Tempest
+      caller: Bev Bernbaum
+      topic: "Dance a mile in your partner's shoes"
+      detail: "This afternoon session is guaranteed to be a great learning
+      opportunity while also loads of fun! You'll be spending lots of time
+      dancing the opposite gender role. It's the perfect time to practice!
+      Plus, we'll be finessing moves and talking about what works and doesn't
+      work for partners. Open to everyone except brand-new dancers."
+      potluck: True
+
+    - <<: *dance
+      date:   Feb 17, 2018
+      band:   Peach Jam
+      caller: June Harman
+
+    - <<: *tuesdance
+      date: Feb 27, 2018
+
+    - <<: *dance
+      date:   Mar 3, 2018
+      montreal: True
+      band:   Nicholas Williams, Alex Kehler, and Aaron Marcus
+      caller: David Smukler
+
+    - <<: *afternoon
+      date:   Mar 3, 2018
+      band:   Nicholas Williams, Alex Kehler, and Aaron Marcus
+      caller: David Smukler
+      topic: "Kindred spirits: Contra and English"
+      detail: "Contra dancing and English country dancing spring from the same
+      roots, and continue to influence each other to this day. In this session,
+      we'll experience both English dances and contra dances that benefit from
+      this wonderful synergy. It's a great opportunity to enjoy some
+      outrageously fun dances, while considering different dance vantage
+      points."
+
+    - <<: *dance
+      date:   Mar 17, 2018
+      band:   Stolen Goods
+      caller: !plural Catherine Burns and Peter Simonyi
+      note: "Don't forget to wear green for St. Patrick's Day!"
+
+    - <<: *familydance
+      date:   Mar 17, 2018
+      band:   Stolen Goods
+      caller: Catherine Burns
+      note: "Don't forget to wear green for St. Patrick's Day!"
+
+    - <<: *tuesdance
+      date: Mar 27, 2018
+
+    - <<: *dance
+      date:   Apr 7, 2018
+      band:   Godknowswhat!
+      caller: June Harman
+
+    - <<: *dance
+      date:   Apr 21, 2018
+      band:   Old Sod
+      caller: !plural Ken Panton and Peter Simonyi
+
+    - <<: *familydance
+      date:   Apr 21, 2018
+      band:   Greg Brown and Paul Hawtin
+      caller: Catherine Burns
+
+    - <<: *tuesdance
+      date: Apr 24, 2018
+
+    - <<: *dance
+      date:   May 5, 2018
+      montreal: True
+      band:   Dave Langford, Bethany Waickman, and Glen Loper
+      caller: Will Mentor
+
+    - <<: *afternoon
+      date:   May 5, 2018
+      band:   Dave Langford, Bethany Waickman, and Glen Loper
+      caller: Will Mentor
+      topic: "Challenging dance"
+      detail: "Come have your brain and body challenged with a great afternoon
+      of advanced dances! This session will both stretch your abilities and be
+      VERY fun! Geared towards intermediate and advanced dancers (not suitable
+      for beginners)."
+      potluck: True
+
+    - <<: *dance
+      date:   May 19, 2018
+      band:   Peach Jam
+      caller: !plural Tom Calwell & Myra Hirschberg
+
+    - <<: *tuesdance
+      title: Volunteer Appreciation Party
+      date: May 22, 2018
+      description: "This final 4th Tuesday dance of the year is for volunteers
+      only (i.e. folks who have helped at some time during our dance season).
+      And IT'S FREE as it's the Volunteer Appreciation Party!"
+
+    - <<: *dance
+      date:   Jun 2, 2018
+      band:   Wolfe Island Revellers
+      caller: Catherine Burns
+
+    - <<: *dance
+      date:   Jun 16, 2018
+      band:   the Old Sod Band
+      caller: !plural Ottawa Callers Collective
+      note: "Since this is our last dance of the season we'll have a dessert
+      pot-luck at the break!"
