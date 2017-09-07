@@ -7,6 +7,7 @@ types:
         time: 7:30pm
         endtime: 11pm
         url: http://contramontreal.org/
+        description: !jinja "{{band}} / {{caller}}"
     community: &community
         title[en]: ContraMontreal community dance
         title[fr]: ContraMontreal danse communautaire
@@ -15,7 +16,7 @@ types:
         time: 7:30pm
         endtime: 11pm
         url: http://contramontreal.org/
-        caller: On Call
+        description: !jinja "{{band}} / On Call"
 
 calendar:
     name: ContraMontreal
