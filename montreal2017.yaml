@@ -34,7 +34,8 @@ events:
     - <<: *community
       date: Saturday, October 14, 2017
       music: musicians
-      band: Gareth Jones, Steve Jones, and Qristina Brooke
+      band[en]: Gareth Jones, Steve Jones, and Qristina Brooke
+      band[fr]: Gareth Jones, Steve Jones et Qristina Brooke
 
     - <<: *community
       date: Saturday, November 11, 2017
@@ -44,13 +45,15 @@ events:
     - <<: *big
       date: Friday, December 1, 2017
       music: musicians
-      band: Alexis Chartrand and Peter Senn
+      band[en]: Alexis Chartrand and Peter Senn
+      band[fr]: Alexis Chartrand et Peter Senn
       caller: Luke Donforth
 
     - <<: *community
       date: Saturday, December 9, 2017
       music: musicians
-      band: Carmen Guérard, Sylvie Ladouceur, and Peter Senn
+      band[en]: Carmen Guérard, Sylvie Ladouceur, and Peter Senn
+      band[fr]: Carmen Guérard, Sylvie Ladouceur et Peter Senn
 
     - <<: *big
       date: Friday, January 5, 2018
@@ -72,31 +75,37 @@ events:
     - <<: *community
       date: Saturday, February 10, 2018
       music: musicians
-      band: Gareth and Steve Jones
+      band[en]: Gareth and Steve Jones
+      band[fr]: Gareth et Steve Jones
 
     - <<: *big
       date: Friday, March 2, 2018
       music: musicians
-      band: Aaron Marcus, Alex Kehler, and Nicholas Williams
+      band[en]: Aaron Marcus, Alex Kehler, and Nicholas Williams
+      band[fr]: Aaron Marcus, Alex Kehler et Nicholas Williams
       caller: David Smukler
 
     - <<: *community
       date: Saturday, March 10, 2018
       music: musicians
-      band: Carmen Guérard, Sylvie Ladouceur, and Peter Senn
+      band[en]: Carmen Guérard, Sylvie Ladouceur, and Peter Senn
+      band[fr]: Carmen Guérard, Sylvie Ladouceur et Peter Senn
 
     - <<: *community
       date: Saturday, April 14, 2018
       music: musicians
-      band: Gareth and Steve Jones
+      band[en]: Gareth and Steve Jones
+      band[fr]: Gareth et Steve Jones
 
     - <<: *big
       date: Friday, May 4, 2018
       music: musicians
-      band: Dave Langford, Bethany Waickman, and Glen Loper
+      band[en]: Dave Langford, Bethany Waickman, and Glen Loper
+      band[fr]: Dave Langford, Bethany Waickman et Glen Loper
       caller: Will Mentor
 
     - <<: *community
       date: Saturday, May 12, 2018
       music: musicians
-      band: Carmen Guérard, Sylvie Ladouceur, and Peter Senn
+      band[en]: Carmen Guérard, Sylvie Ladouceur, and Peter Senn
+      band[fr]: Carmen Guérard, Sylvie Ladouceur et Peter Senn
