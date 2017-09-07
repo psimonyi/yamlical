@@ -29,7 +29,8 @@ events:
     - <<: *community
       date: Saturday, September 9, 2017
       music: musicians
-      band: Alexis Chartrand and Peter Senn
+      band[en]: Carmen Guérard, Laurence Beaudry, and Jean Rhéaume
+      band[fr]: Carmen Guérard, Laurence Beaudry et Jean Rhéaume
 
     - <<: *community
       date: Saturday, October 14, 2017
