@@ -143,11 +143,11 @@ def make_ical(data, args):
         url = vUri(caldata['published']['url'])
         url.params['value'] = 'URI'
         cal.add('source', url)
-    # Todo: make this come from calendar.published.refresh_interval.
-    refresh_interval = vDuration(timedelta(weeks=1)) # should be "P1W"
-    refresh_interval.params['VALUE'] = 'DURATION'
-    cal.add('x-published-ttl', refresh_interval)
-    cal.add('refresh-interval', refresh_interval)
+        # Todo: make this come from calendar.published.refresh_interval.
+        refresh_interval = vDuration(timedelta(weeks=1)) # should be "P1W"
+        refresh_interval.params['VALUE'] = 'DURATION'
+        cal.add('x-published-ttl', refresh_interval)
+        cal.add('refresh-interval', refresh_interval)
 
     add_timezone(cal)
 
