@@ -134,8 +134,10 @@ def make_ical(data, args):
     cal.add('version', '2.0')
     cal.add('method', 'PUBLISH')
     if 'name' in caldata:
+        cal.add('name', caldata['name'])
         cal.add('x-wr-calname', caldata['name'])
     if 'description' in caldata:
+        cal.add('description', caldata['description'])
         cal.add('x-wr-caldesc', caldata['description'])
     if 'url' in caldata:
         cal.add('url', caldata['url'])
