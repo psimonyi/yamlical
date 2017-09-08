@@ -140,7 +140,8 @@ def make_ical(data, args):
     if 'url' in caldata:
         cal.add('url', caldata['url'])
     if 'published' in caldata:
-        url = vUri(caldata['published']['url'])
+        pubdata = TranslatedMap(caldata['published'], lang=args.lang)
+        url = vUri(pubdata['url'])
         url.params['value'] = 'URI'
         cal.add('source', url)
         # Todo: make this come from calendar.published.refresh_interval.
