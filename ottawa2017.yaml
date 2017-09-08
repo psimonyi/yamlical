@@ -134,8 +134,7 @@ calendar:
         url: https://csclub.uwaterloo.ca/~ptsimony/calendars/Ottawa%20Contra%20Dance.ics
 
 events:
-    - <<: *dance
-      <<: *parkdale
+    - <<: [*parkdale, *dance]
       date:  Sep 16, 2017
       band:  the Old Sod Band
       caller: Catherine Burns
@@ -160,8 +159,7 @@ events:
       band:   Les Quatres Coins
       caller: David Smukler
 
-    - <<: *dance
-      <<: *parkdale
+    - <<: [*parkdale, *dance]
       date:   Oct 21, 2017
       band:   Peach Jam
       caller: Ken Panton
