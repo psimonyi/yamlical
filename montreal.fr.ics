@@ -1,0 +1,358 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:yamlical.py
+METHOD:PUBLISH
+NAME:ContraMontreal
+REFRESH-INTERVAL;VALUE=DURATION:P7D
+SOURCE;VALUE=URI:https://csclub.uwaterloo.ca/~ptsimony/calendars/ContraMon
+ treal.fr.ics
+URL:http://contramontreal.org/
+X-PUBLISHED-TTL;VALUE=DURATION:P7D
+X-WR-CALNAME:ContraMontreal
+X-WR-TIMEZONE:America/Toronto
+BEGIN:VTIMEZONE
+TZID:America/Toronto
+BEGIN:STANDARD
+DTSTART:20061106T020000
+RRULE:FREQ=YEARLY;BYDAY=+1SU;BYMONTH=11
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20060313T020000
+RRULE:FREQ=YEARLY;BYDAY=+2SU;BYMONTH=3
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Contredanse communautaire
+DTSTART;TZID=America/Toronto:20160924T193000
+DTEND;TZID=America/Toronto:20160924T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:a4e097c0-3dec-49e6-8b70-21af64c61f06
+DESCRIPTION:Musiciens: Steve Jones\, Gareth Jones\, Brad Hurley\nCalleurs:
+  On Call
+LOCATION:Maison de l'Amitié\, 120 Rue Duluth est (à De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Contredanse
+DTSTART;TZID=America/Toronto:20160930T193000
+DTEND;TZID=America/Toronto:20160930T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:19a850b6-f377-4c13-924f-3b600e3bf1cd
+DESCRIPTION:Musiciens: Richard Forest +\nCalleur: June Harmon
+LOCATION:Salle Ukrainienne\, 405 Fairmount ouest (coin Hutchison)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Contredanse communautaire
+DTSTART;TZID=America/Toronto:20161022T193000
+DTEND;TZID=America/Toronto:20161022T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:3f928c01-d3e0-48c3-bb62-305623c915ac
+DESCRIPTION:Musiciens: Alexis Chartrand et Marc Maziade\nCalleurs: On Call
+LOCATION:Maison de l'Amitié\, 120 Rue Duluth est (à De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Klezmer Contra
+DTSTART;TZID=America/Toronto:20161113T183000
+DTEND;TZID=America/Toronto:20161113T220000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:5852285a-9d1a-4910-b4eb-3b9eb9f06c64
+DESCRIPTION:Musiciens: Rachel Lemisch et amis\nCalleur: Leah Dolgoy
+LOCATION:Salle Portuguaise\, 4170 Saint-Urbain
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Contredanse communautaire
+DTSTART;TZID=America/Toronto:20161126T193000
+DTEND;TZID=America/Toronto:20161126T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:ac8eb5a7-70ad-4f27-9694-3c6829f9393f
+DESCRIPTION:Musiciens: Alexis Chartrand et Marc Maziade\nCalleurs: On Call
+LOCATION:Maison de l'Amitié\, 120 Rue Duluth est (à De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Contredanse
+DTSTART;TZID=America/Toronto:20161202T193000
+DTEND;TZID=America/Toronto:20161202T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:3a957bfc-c5ec-4d8b-838d-8c549950010f
+DESCRIPTION:Musiciens: Genticorum\nCalleur: Dave Eisenstadter
+LOCATION:Salle Ukrainienne\, 405 Fairmount ouest (coin Hutchison)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Contredanse
+DTSTART;TZID=America/Toronto:20170106T193000
+DTEND;TZID=America/Toronto:20170106T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:f801102b-c3f2-4b5e-9e20-a27644ae2038
+DESCRIPTION:Musiciens: Frost and Fire\nCalleur: Marian Rose
+LOCATION:Salle Ukrainienne\, 405 Fairmount ouest (coin Hutchison)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Contredanse communautaire
+DTSTART;TZID=America/Toronto:20170128T193000
+DTEND;TZID=America/Toronto:20170128T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:4d80f481-0fd0-451f-9ad3-5315ce58d153
+DESCRIPTION:Musiciens: The Bombadils: Sarah Frank et Luke Fraser\nCalleurs
+ : On Call
+LOCATION:Maison de l'Amitié\, 120 Rue Duluth est (à De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Contredanse
+DTSTART;TZID=America/Toronto:20170203T193000
+DTEND;TZID=America/Toronto:20170203T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:5ac16400-fadb-4aba-89e1-38465d0fe66f
+DESCRIPTION:Musiciens: M+K+W Trio\nCalleur: Luke Donforth
+LOCATION:Salle Ukrainienne\, 405 Fairmount ouest (coin Hutchison)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Contredanse communautaire
+DTSTART;TZID=America/Toronto:20170225T193000
+DTEND;TZID=America/Toronto:20170225T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:bdf09268-fd43-434b-bac0-b1bfb2dd7c0e
+DESCRIPTION:Musiciens: The Bombadils: Sarah Frank et Luke Fraser\nCalleurs
+ : On Call
+LOCATION:Maison de l'Amitié\, 120 Rue Duluth est (à De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Danse anglaise pour danseurs de contra
+DTSTART;TZID=America/Toronto:20170305T150000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:339efdfa-c1f5-488a-b6f9-49f76967ad8e
+DESCRIPTION:Musiciens: Peregrine Road\nCalleur: Adina Gordon
+LOCATION:Salle Ukrainienne\, 405 Fairmount ouest (coin Hutchison)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Contredanse communautaire
+DTSTART;TZID=America/Toronto:20170325T193000
+DTEND;TZID=America/Toronto:20170325T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:8c383462-611e-40cc-b4ba-a5036712caeb
+DESCRIPTION:Musiciens: Steve Jones\, Gareth Jones et Brad Hurley\nCalleurs
+ : On Call
+LOCATION:Maison de l'Amitié\, 120 Rue Duluth est (à De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Contredanse
+DTSTART;TZID=America/Toronto:20170331T193000
+DTEND;TZID=America/Toronto:20170331T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:fb590ef4-0ed3-436b-8c1c-f394aa3632d3
+DESCRIPTION:Musiciens: Peach Jam\nCalleur: Dugan Murphy
+LOCATION:Salle Ukrainienne\, 405 Fairmount ouest (coin Hutchison)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Contredanse communautaire
+DTSTART;TZID=America/Toronto:20170422T193000
+DTEND;TZID=America/Toronto:20170422T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:e718b637-f856-48f9-9321-9536c9744485
+DESCRIPTION:Musiciens: TBA\nCalleurs: On Call
+LOCATION:Maison de l'Amitié\, 120 Rue Duluth est (à De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Contredanse
+DTSTART;TZID=America/Toronto:20170505T193000
+DTEND;TZID=America/Toronto:20170505T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:a734f21e-742c-42d8-bdbc-0c7d72f4ef29
+DESCRIPTION:Musiciens: Sassafras Stomp\nCalleur: Mary Wesley
+LOCATION:Salle Ukrainienne\, 405 Fairmount ouest (coin Hutchison)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Contredanse communautaire
+DTSTART;TZID=America/Toronto:20170527T193000
+DTEND;TZID=America/Toronto:20170527T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:c753d1df-5e02-4992-bd2f-29eddfb4a431
+DESCRIPTION:Musiciens: Alexis Chartrand et Marc Maziade\nCalleurs: On Call
+LOCATION:Maison de l'Amitié\, 120 Rue Duluth est (à De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Contredanse
+DTSTART;TZID=America/Toronto:20170602T193000
+DTEND;TZID=America/Toronto:20170602T230000
+DTSTAMP;VALUE=DATE-TIME:20160909T182155Z
+UID:52b7cce3-ac86-439c-be94-4fb70462c52c
+DESCRIPTION:Musiciens: Barefoot\nCalleur: Will Mentor
+LOCATION:Salle Ukrainienne\, 405 Fairmount ouest (coin Hutchison)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal danse communautaire
+DTSTART;TZID=America/Toronto:20170909T193000
+DTEND;TZID=America/Toronto:20170909T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104642Z
+UID:da4d47cf-e561-4151-9445-41ad68aea5cb
+DESCRIPTION:Carmen Guérard\, Laurence Beaudry et Jean Rhéaume / On Call
+LOCATION:Maison de l'Amitié\, 120 Rue Duluth est (coin De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal danse communautaire
+DTSTART;TZID=America/Toronto:20171014T193000
+DTEND;TZID=America/Toronto:20171014T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104642Z
+UID:6597d22b-60ac-4cd6-b040-c6089560956c
+DESCRIPTION:Gareth Jones\, Steve Jones et Qristina Brooke / On Call
+LOCATION:Maison de l'Amitié\, 120 Rue Duluth est (coin De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal danse communautaire
+DTSTART;TZID=America/Toronto:20171111T193000
+DTEND;TZID=America/Toronto:20171111T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104642Z
+UID:79f45e1f-dd32-49dc-9984-fc4e96d70941
+DESCRIPTION:Alexis Chartrand / On Call
+LOCATION:Maison de l'Amitié\, 120 Rue Duluth est (coin De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal grande danse
+DTSTART;TZID=America/Toronto:20171201T193000
+DTEND;TZID=America/Toronto:20171201T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104642Z
+UID:f508505b-c46f-44e6-9c73-a4c41bcaf18e
+DESCRIPTION:Alexis Chartrand et Peter Senn / Luke Donforth
+LOCATION:Salle Ukrainienne\, 405 Fairmount ouest (coin Hutchison)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal danse communautaire
+DTSTART;TZID=America/Toronto:20171209T193000
+DTEND;TZID=America/Toronto:20171209T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104642Z
+UID:800da4a8-004f-4d31-8dc0-c55d73656800
+DESCRIPTION:Carmen Guérard\, Sylvie Ladouceur et Peter Senn / On Call
+LOCATION:Maison de l'Amitié\, 120 Rue Duluth est (coin De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal grande danse
+DTSTART;TZID=America/Toronto:20180105T193000
+DTEND;TZID=America/Toronto:20180105T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104642Z
+UID:c8877b2d-a7b4-4ac8-9f51-4178c6266057
+DESCRIPTION:New Brew / Bob Nicholson
+LOCATION:Salle Ukrainienne\, 405 Fairmount ouest (coin Hutchison)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal danse communautaire
+DTSTART;TZID=America/Toronto:20180113T193000
+DTEND;TZID=America/Toronto:20180113T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104642Z
+UID:cd8bbd88-743e-4666-b44a-8a277df15989
+DESCRIPTION:Alexis Chartrand / On Call
+LOCATION:Maison de l'Amitié\, 120 Rue Duluth est (coin De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal grande danse
+DTSTART;TZID=America/Toronto:20180202T193000
+DTEND;TZID=America/Toronto:20180202T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104642Z
+UID:c171b00e-c47c-4a0c-bac2-d9ffb20e9057
+DESCRIPTION:Tempest / Bev Bernbaum
+LOCATION:Salle Ukrainienne\, 405 Fairmount ouest (coin Hutchison)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal danse communautaire
+DTSTART;TZID=America/Toronto:20180210T193000
+DTEND;TZID=America/Toronto:20180210T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104642Z
+UID:e2546b6a-ff30-4f95-b852-127c0d964444
+DESCRIPTION:Gareth et Steve Jones / On Call
+LOCATION:Maison de l'Amitié\, 120 Rue Duluth est (coin De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal grande danse
+DTSTART;TZID=America/Toronto:20180302T193000
+DTEND;TZID=America/Toronto:20180302T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104642Z
+UID:581e4cdc-1d3b-4ec4-8bc0-07638a24af24
+DESCRIPTION:Aaron Marcus\, Alex Kehler et Nicholas Williams / David Smukle
+ r
+LOCATION:Salle Ukrainienne\, 405 Fairmount ouest (coin Hutchison)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal danse communautaire
+DTSTART;TZID=America/Toronto:20180310T193000
+DTEND;TZID=America/Toronto:20180310T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104642Z
+UID:df2c6172-975c-4c96-befc-664d34c9f013
+DESCRIPTION:Carmen Guérard\, Sylvie Ladouceur et Peter Senn / On Call
+LOCATION:Maison de l'Amitié\, 120 Rue Duluth est (coin De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal danse communautaire
+DTSTART;TZID=America/Toronto:20180414T193000
+DTEND;TZID=America/Toronto:20180414T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104642Z
+UID:3c310b00-d0c5-4fbc-860b-22e00018e005
+DESCRIPTION:Gareth et Steve Jones / On Call
+LOCATION:Maison de l'Amitié\, 120 Rue Duluth est (coin De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal grande danse
+DTSTART;TZID=America/Toronto:20180504T193000
+DTEND;TZID=America/Toronto:20180504T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104642Z
+UID:8c4228bf-92c7-45be-a7e4-8489cf966728
+DESCRIPTION:Dave Langford\, Bethany Waickman et Glen Loper / Will Mentor
+LOCATION:Salle Ukrainienne\, 405 Fairmount ouest (coin Hutchison)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal danse communautaire
+DTSTART;TZID=America/Toronto:20180512T193000
+DTEND;TZID=America/Toronto:20180512T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104642Z
+UID:65ce8e20-cf8c-4c70-b837-2d8c3b18949d
+DESCRIPTION:Carmen Guérard\, Sylvie Ladouceur et Peter Senn / On Call
+LOCATION:Maison de l'Amitié\, 120 Rue Duluth est (coin De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+END:VCALENDAR
