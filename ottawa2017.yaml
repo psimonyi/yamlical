@@ -130,6 +130,8 @@ calendar:
     organizer:
         cn: Ottawa Contra Dance
         uri: http://ottawacontra.ca
+    published:
+        url: https://csclub.uwaterloo.ca/~ptsimony/calendars/Ottawa%20Contra%20Dance.ics
 
 events:
     - <<: *dance

@@ -25,6 +25,11 @@ calendar:
     organizer:
         cn: ContraMontreal
         uri: http://contramontreal.org/
+    published:
+        url[en]: "https://csclub.uwaterloo.ca/~ptsimony/calendars/\
+                  ContraMontreal.en.ics"
+        url[fr]: "https://csclub.uwaterloo.ca/~ptsimony/calendars/\
+                  ContraMontreal.fr.ics"
 
 events:
     - <<: *community
