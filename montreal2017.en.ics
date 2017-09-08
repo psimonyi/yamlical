@@ -1,0 +1,187 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:yamlical.py
+METHOD:PUBLISH
+NAME:ContraMontreal
+REFRESH-INTERVAL;VALUE=DURATION:P7D
+SOURCE;VALUE=URI:https://csclub.uwaterloo.ca/~ptsimony/calendars/ContraMon
+ treal.en.ics
+URL:http://contramontreal.org/
+X-PUBLISHED-TTL;VALUE=DURATION:P7D
+X-WR-CALNAME:ContraMontreal
+X-WR-TIMEZONE:America/Toronto
+BEGIN:VTIMEZONE
+TZID:America/Toronto
+BEGIN:STANDARD
+DTSTART:20061106T020000
+RRULE:FREQ=YEARLY;BYDAY=+1SU;BYMONTH=11
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20060313T020000
+RRULE:FREQ=YEARLY;BYDAY=+2SU;BYMONTH=3
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20170909T193000
+DTEND;TZID=America/Toronto:20170909T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104644Z
+UID:00022dbb-9b13-4dd1-a6f9-1de962c7ee29
+DESCRIPTION:Carmen Guérard\, Laurence Beaudry\, and Jean Rhéaume / On Ca
+ ll
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20171014T193000
+DTEND;TZID=America/Toronto:20171014T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104644Z
+UID:6f5e9925-1e8c-4f54-8453-e5f4e6fee45d
+DESCRIPTION:Gareth Jones\, Steve Jones\, and Qristina Brooke / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20171111T193000
+DTEND;TZID=America/Toronto:20171111T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104644Z
+UID:0514413f-bbc5-4869-b24d-cb843e15adba
+DESCRIPTION:Alexis Chartrand / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal big dance
+DTSTART;TZID=America/Toronto:20171201T193000
+DTEND;TZID=America/Toronto:20171201T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104644Z
+UID:bcc50022-7e12-42c2-a36c-7ab6d368c371
+DESCRIPTION:Alexis Chartrand and Peter Senn / Luke Donforth
+LOCATION:Ukranian Hall\, 405 Fairmount West (at Hutchison)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20171209T193000
+DTEND;TZID=America/Toronto:20171209T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104644Z
+UID:829be087-e611-4432-83fe-8787fb116c9f
+DESCRIPTION:Carmen Guérard\, Sylvie Ladouceur\, and Peter Senn / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal big dance
+DTSTART;TZID=America/Toronto:20180105T193000
+DTEND;TZID=America/Toronto:20180105T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104644Z
+UID:0791e675-fc8a-44d2-b342-f33d405f80b8
+DESCRIPTION:New Brew / Bob Nicholson
+LOCATION:Ukranian Hall\, 405 Fairmount West (at Hutchison)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20180113T193000
+DTEND;TZID=America/Toronto:20180113T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104644Z
+UID:88fb917e-ee3a-4d47-b4e4-bed90590cd0b
+DESCRIPTION:Alexis Chartrand / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal big dance
+DTSTART;TZID=America/Toronto:20180202T193000
+DTEND;TZID=America/Toronto:20180202T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104644Z
+UID:3875418f-b407-4eec-a15c-70d125cd387d
+DESCRIPTION:Tempest / Bev Bernbaum
+LOCATION:Ukranian Hall\, 405 Fairmount West (at Hutchison)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20180210T193000
+DTEND;TZID=America/Toronto:20180210T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104644Z
+UID:d10d9c7f-22f1-4ce2-891f-fc5b309e5e12
+DESCRIPTION:Gareth and Steve Jones / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal big dance
+DTSTART;TZID=America/Toronto:20180302T193000
+DTEND;TZID=America/Toronto:20180302T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104644Z
+UID:c8e527f1-32af-4f10-9973-ae80918d92aa
+DESCRIPTION:Aaron Marcus\, Alex Kehler\, and Nicholas Williams / David Smu
+ kler
+LOCATION:Ukranian Hall\, 405 Fairmount West (at Hutchison)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20180310T193000
+DTEND;TZID=America/Toronto:20180310T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104644Z
+UID:ce6db9d5-fa1d-4536-8375-915e678f0990
+DESCRIPTION:Carmen Guérard\, Sylvie Ladouceur\, and Peter Senn / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20180414T193000
+DTEND;TZID=America/Toronto:20180414T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104644Z
+UID:2b3e1ab1-f7c2-43e2-967a-83e96d1ce89c
+DESCRIPTION:Gareth and Steve Jones / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal big dance
+DTSTART;TZID=America/Toronto:20180504T193000
+DTEND;TZID=America/Toronto:20180504T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104644Z
+UID:8572475c-2a5d-4691-ad90-a9d968e1b97d
+DESCRIPTION:Dave Langford\, Bethany Waickman\, and Glen Loper / Will Mento
+ r
+LOCATION:Ukranian Hall\, 405 Fairmount West (at Hutchison)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20180512T193000
+DTEND;TZID=America/Toronto:20180512T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104644Z
+UID:1f6d9b95-ee9f-4607-a65b-5dc8a95d3cf9
+DESCRIPTION:Carmen Guérard\, Sylvie Ladouceur\, and Peter Senn / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+END:VCALENDAR

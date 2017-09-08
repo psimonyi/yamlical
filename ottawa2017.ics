@@ -1,0 +1,697 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:yamlical.py
+METHOD:PUBLISH
+NAME:Ottawa Contra
+REFRESH-INTERVAL;VALUE=DURATION:P7D
+SOURCE;VALUE=URI:https://csclub.uwaterloo.ca/~ptsimony/calendars/Ottawa%20
+ Contra%20Dance.ics
+URL:http://www.ottawacontra.ca/view/?schedule
+X-PUBLISHED-TTL;VALUE=DURATION:P7D
+X-WR-CALNAME:Ottawa Contra
+X-WR-TIMEZONE:America/Toronto
+BEGIN:VTIMEZONE
+TZID:America/Toronto
+BEGIN:STANDARD
+DTSTART:20061106T020000
+RRULE:FREQ=YEARLY;BYDAY=+1SU;BYMONTH=11
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20060313T020000
+RRULE:FREQ=YEARLY;BYDAY=+2SU;BYMONTH=3
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20170916T193000
+DTEND;TZID=America/Toronto:20170916T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:98014f35-f14d-4420-874b-980aa9a6049f
+DESCRIPTION: Ottawa Contra Dance: A welcoming community of social dancing 
+ to live traditional music\nThis dance features the Old Sod Band with calle
+ r Catherine Burns. \n\n**Different location**\nThis dance is at the Parkda
+ le United Church (Parkdale at Gladstone)\n\nhttp://ottawacontra.ca/view/?s
+ chedule#Sep16\n\n7:30–8:00 is an introduction to contra — recommended 
+ if you're new! Social dancing starts about 8:00.\n\nAdmission: $14 (studen
+ ts $10\, ages 16 and under free).\n\nEveryone is welcome\, no dance experi
+ ence required.  Come alone or with friends or family.  What to bring: ligh
+ t casual clothing (it gets warm)\, regular indoor shoes (to protect the fl
+ oor and for comfort dancing)\, a water bottle (stay hydrated)\, and a smil
+ e!
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Sep16
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Community Tuesday Contra Dance
+DTSTART;TZID=America/Toronto:20170926T193000
+DTEND;TZID=America/Toronto:20170926T220000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:80d1100d-ea67-415c-99a8-327bdecbb975
+DESCRIPTION: A great mid-week dance held in a beautiful century hall. Loca
+ l musicians and callers do their stuff.\n\nAdmission: $8 (students $6\, ag
+ es 16 and under free).\n\nEveryone is welcome\, no dance experience requir
+ ed.  Come alone or with friends or family.  What to bring: light casual cl
+ othing (it gets warm)\, regular indoor shoes (to protect the floor and for
+  comfort dancing)\, a water bottle (stay hydrated)\, and a smile!
+LOCATION:Orange Hall\, 41 Rosemount Ave.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra AGM and Pot-luck
+DTSTART;TZID=America/Toronto:20170926T180000
+DTEND;TZID=America/Toronto:20170926T193000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:aa3d72ec-7d5c-43f2-95a0-0fdf97b14371
+DESCRIPTION:Pot-luck dinner at 6pm — bring food to share\, your own plat
+ e & cutlery. Come share a meal\, enjoy conversation (find out what your da
+ nce buddies have been doing all summer) and then what contra committee has
+  been doing all year at the AGM (6:30pm). We'll keep the meeting short and
+  interesting!
+LOCATION:Orange Hall\, 41 Rosemount Ave.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20171007T193000
+DTEND;TZID=America/Toronto:20171007T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:a43fa882-bb78-4bd3-8ad2-b46362827f53
+DESCRIPTION: Ottawa Contra Dance: A welcoming community of social dancing 
+ to live traditional music\nThis dance features Les Quatres Coins with call
+ er David Smukler. \n\nYouth Dance — to encourage young dancers to come e
+ njoy contra\, youth under 30 get in free! Tell your friends!\n\nhttp://ott
+ awacontra.ca/view/?schedule#Oct7\n\n7:30–8:00 is an introduction to cont
+ ra — recommended if you're new! Social dancing starts about 8:00.\n\nAdm
+ ission: $14 (students $10\, ages 16 and under free).\n\nEveryone is welcom
+ e\, no dance experience required.  Come alone or with friends or family.  
+ What to bring: light casual clothing (it gets warm)\, regular indoor shoes
+  (to protect the floor and for comfort dancing)\, a water bottle (stay hyd
+ rated)\, and a smile!
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Oct7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20171021T193000
+DTEND;TZID=America/Toronto:20171021T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:b7e7473c-06a2-4cf2-bcd7-37469d588d19
+DESCRIPTION: Ottawa Contra Dance: A welcoming community of social dancing 
+ to live traditional music\nThis dance features Peach Jam with caller Ken P
+ anton. \n\n**Different location**\nThis dance is at the Parkdale United Ch
+ urch (Parkdale at Gladstone)\n\nhttp://ottawacontra.ca/view/?schedule#Oct2
+ 1\n\n7:30–8:00 is an introduction to contra — recommended if you're ne
+ w! Social dancing starts about 8:00.\n\nAdmission: $14 (students $10\, age
+ s 16 and under free).\n\nEveryone is welcome\, no dance experience require
+ d.  Come alone or with friends or family.  What to bring: light casual clo
+ thing (it gets warm)\, regular indoor shoes (to protect the floor and for 
+ comfort dancing)\, a water bottle (stay hydrated)\, and a smile!
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Oct21
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Community Tuesday Contra Dance
+DTSTART;TZID=America/Toronto:20171024T193000
+DTEND;TZID=America/Toronto:20171024T220000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:4d0aabc3-36b4-4c5d-afcb-8ca92df7992e
+DESCRIPTION: A great mid-week dance held in a beautiful century hall. Loca
+ l musicians and callers do their stuff.\n\nAdmission: $8 (students $6\, ag
+ es 16 and under free).\n\nEveryone is welcome\, no dance experience requir
+ ed.  Come alone or with friends or family.  What to bring: light casual cl
+ othing (it gets warm)\, regular indoor shoes (to protect the floor and for
+  comfort dancing)\, a water bottle (stay hydrated)\, and a smile!
+LOCATION:Orange Hall\, 41 Rosemount Ave.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hey Fever! Contra dance weekend
+DTSTART;TZID=America/Toronto:20171103T190000
+DTEND;TZID=America/Toronto:20171105T154500
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:17f56d96-1267-4196-8921-a6d4cbb08b1a
+DESCRIPTION:Our very own dance weekend with music from The O’Schraves an
+ d Julie Vallimont & Friends with Mary Wesley and Dave Eisenstadter calling
+ .\n\nImportant: Registration is required.  You cannot purchase tickets at 
+ the door on Saturday night.  Sign up early\, as this has sold out in past 
+ years!\n\nRegistration: http://www.ottawacontra.ca/heyFever/registration.a
+ sp
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://www.ottawacontra.ca/heyFever/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hey Fever! Early registration deadline
+DTSTART;TZID=America/Toronto:20170922T000000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:c922f708-577e-42f2-888f-7373f13fbeec
+DESCRIPTION:Regular admission weekend passes cost $11.30 more if you don't
+  buy them before September 22nd.\nhttp://www.ottawacontra.ca/heyFever/regi
+ stration.asp
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://www.ottawacontra.ca/heyFever/registration.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20171118T193000
+DTEND;TZID=America/Toronto:20171118T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:ee356569-7743-41c0-8802-d9944f8ba85b
+DESCRIPTION: Ottawa Contra Dance: A welcoming community of social dancing 
+ to live traditional music\nThis dance features the Old Sod Band with calle
+ r Chrissy Fowler. \n\nhttp://ottawacontra.ca/view/?schedule#Nov18\n\n7:30
+ –8:00 is an introduction to contra — recommended if you're new! Social
+  dancing starts about 8:00.\n\nAdmission: $14 (students $10\, ages 16 and 
+ under free).\n\nEveryone is welcome\, no dance experience required.  Come 
+ alone or with friends or family.  What to bring: light casual clothing (it
+  gets warm)\, regular indoor shoes (to protect the floor and for comfort d
+ ancing)\, a water bottle (stay hydrated)\, and a smile!
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Nov18
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Family Dance
+DTSTART;TZID=America/Toronto:20171118T153000
+DTEND;TZID=America/Toronto:20171118T170000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:2ddb3b4b-180f-492e-8bea-28cf3e1908cf
+DESCRIPTION: Kids dancing with parents\, grandparents\, and friends.\n\nTh
+ ere is always live music and all the kid-accessible dances are taught.  Ba
+ bies welcome in carriers.  For all ages with or without kids!\n\nAfter the
+  dance\, join us for a pot-luck dinner at 5:00pm.  Bring something to shar
+ e and enjoy dinner with other families.\n\nAdmission: $20/family (max. 2 a
+ dults)\, or $10 for ages 16+\, $5 for ages 3-15\, free for ages 0-2.
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://www.ottawacontra.ca/view/?familydance
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Community Tuesday Contra Dance
+DTSTART;TZID=America/Toronto:20171128T193000
+DTEND;TZID=America/Toronto:20171128T220000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:1f190c94-56bf-4da9-bd36-bd889c03dbf9
+DESCRIPTION: A great mid-week dance held in a beautiful century hall. Loca
+ l musicians and callers do their stuff.\n\nAdmission: $8 (students $6\, ag
+ es 16 and under free).\n\nEveryone is welcome\, no dance experience requir
+ ed.  Come alone or with friends or family.  What to bring: light casual cl
+ othing (it gets warm)\, regular indoor shoes (to protect the floor and for
+  comfort dancing)\, a water bottle (stay hydrated)\, and a smile!
+LOCATION:Orange Hall\, 41 Rosemount Ave.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20171202T193000
+DTEND;TZID=America/Toronto:20171202T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:60d75512-75ea-4e83-962e-0206b71196fe
+DESCRIPTION: Ottawa Contra Dance: A welcoming community of social dancing 
+ to live traditional music\nThis dance features Alexis Chartrand & Peter Se
+ nn with caller Luke Donforth. \n\nMake it a weekend! The same caller and b
+ and play in Montreal on Friday.  See http://contramontreal.org/\n\nhttp://
+ ottawacontra.ca/view/?schedule#Dec2\n\n7:30–8:00 is an introduction to c
+ ontra — recommended if you're new! Social dancing starts about 8:00.\n\n
+ Admission: $14 (students $10\, ages 16 and under free).\n\nEveryone is wel
+ come\, no dance experience required.  Come alone or with friends or family
+ .  What to bring: light casual clothing (it gets warm)\, regular indoor sh
+ oes (to protect the floor and for comfort dancing)\, a water bottle (stay 
+ hydrated)\, and a smile!
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Dec2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Afternoon Dance
+DTSTART;TZID=America/Toronto:20171202T153000
+DTEND;TZID=America/Toronto:20171202T173000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:22ad5321-875b-4d41-b25b-177c5d72d782
+DESCRIPTION: A special afternoon session: "Connecting with your waltz part
+ ner" with Luke Donforth and music by Greg Brown & Emily Addison\n\nThis wo
+ rkshop focuses on the connection and body communication between you and yo
+ ur waltz partner. It assumes familiarity and comfort with waltzing. We wil
+ l rotate partners in the workshop. Luke will teach some moves that may be 
+ new to you. They are as a vehicle for exploring frame and opportunity for 
+ connection. The workshop will run for the first 45 minutes of the waltz se
+ ssion\, with open waltzing for the rest of the afternoon.\n\nAdmission: $1
+ 2 (ages 16 and under free)\nOr for the afternoon and evening together: $23
+  (students $20) 
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Dec2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20171216T193000
+DTEND;TZID=America/Toronto:20171216T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:d7e7a9e9-e296-463c-a01c-aa250af00baa
+DESCRIPTION: Ottawa Contra Dance: A welcoming community of social dancing 
+ to live traditional music\nThis dance features the Old Sod Band with calle
+ r Catherine Burns. \n\nThis is our seasonal dance with pot-luck snacks\, c
+ arols\, and other fun at the break! Bring a sweet or savoury snack to shar
+ e. Wear red and green! Ho ho ho!\n\nhttp://ottawacontra.ca/view/?schedule#
+ Dec16\n\n7:30–8:00 is an introduction to contra — recommended if you'r
+ e new! Social dancing starts about 8:00.\n\nAdmission: $14 (students $10\,
+  ages 16 and under free).\n\nEveryone is welcome\, no dance experience req
+ uired.  Come alone or with friends or family.  What to bring: light casual
+  clothing (it gets warm)\, regular indoor shoes (to protect the floor and 
+ for comfort dancing)\, a water bottle (stay hydrated)\, and a smile!
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Dec16
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Ball
+DTSTART;TZID=America/Toronto:20180106T200000
+DTEND;TZID=America/Toronto:20180106T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:356ccfd9-622b-44e9-9e32-b45e332132de
+DESCRIPTION: Ottawa Contra Dance: A welcoming community of social dancing 
+ to live traditional music\nThis dance features New Brew with caller Bob Ni
+ cholson. \n\nThis is our New Year's Contra Ball!  Dress up in you finery t
+ o celebrate the new year!  There will be snacks provided at the break\, a 
+ few other dance styles mixed in among the contras\, and no introductory le
+ sson this time.\n\nMake it a weekend! The same caller and band play in Mon
+ treal on Friday.  See http://contramontreal.org/\n\nhttp://ottawacontra.ca
+ /view/?schedule#Jan6\n\n7:30–8:00 is an introduction to contra — recom
+ mended if you're new! Social dancing starts about 8:00.\n\nAdmission: $14 
+ (students $10\, ages 16 and under free).\n\nEveryone is welcome\, no dance
+  experience required.  Come alone or with friends or family.  What to brin
+ g: light casual clothing (it gets warm)\, regular indoor shoes (to protect
+  the floor and for comfort dancing)\, a water bottle (stay hydrated)\, and
+  a smile!
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Jan6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20180120T193000
+DTEND;TZID=America/Toronto:20180120T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:8d7807ff-fb9f-41a0-ad4f-70707055c83e
+DESCRIPTION: Ottawa Contra Dance: A welcoming community of social dancing 
+ to live traditional music\nThis dance features Les Quatres Coins with call
+ er Sarah VanNorstrand. \n\nYouth Dance — to encourage young dancers to c
+ ome enjoy contra\, youth under 30 get in free! Tell your friends!\n\nhttp:
+ //ottawacontra.ca/view/?schedule#Jan20\n\n7:30–8:00 is an introduction t
+ o contra — recommended if you're new! Social dancing starts about 8:00.\
+ n\nAdmission: $14 (students $10\, ages 16 and under free).\n\nEveryone is 
+ welcome\, no dance experience required.  Come alone or with friends or fam
+ ily.  What to bring: light casual clothing (it gets warm)\, regular indoor
+  shoes (to protect the floor and for comfort dancing)\, a water bottle (st
+ ay hydrated)\, and a smile!
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Jan20
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Family Dance
+DTSTART;TZID=America/Toronto:20180120T153000
+DTEND;TZID=America/Toronto:20180120T170000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:6b78071a-92d9-4109-bc7a-034a1618a58b
+DESCRIPTION: Kids dancing with parents\, grandparents\, and friends.\n\nTh
+ ere is always live music and all the kid-accessible dances are taught.  Ba
+ bies welcome in carriers.  For all ages with or without kids!\n\nAfter the
+  dance\, join us for a pot-luck dinner at 5:00pm.  Bring something to shar
+ e and enjoy dinner with other families.\n\nAdmission: $20/family (max. 2 a
+ dults)\, or $10 for ages 16+\, $5 for ages 3-15\, free for ages 0-2.
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://www.ottawacontra.ca/view/?familydance
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Community Tuesday Contra Dance
+DTSTART;TZID=America/Toronto:20180123T193000
+DTEND;TZID=America/Toronto:20180123T220000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:d77622bc-98a9-4ddc-b1ab-3c417a561857
+DESCRIPTION: A great mid-week dance held in a beautiful century hall. Loca
+ l musicians and callers do their stuff.\n\nAdmission: $8 (students $6\, ag
+ es 16 and under free).\n\nEveryone is welcome\, no dance experience requir
+ ed.  Come alone or with friends or family.  What to bring: light casual cl
+ othing (it gets warm)\, regular indoor shoes (to protect the floor and for
+  comfort dancing)\, a water bottle (stay hydrated)\, and a smile!
+LOCATION:Orange Hall\, 41 Rosemount Ave.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20180203T193000
+DTEND;TZID=America/Toronto:20180203T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:e0b5c4e1-3f58-402a-9693-efada4f93f82
+DESCRIPTION: Ottawa Contra Dance: A welcoming community of social dancing 
+ to live traditional music\nThis dance features Tempest with caller Bev Ber
+ nbaum. \n\nMake it a weekend! The same caller and band play in Montreal on
+  Friday.  See http://contramontreal.org/\n\nhttp://ottawacontra.ca/view/?s
+ chedule#Feb3\n\n7:30–8:00 is an introduction to contra — recommended i
+ f you're new! Social dancing starts about 8:00.\n\nAdmission: $14 (student
+ s $10\, ages 16 and under free).\n\nEveryone is welcome\, no dance experie
+ nce required.  Come alone or with friends or family.  What to bring: light
+  casual clothing (it gets warm)\, regular indoor shoes (to protect the flo
+ or and for comfort dancing)\, a water bottle (stay hydrated)\, and a smile
+ !
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Feb3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Afternoon Dance
+DTSTART;TZID=America/Toronto:20180203T153000
+DTEND;TZID=America/Toronto:20180203T173000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:6cb954fc-deef-497b-8dd0-ead0edb632e4
+DESCRIPTION: A special afternoon session: "Dance a mile in your partner's 
+ shoes" with Bev Bernbaum and music by Tempest\n\nThis afternoon session is
+  guaranteed to be a great learning opportunity while also loads of fun! Yo
+ u'll be spending lots of time dancing the opposite gender role. It's the p
+ erfect time to practice! Plus\, we'll be finessing moves and talking about
+  what works and doesn't work for partners. Open to everyone except brand-n
+ ew dancers.\n\nThere is a pot-luck dinner between the afternoon and evenin
+ g dances. Bring a meal item to share (plus a plate & cutlery). These are p
+ opular and friendly!\n\nAdmission: $12 (ages 16 and under free)\nOr for th
+ e afternoon and evening together: $23 (students $20) 
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Feb3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20180217T193000
+DTEND;TZID=America/Toronto:20180217T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:074862e8-6c6c-4b6a-9a4a-3e3d0a537ef7
+DESCRIPTION: Ottawa Contra Dance: A welcoming community of social dancing 
+ to live traditional music\nThis dance features Peach Jam with caller June 
+ Harman. \n\nhttp://ottawacontra.ca/view/?schedule#Feb17\n\n7:30–8:00 is 
+ an introduction to contra — recommended if you're new! Social dancing st
+ arts about 8:00.\n\nAdmission: $14 (students $10\, ages 16 and under free)
+ .\n\nEveryone is welcome\, no dance experience required.  Come alone or wi
+ th friends or family.  What to bring: light casual clothing (it gets warm)
+ \, regular indoor shoes (to protect the floor and for comfort dancing)\, a
+  water bottle (stay hydrated)\, and a smile!
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Feb17
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Community Tuesday Contra Dance
+DTSTART;TZID=America/Toronto:20180227T193000
+DTEND;TZID=America/Toronto:20180227T220000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:e58b82b6-dc11-48b3-82dd-9a672d7d96db
+DESCRIPTION: A great mid-week dance held in a beautiful century hall. Loca
+ l musicians and callers do their stuff.\n\nAdmission: $8 (students $6\, ag
+ es 16 and under free).\n\nEveryone is welcome\, no dance experience requir
+ ed.  Come alone or with friends or family.  What to bring: light casual cl
+ othing (it gets warm)\, regular indoor shoes (to protect the floor and for
+  comfort dancing)\, a water bottle (stay hydrated)\, and a smile!
+LOCATION:Orange Hall\, 41 Rosemount Ave.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20180303T193000
+DTEND;TZID=America/Toronto:20180303T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:c791be00-32db-43eb-bbfe-3c17c9f68b5f
+DESCRIPTION: Ottawa Contra Dance: A welcoming community of social dancing 
+ to live traditional music\nThis dance features Nicholas Williams\, Alex Ke
+ hler\, and Aaron Marcus with caller David Smukler. \n\nMake it a weekend! 
+ The same caller and band play in Montreal on Friday.  See http://contramon
+ treal.org/\n\nhttp://ottawacontra.ca/view/?schedule#Mar3\n\n7:30–8:00 is
+  an introduction to contra — recommended if you're new! Social dancing s
+ tarts about 8:00.\n\nAdmission: $14 (students $10\, ages 16 and under free
+ ).\n\nEveryone is welcome\, no dance experience required.  Come alone or w
+ ith friends or family.  What to bring: light casual clothing (it gets warm
+ )\, regular indoor shoes (to protect the floor and for comfort dancing)\, 
+ a water bottle (stay hydrated)\, and a smile!
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Mar3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Afternoon Dance
+DTSTART;TZID=America/Toronto:20180303T153000
+DTEND;TZID=America/Toronto:20180303T173000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:e8adab87-c50f-4e8f-8a85-47531c0168ae
+DESCRIPTION: A special afternoon session: "Kindred spirits: Contra and Eng
+ lish" with David Smukler and music by Nicholas Williams\, Alex Kehler\, an
+ d Aaron Marcus\n\nContra dancing and English country dancing spring from t
+ he same roots\, and continue to influence each other to this day. In this 
+ session\, we'll experience both English dances and contra dances that bene
+ fit from this wonderful synergy. It's a great opportunity to enjoy some ou
+ trageously fun dances\, while considering different dance vantage points.\
+ n\nAdmission: $12 (ages 16 and under free)\nOr for the afternoon and eveni
+ ng together: $23 (students $20) 
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Mar3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20180317T193000
+DTEND;TZID=America/Toronto:20180317T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:b3ffd63f-6bf0-49a5-983c-f626d774fe3f
+DESCRIPTION: Ottawa Contra Dance: A welcoming community of social dancing 
+ to live traditional music\nThis dance features Stolen Goods with callers C
+ atherine Burns and Peter Simonyi. \n\nDon't forget to wear green for St. P
+ atrick's Day!\n\nhttp://ottawacontra.ca/view/?schedule#Mar17\n\n7:30–8:0
+ 0 is an introduction to contra — recommended if you're new! Social danci
+ ng starts about 8:00.\n\nAdmission: $14 (students $10\, ages 16 and under 
+ free).\n\nEveryone is welcome\, no dance experience required.  Come alone 
+ or with friends or family.  What to bring: light casual clothing (it gets 
+ warm)\, regular indoor shoes (to protect the floor and for comfort dancing
+ )\, a water bottle (stay hydrated)\, and a smile!
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Mar17
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Family Dance
+DTSTART;TZID=America/Toronto:20180317T153000
+DTEND;TZID=America/Toronto:20180317T170000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:b7cd07ad-2965-4232-8770-8c4ae640edc7
+DESCRIPTION: Kids dancing with parents\, grandparents\, and friends.\n\nTh
+ ere is always live music and all the kid-accessible dances are taught.  Ba
+ bies welcome in carriers.  For all ages with or without kids!\n\nAfter the
+  dance\, join us for a pot-luck dinner at 5:00pm.  Bring something to shar
+ e and enjoy dinner with other families.\n\nAdmission: $20/family (max. 2 a
+ dults)\, or $10 for ages 16+\, $5 for ages 3-15\, free for ages 0-2.
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://www.ottawacontra.ca/view/?familydance
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Community Tuesday Contra Dance
+DTSTART;TZID=America/Toronto:20180327T193000
+DTEND;TZID=America/Toronto:20180327T220000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:484c7134-5631-47e8-9703-b85f59095baf
+DESCRIPTION: A great mid-week dance held in a beautiful century hall. Loca
+ l musicians and callers do their stuff.\n\nAdmission: $8 (students $6\, ag
+ es 16 and under free).\n\nEveryone is welcome\, no dance experience requir
+ ed.  Come alone or with friends or family.  What to bring: light casual cl
+ othing (it gets warm)\, regular indoor shoes (to protect the floor and for
+  comfort dancing)\, a water bottle (stay hydrated)\, and a smile!
+LOCATION:Orange Hall\, 41 Rosemount Ave.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20180407T193000
+DTEND;TZID=America/Toronto:20180407T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:dc52824b-a5c8-46f7-a6b6-11dc064f4ade
+DESCRIPTION: Ottawa Contra Dance: A welcoming community of social dancing 
+ to live traditional music\nThis dance features Godknowswhat! with caller J
+ une Harman. \n\nhttp://ottawacontra.ca/view/?schedule#Apr7\n\n7:30–8:00 
+ is an introduction to contra — recommended if you're new! Social dancing
+  starts about 8:00.\n\nAdmission: $14 (students $10\, ages 16 and under fr
+ ee).\n\nEveryone is welcome\, no dance experience required.  Come alone or
+  with friends or family.  What to bring: light casual clothing (it gets wa
+ rm)\, regular indoor shoes (to protect the floor and for comfort dancing)\
+ , a water bottle (stay hydrated)\, and a smile!
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Apr7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20180421T193000
+DTEND;TZID=America/Toronto:20180421T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:09033e4c-a7c8-4712-895a-48828f2f275f
+DESCRIPTION: Ottawa Contra Dance: A welcoming community of social dancing 
+ to live traditional music\nThis dance features Old Sod with callers Ken Pa
+ nton and Peter Simonyi. \n\nhttp://ottawacontra.ca/view/?schedule#Apr21\n\
+ n7:30–8:00 is an introduction to contra — recommended if you're new! S
+ ocial dancing starts about 8:00.\n\nAdmission: $14 (students $10\, ages 16
+  and under free).\n\nEveryone is welcome\, no dance experience required.  
+ Come alone or with friends or family.  What to bring: light casual clothin
+ g (it gets warm)\, regular indoor shoes (to protect the floor and for comf
+ ort dancing)\, a water bottle (stay hydrated)\, and a smile!
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Apr21
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Family Dance
+DTSTART;TZID=America/Toronto:20180421T153000
+DTEND;TZID=America/Toronto:20180421T170000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:33ad7de8-ffcc-4344-a432-05ce31ba3974
+DESCRIPTION: Kids dancing with parents\, grandparents\, and friends.\n\nTh
+ ere is always live music and all the kid-accessible dances are taught.  Ba
+ bies welcome in carriers.  For all ages with or without kids!\n\nAfter the
+  dance\, join us for a pot-luck dinner at 5:00pm.  Bring something to shar
+ e and enjoy dinner with other families.\n\nAdmission: $20/family (max. 2 a
+ dults)\, or $10 for ages 16+\, $5 for ages 3-15\, free for ages 0-2.
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://www.ottawacontra.ca/view/?familydance
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Community Tuesday Contra Dance
+DTSTART;TZID=America/Toronto:20180424T193000
+DTEND;TZID=America/Toronto:20180424T220000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:5c90ea7a-dd35-4ed3-ac9d-8bab49118aae
+DESCRIPTION: A great mid-week dance held in a beautiful century hall. Loca
+ l musicians and callers do their stuff.\n\nAdmission: $8 (students $6\, ag
+ es 16 and under free).\n\nEveryone is welcome\, no dance experience requir
+ ed.  Come alone or with friends or family.  What to bring: light casual cl
+ othing (it gets warm)\, regular indoor shoes (to protect the floor and for
+  comfort dancing)\, a water bottle (stay hydrated)\, and a smile!
+LOCATION:Orange Hall\, 41 Rosemount Ave.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20180505T193000
+DTEND;TZID=America/Toronto:20180505T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:0d60f904-770e-47f6-8db2-41e1959994f6
+DESCRIPTION: Ottawa Contra Dance: A welcoming community of social dancing 
+ to live traditional music\nThis dance features Dave Langford\, Bethany Wai
+ ckman\, and Glen Loper with caller Will Mentor. \n\nMake it a weekend! The
+  same caller and band play in Montreal on Friday.  See http://contramontre
+ al.org/\n\nhttp://ottawacontra.ca/view/?schedule#May5\n\n7:30–8:00 is an
+  introduction to contra — recommended if you're new! Social dancing star
+ ts about 8:00.\n\nAdmission: $14 (students $10\, ages 16 and under free).\
+ n\nEveryone is welcome\, no dance experience required.  Come alone or with
+  friends or family.  What to bring: light casual clothing (it gets warm)\,
+  regular indoor shoes (to protect the floor and for comfort dancing)\, a w
+ ater bottle (stay hydrated)\, and a smile!
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#May5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Afternoon Dance
+DTSTART;TZID=America/Toronto:20180505T153000
+DTEND;TZID=America/Toronto:20180505T173000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:9351ce71-37d0-4e3e-b6bf-de7526573dc2
+DESCRIPTION: A special afternoon session: "Challenging dance" with Will Me
+ ntor and music by Dave Langford\, Bethany Waickman\, and Glen Loper\n\nCom
+ e have your brain and body challenged with a great afternoon of advanced d
+ ances! This session will both stretch your abilities and be VERY fun! Gear
+ ed towards intermediate and advanced dancers (not suitable for beginners).
+ \n\nThere is a pot-luck dinner between the afternoon and evening dances. B
+ ring a meal item to share (plus a plate & cutlery). These are popular and 
+ friendly!\n\nAdmission: $12 (ages 16 and under free)\nOr for the afternoon
+  and evening together: $23 (students $20) 
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#May5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20180519T193000
+DTEND;TZID=America/Toronto:20180519T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:4cd57135-c5bd-4136-b801-b5bf1cebf5f9
+DESCRIPTION: Ottawa Contra Dance: A welcoming community of social dancing 
+ to live traditional music\nThis dance features Peach Jam with callers Tom 
+ Calwell & Myra Hirschberg. \n\nhttp://ottawacontra.ca/view/?schedule#May19
+ \n\n7:30–8:00 is an introduction to contra — recommended if you're new
+ ! Social dancing starts about 8:00.\n\nAdmission: $14 (students $10\, ages
+  16 and under free).\n\nEveryone is welcome\, no dance experience required
+ .  Come alone or with friends or family.  What to bring: light casual clot
+ hing (it gets warm)\, regular indoor shoes (to protect the floor and for c
+ omfort dancing)\, a water bottle (stay hydrated)\, and a smile!
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#May19
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Volunteer Appreciation Party
+DTSTART;TZID=America/Toronto:20180522T193000
+DTEND;TZID=America/Toronto:20180522T220000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:8fdbb7fb-b980-4248-8c23-655a402dc38a
+DESCRIPTION:This final 4th Tuesday dance of the year is for volunteers onl
+ y (i.e. folks who have helped at some time during our dance season). And I
+ T'S FREE as it's the Volunteer Appreciation Party!
+LOCATION:Orange Hall\, 41 Rosemount Ave.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20180602T193000
+DTEND;TZID=America/Toronto:20180602T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:62d6019e-e649-4d9a-b079-ac9261f388ca
+DESCRIPTION: Ottawa Contra Dance: A welcoming community of social dancing 
+ to live traditional music\nThis dance features Wolfe Island Revellers with
+  caller Catherine Burns. \n\nhttp://ottawacontra.ca/view/?schedule#Jun2\n\
+ n7:30–8:00 is an introduction to contra — recommended if you're new! S
+ ocial dancing starts about 8:00.\n\nAdmission: $14 (students $10\, ages 16
+  and under free).\n\nEveryone is welcome\, no dance experience required.  
+ Come alone or with friends or family.  What to bring: light casual clothin
+ g (it gets warm)\, regular indoor shoes (to protect the floor and for comf
+ ort dancing)\, a water bottle (stay hydrated)\, and a smile!
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Jun2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20180616T193000
+DTEND;TZID=America/Toronto:20180616T230000
+DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+UID:52d463c0-2df6-485a-973c-6c0500e25de9
+DESCRIPTION: Ottawa Contra Dance: A welcoming community of social dancing 
+ to live traditional music\nThis dance features the Old Sod Band with calle
+ rs Ottawa Callers Collective. \n\nSince this is our last dance of the seas
+ on we'll have a dessert pot-luck at the break!\n\nhttp://ottawacontra.ca/v
+ iew/?schedule#Jun16\n\n7:30–8:00 is an introduction to contra — recomm
+ ended if you're new! Social dancing starts about 8:00.\n\nAdmission: $14 (
+ students $10\, ages 16 and under free).\n\nEveryone is welcome\, no dance 
+ experience required.  Come alone or with friends or family.  What to bring
+ : light casual clothing (it gets warm)\, regular indoor shoes (to protect 
+ the floor and for comfort dancing)\, a water bottle (stay hydrated)\, and 
+ a smile!
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Jun16
+END:VEVENT
+END:VCALENDAR
