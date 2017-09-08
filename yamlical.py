@@ -77,7 +77,7 @@ class YamlPluralString(str):
         return cls(node.value)
 
 TIME_FORMATS = ['h:mmA', 'h:mm A', 'hA', 'h A']
-DATE_FORMATS = ['dddd, MMMM D, YYYY', 'MMM D, YYYY']
+DATE_FORMATS = ['dddd, MMMM D, YYYY', 'MMM D, YYYY', 'MMMM D, YYYY']
 DT_FORMATS = ['YYYY-MM-DD h:mmA', 'YYYY-MM-DD h:mm']
 
 # TZID should really be data.calendar.timezone
