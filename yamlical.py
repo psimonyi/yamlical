@@ -90,7 +90,6 @@ def make_ical(data, args):
     cal.add('prodid', 'yamlical.py')
     cal.add('version', '2.0')
     cal.add('method', 'PUBLISH')
-    cal.add('calscale', 'GREGORIAN')
     if 'name' in caldata:
         cal.add('x-wr-calname', caldata['name'])
     if 'description' in caldata:
