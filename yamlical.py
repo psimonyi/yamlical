@@ -2,6 +2,7 @@
 
 from argparse import ArgumentParser
 from copy import copy
+import collections.abc
 from datetime import datetime, timedelta
 from pathlib import Path
 from uuid import uuid4
@@ -20,6 +21,7 @@ def main():
     parser.add_argument('ical', metavar='OUT.ical', type=Path)
     parser.add_argument('--update-yaml', action='store_true')
     parser.add_argument('--print-uids', action='store_true')
+    parser.add_argument('--lang')
     args = parser.parse_args()
     return do_main(args)
 
@@ -76,6 +78,47 @@ class YamlPluralString(str):
     def from_yaml(cls, constructor, node):
         return cls(node.value)
 
+class TranslatedMap(collections.abc.Mapping):
+    '''A proxy for a mapping with some translated entries.
+
+    The underlying map must have keys ending with the language code in
+    brackets, e.g. "foo[en]", for translated items, or no brackets if the item
+    is not translated.  Language codes must be in [a-z]* but there are no
+    length limits.
+
+    Keys with no language tag are visible; keys with a language tag are exposed
+    with the tag stripped (if the tag matches the selected language).
+
+    >>> m = {'hi[en]': "Hello", 'hi[fr]': "Salut", 'date': "2017-09-08"}
+    >>> tm = TranslatedMap(m, lang='en')
+    >>> tm['date']
+    "2017-09-08"
+    >>> tm['hi']
+    "Hello"
+    >>> list(tm.keys())
+    ['hi', 'date']
+    '''
+    def __init__(self, mapping, lang):
+        self._mapping = mapping
+        self.lang = lang
+
+    def __getitem__(self, key):
+        tr_key = '{key}[{lang}]'.format(key=key, lang=self.lang)
+        if tr_key in self._mapping:
+            return self._mapping[tr_key]
+        return self._mapping[key]
+
+    def __iter__(self):
+        tag = '[{lang}]'.format(lang=self.lang)
+        for key in self._mapping:
+            if key.endswith(tag):
+                yield key[:-len(tag)]
+            elif not key.endswith(']'):
+                yield key
+
+    def __len__(self):
+        return sum(1 for _ in iter(self))
+
 TIME_FORMATS = ['h:mmA', 'h:mm A', 'hA', 'h A']
 DATE_FORMATS = ['dddd, MMMM D, YYYY', 'MMM D, YYYY', 'MMMM D, YYYY']
 DT_FORMATS = ['YYYY-MM-DD h:mmA', 'YYYY-MM-DD h:mm']
@@ -84,7 +127,7 @@ DT_FORMATS = ['YYYY-MM-DD h:mmA', 'YYYY-MM-DD h:mm']
 TZID = 'America/Toronto'
 
 def make_ical(data, args):
-    caldata = data['calendar']
+    caldata = TranslatedMap(data['calendar'], lang=args.lang)
 
     cal = Calendar()
     cal.add('prodid', 'yamlical.py')
@@ -111,7 +154,8 @@ def make_ical(data, args):
     organizer = vCalAddress(caldata['organizer']['uri'])
     organizer.params['cn'] = vText(caldata['organizer']['cn'])
 
-    for evdata in data['events']:
+    for evdata_raw in data['events']:
+        evdata = TranslatedMap(evdata_raw, lang=args.lang)
         end = None # default if not specified
         if 'date' in evdata:
             # Calculate the start and end timestamps from time/endtime.
@@ -127,7 +171,7 @@ def make_ical(data, args):
                 end = arrow.get(evdata['end'], DT_FORMATS)
 
         event = Event()
-        uid = evdata.setdefault('uid', make_uid()) # Updates evdata if needed.
+        uid = evdata_raw.setdefault('uid', make_uid()) # Add uid if needed.
         event.add('uid', uid)
         event.add('dtstamp', datetime.utcnow()) # TODO
         event.add('dtstart', dt_ical(start))
