@@ -500,20 +500,21 @@ BEGIN:VEVENT
 SUMMARY:Ottawa Contra Dance
 DTSTART;TZID=America/Toronto:20171007T193000
 DTEND;TZID=America/Toronto:20171007T230000
-DTSTAMP;VALUE=DATE-TIME:20170908T104639Z
+DTSTAMP;VALUE=DATE-TIME:20170909T034631Z
 UID:a43fa882-bb78-4bd3-8ad2-b46362827f53
 DESCRIPTION: Ottawa Contra Dance: A welcoming community of social dancing 
  to live traditional music\nThis dance features Les Quatres Coins with call
- er David Smukler. \n\nYouth Dance — to encourage young dancers to come e
- njoy contra\, youth under 30 get in free! Tell your friends!\n\nhttp://ott
- awacontra.ca/view/?schedule#Oct7\n\n7:30–8:00 is an introduction to cont
- ra — recommended if you're new! Social dancing starts about 8:00.\n\nAdm
- ission: $14 (students $10\, ages 16 and under free).\n\nEveryone is welcom
- e\, no dance experience required.  Come alone or with friends or family.  
- What to bring: light casual clothing (it gets warm)\, regular indoor shoes
-  (to protect the floor and for comfort dancing)\, a water bottle (stay hyd
- rated)\, and a smile!
-LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ er David Smukler. \n\n**Different location**\nThis dance is at the Parkdal
+ e United Church (Parkdale at Gladstone)\n\nYouth Dance — to encourage yo
+ ung dancers to come enjoy contra\, youth under 30 get in free! Tell your f
+ riends!\n\nhttp://ottawacontra.ca/view/?schedule#Oct7\n\n7:30–8:00 is an
+  introduction to contra — recommended if you're new! Social dancing star
+ ts about 8:00.\n\nAdmission: $14 (students $10\, ages 16 and under free).\
+ n\nEveryone is welcome\, no dance experience required.  Come alone or with
+  friends or family.  What to bring: light casual clothing (it gets warm)\,
+  regular indoor shoes (to protect the floor and for comfort dancing)\, a w
+ ater bottle (stay hydrated)\, and a smile!
+LOCATION:Parkdale United Church\, 429 Parkdale Ave.\, Ottawa
 ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
 URL:http://ottawacontra.ca/view/?schedule#Oct7
 END:VEVENT

@@ -153,7 +153,7 @@ events:
       has been doing all year at the AGM (6:30pm). We'll keep the meeting short
       and interesting!"
 
-    - <<: *dance
+    - <<: [*parkdale, *dance]
       youth: True
       date:   Oct 7, 2017
       band:   Les Quatres Coins
