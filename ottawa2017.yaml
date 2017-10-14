@@ -42,7 +42,7 @@ common:
         Social dancing starts about 8:00.
 
 
-        Admission: $14 (students $10, ages 16 and under free).
+        Admission: $14 (students $10, ages 15 and under free).
 
 
         Everyone is welcome, no dance experience required.  Come alone or with
@@ -60,7 +60,7 @@ common:
         Local musicians and callers do their stuff.
 
 
-        Admission: $8 (students $6, ages 16 and under free).
+        Admission: $8 (students $6, ages 15 and under free).
 
         
         Everyone is welcome, no dance experience required.  Come alone or with
@@ -112,7 +112,7 @@ common:
 
         {% endif %}
 
-        Admission: $12 (ages 16 and under free)
+        Admission: $12 (ages 15 and under free)
 
         Or for the afternoon and evening together: $23 (students $20)
         "
