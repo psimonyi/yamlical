@@ -98,21 +98,65 @@ events:
       band[en]: Carmen Guérard, Sylvie Ladouceur, and Peter Senn
       band[fr]: Carmen Guérard, Sylvie Ladouceur et Peter Senn
 
-    - <<: *community
-      date: Saturday, April 14, 2018
+    - title: KlezContra!
+      date: Sunday, March 25, 2018
+      time: 6:30pm
+      endtime: 10pm
+      location[en]: Ukranian Hall, 405 Fairmount West (at Hutchison)
+      location[fr]: Salle Ukrainienne, 405 Fairmount ouest (coin Hutchison)
+      url[en]: http://contramontreal.org/2018_03_25_en.html
+      url[fr]: http://contramontreal.org/2018_03_25_fr.html
       music: musicians
-      band[en]: Gareth and Steve Jones
-      band[fr]: Gareth et Steve Jones
+      band[en]: Rachel Lemisch and friends
+        (Thierry Arsenault [percussion], Rachel Lemisch [trombone],
+        Jason Rosenblatt [piano], Michael Winograd [clarinet])
+      band[fr]: Rachel Lemisch et amis
+        (Thierry Arsenault [percussion], Rachel Lemisch [trombone],
+        Jason Rosenblatt [piano] et Michael Winograd [clarinette])
+      caller[en]: Asya Vaisman Schulman (Yiddish dances) and
+        Leah Dolgoy and fellow members of On Call (Contra dances)
+      caller[fr]: Asya Vaisman Schulman (danses yiddish) et
+        Leah Dolgoy et les membres de On Call (danses contra)
+      description[en]: !jinja "Special Event: A ContraMontreal & KlezKanada
+      coproduction: An evening of contra and Yiddish dances!
+
+      Musicians: {{band}}
+
+      Dance leaders: {{caller}}
+
+      6:30pm–7pm: Introductory session. Recommended for new dancers.
+      7pm–10pm: Dance.
+
+      This event is made possible thanks to the generous support of the Jewish
+      Community Foundation of Montreal, Federation CJA"
+      description[fr]: !jinja "Événement spécial: Une coproduction de
+      ContraMontreal et KlezKanada: Une soirée de danses contra et de danses
+      yiddish !
+
+      Musiciens: {{band}}
+
+      Meneurs de danses: {{caller}}
+
+      18h30–19h: Session d'initiation. Conseillée pour les débutant(e)s.
+      19h–22h: Danse.
+
+      Cet événement est possible grâce au généreux support de la Foundation de
+      la communauté juive de Montréal, Fédération CJA"
+
+    - <<: *community
+      date: Saturday, April 28, 2018
+      music: musicians
+      band[en]: Carmen Guérard, Sylvie Ladouceur, and Peter Senn
+      band[fr]: Carmen Guérard, Sylvie Ladouceur et Peter Senn
 
     - <<: *big
       date: Friday, May 4, 2018
-      music: musicians
-      band[en]: Dave Langford, Bethany Waickman, and Glen Loper
-      band[fr]: Dave Langford, Bethany Waickman et Glen Loper
+      music: band
+      band: Stomp Rocket
       caller: Will Mentor
 
     - <<: *community
       date: Saturday, May 12, 2018
       music: musicians
-      band[en]: Carmen Guérard, Sylvie Ladouceur, and Peter Senn
-      band[fr]: Carmen Guérard, Sylvie Ladouceur et Peter Senn
+      band[en]: Gareth, Steve Jones and Joanne Garton
+      band[fr]: Gareth, Steve Jones et Joanne Garton
