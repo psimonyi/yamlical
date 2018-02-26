@@ -324,12 +324,32 @@ ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:KlezContra!
+DTSTART;TZID=America/Toronto:20180325T183000
+DTEND;TZID=America/Toronto:20180325T220000
+DTSTAMP;VALUE=DATE-TIME:20180222T041047Z
+UID:a6945663-67bd-47ff-8934-1a78f99f19a8
+DESCRIPTION:Special Event: A ContraMontreal & KlezKanada coproduction: An 
+ evening of contra and Yiddish dances!\nMusicians: Rachel Lemisch and frien
+ ds (Thierry Arsenault [percussion]\, Rachel Lemisch [trombone]\, Jason Ros
+ enblatt [piano]\, Michael Winograd [clarinet])\nDance leaders: Asya Vaisma
+ n Schulman (Yiddish dances) and Leah Dolgoy and fellow members of On Call 
+ (Contra dances)\n6:30pm–7pm: Introductory session. Recommended for new d
+ ancers. 7pm–10pm: Dance.\nThis event is made possible thanks to the gene
+ rous support of the Jewish Community Foundation of Montreal\, Federation C
+ JA
+LOCATION:Ukranian Hall\, 405 Fairmount West (at Hutchison)
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/2018_03_25_en.html
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ContraMontreal community dance
-DTSTART;TZID=America/Toronto:20180414T193000
-DTEND;TZID=America/Toronto:20180414T230000
+DTSTART;TZID=America/Toronto:20180428T193000
+DTEND;TZID=America/Toronto:20180428T230000
 DTSTAMP;VALUE=DATE-TIME:20170908T104644Z
+LAST-MODIFIED;VALUE=DATE-TIME:20180222T041047Z
 UID:2b3e1ab1-f7c2-43e2-967a-83e96d1ce89c
-DESCRIPTION:Gareth and Steve Jones / On Call
+DESCRIPTION:Carmen Guérard\, Sylvie Ladouceur\, and Peter Senn / On Call
 LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
@@ -339,9 +359,9 @@ SUMMARY:ContraMontreal big dance
 DTSTART;TZID=America/Toronto:20180504T193000
 DTEND;TZID=America/Toronto:20180504T230000
 DTSTAMP;VALUE=DATE-TIME:20170908T104644Z
+LAST-MODIFIED;VALUE=DATE-TIME:20180222T041047Z
 UID:8572475c-2a5d-4691-ad90-a9d968e1b97d
-DESCRIPTION:Dave Langford\, Bethany Waickman\, and Glen Loper / Will Mento
- r
+DESCRIPTION:Stomp Rocket / Will Mentor
 LOCATION:Ukranian Hall\, 405 Fairmount West (at Hutchison)
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
@@ -351,8 +371,9 @@ SUMMARY:ContraMontreal community dance
 DTSTART;TZID=America/Toronto:20180512T193000
 DTEND;TZID=America/Toronto:20180512T230000
 DTSTAMP;VALUE=DATE-TIME:20170908T104644Z
+LAST-MODIFIED;VALUE=DATE-TIME:20180222T041047Z
 UID:1f6d9b95-ee9f-4607-a65b-5dc8a95d3cf9
-DESCRIPTION:Carmen Guérard\, Sylvie Ladouceur\, and Peter Senn / On Call
+DESCRIPTION:Gareth\, Steve Jones and Joanne Garton / On Call
 LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
