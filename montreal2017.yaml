@@ -143,6 +143,22 @@ events:
       Cet événement est possible grâce au généreux support de la Foundation de
       la communauté juive de Montréal, Fédération CJA"
 
+    - date: Sunday, April 1, 2018
+      time: 6:30pm
+      endtime: 10pm
+      title[en]: ContraMontreal special dance
+      title[fr]: ContraMontreal danse spéciale
+      location[en]: Saint Columba House, 2365 Grand Trunk, Montreal
+      location[fr]: Maison Saint Columba, 2365 Grand Trunk, Montréal
+      url[en]: http://contramontreal.org/2018_04_01_en.html
+      url[fr]: http://contramontreal.org/2018_04_01_fr.html
+      music: musicians
+      band[en]: Alex Cuming and Nicola Beazley
+      band[fr]: Alex Cuming et Nicola Beazley
+      caller: On Call
+      description[en]: !jinja "*Different location*\n{{location}}\nSunday, 6:30pm to 10pm\n{{band}} / {{caller}}"
+      description[fr]: !jinja "*Emplacement différent*\n{{location}}\nDimanche, 18h30 à 22h\n{{band}} / {{caller}}"
+
     - <<: *community
       date: Saturday, April 28, 2018
       music: musicians

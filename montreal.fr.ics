@@ -342,6 +342,19 @@ ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/2018_03_25_fr.html
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ContraMontreal danse spéciale
+DTSTART;TZID=America/Toronto:20180401T183000
+DTEND;TZID=America/Toronto:20180401T220000
+DTSTAMP;VALUE=DATE-TIME:20180314T025148Z
+UID:79807878-95c3-4e6c-85bd-60874d5a64d2
+DESCRIPTION:*Emplacement différent*\nMaison Saint Columba\, 2365 Grand Tr
+ unk\, Montréal\nDimanche\, 18h30 à 22h\nAlex Cuming et Nicola Beazley / 
+ On Call
+LOCATION:Maison Saint Columba\, 2365 Grand Trunk\, Montréal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/2018_04_01_fr.html
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:ContraMontreal danse communautaire
 DTSTART;TZID=America/Toronto:20180428T193000
 DTEND;TZID=America/Toronto:20180428T230000
