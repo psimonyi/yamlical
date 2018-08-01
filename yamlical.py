@@ -215,7 +215,8 @@ def apply_template(evdata, field, _progress=[]):
     template by the same process.
     '''
     if field in _progress:
-        raise RuntimeError("template inclusion has a loop")
+        raise RuntimeError("template inclusion has a loop: {}".format(
+            _progress))
 
     value = evdata[field]
     if not isinstance(value, YamlJinjaTemplate):
