@@ -4,6 +4,7 @@ from argparse import ArgumentParser
 from copy import copy
 import collections.abc
 from datetime import datetime, timedelta
+import itertools
 from pathlib import Path
 from uuid import uuid4
 
@@ -226,7 +227,23 @@ def apply_template(evdata, field, _progress=[]):
     fields = {k: apply_template(evdata, k, progress)
         for k in value.refs if k in evdata}
 
-    return value.template.render(fields)
+    return fold_whitespace(value.template.render(fields))
+
+def fold_whitespace(s):
+    '''Apply whitespace folding (kind of like YAML does normally).
+
+    This comes after applying Jinja templates so that Jinja blocks don't leave
+    extra line breaks around.
+    '''
+
+    def isblank(l):
+        '''Return whether l is a blank line'''
+        return not l or l.isspace()
+
+    paras = ['' if blank else ' '.join(lines)
+             for blank, lines in itertools.groupby(s.strip().splitlines(),
+                                                   isblank)]
+    return '\n'.join(paras)
 
 def dt_ical(dt):
     '''Convert a datetime to a vProperty'''
