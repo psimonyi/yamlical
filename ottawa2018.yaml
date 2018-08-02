@@ -1,0 +1,438 @@
+%YAML 1.2
+---
+
+common:
+    _dance: &dance
+        title: Ottawa Contra Dance
+        time: 7:30pm
+        endtime: 11pm
+        location: Churchill Seniors Recreation Centre, 345 Richmond Rd., Ottawa
+        url: !jinja http://ottawacontra.ca/view/?schedule#{{date|urldate}}
+        description: !jinja |
+            This dance features {{band}} with {{caller}}.
+            {% if note_location %}
+
+            {{note_location}}
+            {% endif %}
+            {% if youth %}
+
+            This is a Youth Dance — everyone's welcome, but to encourage young
+            dancers to come enjoy contra, youth under 30 get in free! Tell your
+            friends!
+            {% endif %}
+            {% if note %}
+
+            {{note}}
+            {% endif %}
+            {% if montreal %}
+
+            Make it a weekend! There's a dance with the same band and caller in
+            Montreal on Sunday.  See http://contramontreal.org/
+            {% endif %}
+
+            {{url}}
+
+            7:30–8:00 is an introduction to contra — recommended if you're new!
+            Social dancing starts at 8:00.
+
+            Admission: $14 (members: $12) (students: $10)
+            (ages 15 and under: free)
+
+            Contra dance for all ages and experience levels.  Everyone is
+            welcome, no dance experience required.  Come alone or with friends
+            or family.  What to bring: light casual clothing (it gets warm),
+            regular indoor shoes (to protect the floor and for comfort
+            dancing), a water bottle (stay hydrated), and a smile!
+
+    _afternoon: &afternoon
+        title: !jinja "Ottawa Contra Afternoon Dance: {{topic}}"
+        time: 3:00pm
+        endtime: 5:00pm
+        url: !jinja http://ottawacontra.ca/view/?schedule#{{date|urldate}}
+        location: Churchill Seniors Recreation Centre, 345 Richmond Rd., Ottawa
+        description: !jinja |
+            An afternoon dance for experienced dancers:
+            "{{topic}}" with {{caller}} and music by {{band}}
+
+            {{detail}}
+
+            There is a pot-luck dinner between the afternoon and evening
+            dances, starting at 5:15.  Bring a meal item to share (plus a plate
+            & cutlery). These are popular and friendly!
+
+            Admission: $12 (students: $10) (ages 15 and under: free)
+
+            Or get a discount on the afternoon and evening together:
+            $23 (students and members: $20)
+            {% if community %}
+            Bonus: This includes admission to the community dance, 6:30-7:30.
+            {% endif %}
+
+    _tuesdance: &tuesdance
+        title: Tuesday Contra Dance
+        time: 7:25pm
+        endtime: 10pm
+        location: 41 Rosemount Ave., Ottawa
+        description: !jinja |
+            A great mid-week dance held in a beautiful century hall on the 4th
+            Tuesday of the month, with our local community band Stolen Goods
+            and the Ottawa Callers' Collective.
+            
+            The evening starts with a short workshop to get beginners started,
+            and the first half will focus on building skills — a great way to
+            learn more, and plenty of dancing for all!
+
+            Sometimes Esther will organize a dinner meet-up beforehand at a
+            local restaurant.  Join our email list to get the details.
+
+            Admission: $8 (students and members: $6) (ages 15 and under: free)
+
+            Everyone is welcome, no dance experience required.  Come alone or
+            with friends or family.  What to bring: light casual clothing (it
+            gets warm), regular indoor shoes (to protect the floor and for
+            comfort dancing), a water bottle (stay hydrated), and a smile!
+
+    _familydance: &family
+        title: Family Dance
+        time: 3:30pm
+        endtime: 5pm
+        location: Churchill Seniors Recreation Centre, 345 Richmond Rd., Ottawa
+        url: http://www.ottawacontra.ca/view/?familydance
+        description: !jinja |
+            Young kids dancing with parents, friends, and others.
+
+            Featuring music by {{band}} with dances led by {{caller}}.
+            {% if note %}
+
+            {{note}}
+            {% endif %}
+
+            There is always live music and all the kid-accessible dances are
+            explained and guided by the caller.  Everyone welcome including
+            those without kids.
+
+            After the dance, join us for a pot-luck dinner at 5:15pm.  Bring
+            something to share (and a plate and cutlery) and enjoy dinner with
+            other families.
+
+            Admission: $20 family rate (max. 2 adults),
+            or pay per person by age: 16+: $10; 3-15: $5; 0-2: free.
+
+    _community: &community
+        title: Ottawa Community Dance
+        time: 6:30pm
+        endtime: 7:30pm
+        location: Churchill Seniors Recreation Centre, 345 Richmond Rd., Ottawa
+        url: !jinja http://ottawacontra.ca/view/?schedule#{{date|urldate}}
+        description: !jinja |
+            Think big barn dance party!
+            This lovely event has varied programming with accessible dances
+            that are a little more structured than family dances yet less
+            demanding than evening contras.
+
+            Catering to a multigenerational crowd, this dance is great for
+            school-age kids and pre-teens to adults, and offers a transition
+            into contra dancing.
+
+            Hosted by Esther Fraser & Emily Addison.
+
+            Plus, join us for a pot-luck dinner before the dance at 5:15pm,
+            right after the afternoon advanced dance.  Bring something to share
+            (and a plate and cutlery). These are popular and friendly!
+
+            Musicians: There's an open band you can play in — and drop-in
+            musicians get free admission.
+
+            Contra dancers: If you pay for the evening contra dance, the
+            community dance is free!  You're here anyway, so why not join in?
+
+            Admission: $5 (under age 2: free) (family rate, max 2 adults: $20)
+
+    _zecd: &zecd
+        title: Zesty English Country Dance
+        time: 6:30pm
+        endtime: 7:30pm
+        location: Churchill Seniors Recreation Centre, 345 Richmond Rd., Ottawa
+        url: !jinja http://ottawacontra.ca/view/?schedule#{{date|urldate}}
+        description: !jinja |
+            English dance is similar to contra dance, with some delightful
+            differences.  Come learn some new figures, formations, and ways to
+            move your body.
+
+            This dance is held in the upstairs hall.
+
+            Admission: $5 (ages 9 and under: free)
+            And free for dancers who pay for the evening contra.
+
+calendar:
+    name: Ottawa Contra
+    url: http://www.ottawacontra.ca/view/?schedule
+    languages: [en]
+    organizer:
+        cn: Ottawa Contra Dance
+        uri: http://ottawacontra.ca
+    published:
+        url: https://csclub.uwaterloo.ca/~ptsimony/calendars/Ottawa%20Contra%20Dance.ics
+
+events:
+    - <<: *dance
+      date: Sep 8, 2018
+      band: Peach Jam
+      caller: Catherine Burns
+      note: "Our first contra dance of the season - come celebrate the start of
+      our 29th season!  Remember to buy your membership or season pass to
+      support Ottawa Contra Dance."
+
+    - title: Ottawa Contra AGM and Pot-luck
+      date: Sep 22, 2018
+      time: 5:00pm
+      endtime: 7:30pm
+      location: Churchill Seniors Recreation Centre, 345 Richmond Rd., Ottawa
+      description: "We'll start the evening with a pot-luck dinner at 5pm —
+      bring food to share, your own plate & cutlery. Then join us for our
+      Ottawa Contra AGM at 6pm. Find out what the contra committee has been
+      doing all year."
+
+    - <<: *dance
+      date:   Sep 22, 2018
+      band:   the Old Sod Band
+      caller: June Harman
+
+    - <<: *tuesdance
+      date: Sep 25, 2018
+
+    - <<: *dance
+      date:   Oct 6, 2018
+      band:   Lake Effect
+      caller: Esther Fraser
+      montreal: true
+
+    - <<: *dance
+      date:   Oct 20, 2018
+      band:   the Old Sod Band
+      caller: Peter Simonyi
+
+    - <<: *tuesdance
+      date: Oct 23, 2018
+
+    - title: Hey Fever! Contra dance weekend
+      start: 2018-11-02 7:00pm
+      end: 2018-11-04 3:45pm
+      location: Churchill Seniors Recreation Centre, 345 Richmond Rd., Ottawa
+      url: http://www.ottawacontra.ca/heyFever/
+      description: "Our very own dance weekend!
+
+      Important: Registration is required.  You cannot purchase tickets at the
+      door on Saturday night.  Sign up early, as this has sold out in past
+      years.
+     
+      Registration: http://www.ottawacontra.ca/heyFever/registration.asp"
+
+    - title: Hey Fever! Early registration deadline
+      start: 2018-09-24 0:00
+      url: http://www.ottawacontra.ca/heyFever/registration.asp
+      description: !jinja "Regular admission weekend passes cost $11.30 less if
+      you buy them before September 24th.
+
+      {{url}}"
+
+    - <<: *dance
+      date:   Nov 17, 2018
+      band:   Les Quatres Coins
+      caller: Sarah VanNorstrand
+      title: Ottawa Contra Dance (Youth Dance)
+      youth: true
+
+    - <<: *family
+      date:   Nov 17, 2018
+      band: Greg Brown, Paul Hawtin and Richard Forest
+      caller: Sarah VanNorstrand
+
+    - <<: *tuesdance
+      date: Nov 27, 2018
+
+    - <<: *dance
+      date:   Dec 1, 2018
+      band:   Mavish
+      caller: Mary Wesley
+      montreal: true
+
+    - <<: *afternoon
+      date:   Dec 1, 2018
+      band:   Mavish
+      caller: Mary Wesley
+      topic: Challenging Contra Dance
+      detail: "Come have your brain and body challenged with an afternoon
+      session full of advanced dances.  This will both stretch your abilities
+      and be VERY fun! (Geared towards intermediate and advanced dancers; not suitable for beginners)."
+      community: false
+
+    - <<: *dance
+      date:   Dec 15, 2018
+      band:   the Old Sod Band
+      caller: Catherine Burns
+      note: "Our Christmas dance!  This is our seasonal dance with pot-luck
+      snacks, carols, and other fun at the break! Bring a sweet or savoury
+      snack to share. Wear red and green! Ho ho ho!"
+
+    - <<: *dance
+      date:   Jan 5, 2019
+      band:   Everest Witman & Friends
+      caller: Adina Gordon
+      montreal: true
+      title: Ottawa Contra Ball
+      location: Westminster Presbyterian Church, 470 Roosevelt Ave. (Westboro), Ottawa
+      location_note: "*Different location*: This dance is at {{location}}.  It's close to our usual hall, which is not available on this date."
+      note: "This is our New Year's Contra Ball! Dress up in your finery (e.g. a costume, gown, tails, ...) to celebrate the new year. We'll dance mostly contras but also a few other styles to make it a real party. Snacks will be provided at the break too."
+
+    - <<: *dance
+      date:   Jan 19, 2019
+      band:   Les Quatres Coins
+      caller: Esther Fraser
+      note: Let's celebrate Robbie Burns — wear PLAID!
+
+    - <<: *family
+      date:   Jan 19, 2019
+      band:   Greg Brown, Paul Hawtin and Richard Forest
+      caller: Catherine Burns
+
+    - <<: *tuesdance
+      date: Jan 22, 2019
+
+    - <<: *dance
+      date:   Feb 2, 2019
+      band:   Mavish
+      caller: Luke Donforth
+      montreal: true
+
+    - <<: *afternoon
+      date:   Feb 2, 2019
+      band:   Mavish
+      caller: Luke Donforth
+      topic: Waltz Flourishes
+      detail: "Luke will show us intermediate and advanced waltz moves focusing on different holds and flourishes. Learning will be peppered throughout the 2hr dance session so you can learn and then practice your new moves. (For dancers with some experience; not recommended for beginners.)"
+      community: true
+
+    - <<: *community
+      date:   Feb 2, 2019
+
+    - <<: *dance
+      date:   Feb 16, 2019
+      band:   Peach Jam
+      caller: June Harman
+
+    - <<: *tuesdance
+      date: Feb 26, 2019
+
+    - <<: *dance
+      date:   Mar 2, 2019
+      band:   Joy Compass
+      caller: Alexandra Deis-Lauby
+      montreal: true
+
+    - <<: *afternoon
+      date:   Mar 2, 2019
+      band:   Joy Compass
+      caller: Alexandra Deis-Lauby
+      topic: Contra Flourishes
+      detail: "In this 2hr session, you will learn a number of contra dance flourishes and have a chance to practice them while dancing awesome contras! Alex has many moves in her back pocket and loves teaching them so this should be a super-fun afternoon. (For dancers with some experience; not recommended for beginners.)"
+      community: true
+
+    - <<: *community
+      date:   Mar 2, 2019
+
+    - <<: *dance
+      date:   Mar 16, 2019
+      band:   Les Quatres Coins
+      caller: David Smukler
+      note: Don't forget to wear green for St Patty's day to both dances!
+
+    - <<: *family
+      date:   Mar 16, 2019
+      band:   Greg Brown, Paul Hawtin and Richard Forest
+      caller: David Smukler
+      note: Don't forget to wear green for St Patty's day to both dances!
+
+    - <<: *tuesdance
+      date: Mar 26, 2019
+
+    - <<: *dance
+      date:   Apr 6, 2019
+      band:   Cloud Ten
+      caller: Nils Fredland
+      montreal: true
+
+    - <<: *afternoon
+      date:   Apr 6, 2019
+      band:   Cloud Ten
+      caller: Nils Fredland
+      topic:  SquaresPLUS = Surprise, Fun and Challenge
+      detail: "Expect an awesome afternoon of dancing in formations that are rarely seen during a typical evening contra dance. Squares will be the starting point but we will move quickly into partner-less dances, double quadrilles and more. All dances geared for challenge and fun! (For dancers with some experience; not recommended for beginners.)"
+      community: true
+
+    - <<: *community
+      date:   Apr 6, 2019
+
+    - <<: *dance
+      date:   Apr 20, 2019
+      band:   the Old Sod Band
+      caller: Peter Simonyi
+      youth: true
+      title: Gender-Neutral Ottawa Contra Dance
+      note: This dance, we'll use gender-neutral terms.
+      # TODO
+
+    - <<: *tuesdance
+      date: Apr 23, 2019
+
+    - <<: *dance
+      date:   May 4, 2019
+      band:   Nicholas Williams and Alex Kehler
+      caller: Will Mentor
+      montreal: true
+
+    - <<: *afternoon
+      date:   May 4, 2019
+      band:   Nicholas Williams and Alex Kehler
+      caller: Will Mentor
+      topic: Challenging Contra Dance
+      detail: "Come have your brain and body challenged with a great afternoon of advanced dances! This session will both stretch your abilities and be VERY fun! (Geared towards dancers with some experience; not suitable for beginners)."
+      community: true
+
+    - <<: *community
+      date:   May 4, 2019
+
+    - <<: *dance
+      date:   May 18, 2019
+      band:   Peach Jam
+      caller: Catherine Burns
+
+    - <<: *zecd
+      date:   May 18, 2019
+
+    - <<: *tuesdance
+      title: Volunteer Appreciation Party
+      date: May 28, 2019
+      description: "This final 4th Tuesday dance of the year is FREE for
+      volunteers (i.e. anyone who has helped at some time during our dance
+      season). It's the Volunteer Appreciation Party! Non-volunteers are
+      welcome to attend and celebrate our volunteers too for $5."
+
+    - <<: *dance
+      date:   Jun 1, 2019
+      band:   Sister Haggis
+      caller: Bob Nicholson
+      montreal: true
+
+    - <<: *zecd
+      date:   Jun 1, 2019
+
+    - <<: *dance
+      date:   Jun 15, 2019
+      band:   Stolen Goods
+      caller: the Ottawa Callers' Collective
+      note: "Since this is our last dance of the season we'll have a dessert
+      pot-luck at the break! Bring a treat to share. :-)"
+
+    - <<: *zecd
+      date:   Jun 15, 2019
