@@ -1,0 +1,241 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:yamlical.py
+METHOD:PUBLISH
+NAME:ContraMontreal
+REFRESH-INTERVAL;VALUE=DURATION:P7D
+SOURCE;VALUE=URI:https://csclub.uwaterloo.ca/~ptsimony/calendars/ContraMon
+ treal.en.ics
+URL:http://contramontreal.org/
+X-PUBLISHED-TTL;VALUE=DURATION:P7D
+X-WR-CALNAME:ContraMontreal
+X-WR-TIMEZONE:America/Toronto
+BEGIN:VTIMEZONE
+TZID:America/Toronto
+BEGIN:STANDARD
+DTSTART:20061106T020000
+RRULE:FREQ=YEARLY;BYDAY=+1SU;BYMONTH=11
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20060313T020000
+RRULE:FREQ=YEARLY;BYDAY=+2SU;BYMONTH=3
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20180908T193000
+DTEND;TZID=America/Toronto:20180908T230000
+DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+UID:45e06065-8579-451d-a919-d0c39a97bae6
+DESCRIPTION:Ewan Macintyre & Friends / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20180922T193000
+DTEND;TZID=America/Toronto:20180922T230000
+DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+UID:9aef1589-80f9-4dff-b04f-48bdf07f4643
+DESCRIPTION:Alexis Chartrand & friend / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal big dance
+DTSTART;TZID=America/Toronto:20181007T183000
+DTEND;TZID=America/Toronto:20181007T220000
+DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+UID:9924fa21-9a30-46a5-9aeb-059229ab6153
+DESCRIPTION:Lake Effect / Esther Fraser\n\nPotluck at 5pm!
+LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20181027T193000
+DTEND;TZID=America/Toronto:20181027T230000
+DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+UID:7bdd2444-b3df-4ca3-87db-993eb87977e5
+DESCRIPTION:TBA / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20181124T193000
+DTEND;TZID=America/Toronto:20181124T230000
+DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+UID:11ba721e-d67c-4caf-85b9-a6d0bb2def2a
+DESCRIPTION:Richard Forest & friend / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal big dance
+DTSTART;TZID=America/Toronto:20181202T183000
+DTEND;TZID=America/Toronto:20181202T220000
+DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+UID:9f7180c4-f339-4ff4-bde3-6e51d81d1fb3
+DESCRIPTION:Mavish (duo) / Mary Wesley
+LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20181208T193000
+DTEND;TZID=America/Toronto:20181208T230000
+DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+UID:52ec257f-dd92-419a-9ac7-9082a0c7ed32
+DESCRIPTION:Alexis Chartrand & friend / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal big dance
+DTSTART;TZID=America/Toronto:20190106T183000
+DTEND;TZID=America/Toronto:20190106T220000
+DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+UID:93d3b1c9-0378-4c15-ab6b-40976a45f3af
+DESCRIPTION:Everest Witman & Friends / Adina Gordon\n\nPotluck at 5pm!
+LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20190126T193000
+DTEND;TZID=America/Toronto:20190126T230000
+DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+UID:05f4809e-2f2d-452a-85c1-590e97a5319c
+DESCRIPTION:TBA / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal big dance
+DTSTART;TZID=America/Toronto:20190203T183000
+DTEND;TZID=America/Toronto:20190203T220000
+DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+UID:5e23f35a-b9e7-4cbb-bad1-e239bcbe676a
+DESCRIPTION:Maivish (duo) / Luke Donforth
+LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20190223T193000
+DTEND;TZID=America/Toronto:20190223T230000
+DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+UID:c853410e-0e60-41b0-baae-b1621f58c9fe
+DESCRIPTION:TBA / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal big dance
+DTSTART;TZID=America/Toronto:20190303T183000
+DTEND;TZID=America/Toronto:20190303T220000
+DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+UID:d05394af-0c93-4a4a-8344-6a630a4efec8
+DESCRIPTION:Joy Compass / Alexandra Deis-Lauby\n\nPotluck at 5pm!
+LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal flourishes workshop
+DTSTART;TZID=America/Toronto:20190303T150000
+DTEND;TZID=America/Toronto:20190303T170000
+DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+UID:4835cb18-3a28-4dfa-bf85-d6a41eb7612b
+DESCRIPTION:Flourishes workshop with Alexandra Deis-Lauby and music by Joy
+  Compass.  Followed by a potluck at 5pm and the regular dance at 7pm.
+LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20190323T193000
+DTEND;TZID=America/Toronto:20190323T230000
+DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+UID:ffbc53d4-1e95-4472-9b2a-26b801370496
+DESCRIPTION:TBA / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal big dance
+DTSTART;TZID=America/Toronto:20190407T183000
+DTEND;TZID=America/Toronto:20190407T220000
+DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+UID:f2c36347-1e11-4d47-9872-fbbfda8766a0
+DESCRIPTION:Cloud Ten (trio) / Nils Fredland
+LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20190427T193000
+DTEND;TZID=America/Toronto:20190427T230000
+DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+UID:c433effb-7ac6-400a-8c14-582d3fde8417
+DESCRIPTION:TBA / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal big dance
+DTSTART;TZID=America/Toronto:20190505T183000
+DTEND;TZID=America/Toronto:20190505T220000
+DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+UID:a40143bf-a231-43b1-9fdc-2b32dd7790bb
+DESCRIPTION:Nicholas\, Alex & friend (trio) / Will Mentor\n\nPotluck at 5p
+ m!
+LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20190525T193000
+DTEND;TZID=America/Toronto:20190525T230000
+DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+UID:63dde81e-c83f-4778-acae-10e311690d7d
+DESCRIPTION:TBA / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal big dance
+DTSTART;TZID=America/Toronto:20190602T183000
+DTEND;TZID=America/Toronto:20190602T220000
+DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+UID:1cf6feb9-117e-4d0d-9b30-bbd7134a7a9d
+DESCRIPTION:Sister Haggis (duo) / Bob Nicholson
+LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+END:VCALENDAR
