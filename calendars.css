@@ -1,0 +1,133 @@
+body {
+    max-width: 40em;
+    margin:auto;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: hsl(0, 100%, 30%);
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+
+nav {
+    border-bottom: 1px solid hsla(0, 100%, 30%);
+    display: flex;
+}
+
+nav a {
+    color: inherit;
+    text-decoration: none;
+    padding-left: 1ch;
+    padding-right: 1ch;
+    padding-bottom: 0.4ex;
+    padding-top: 0.8ex;
+    margin-left: 0.5ch;
+    margin-right: 0.5ch;
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+}
+
+nav a.selected {
+    border-bottom: 0.4ex solid hsl(0, 100%, 30%);
+}
+
+nav a:hover {
+    background-color: hsla(0, 100%, 30%, 10%);
+}
+
+svg {
+    max-width: 100%;
+    height: auto;
+    border: 0.3em solid hsl(0, 100%, 30%);
+    margin: 1em 0;
+}
+
+svg path:not([d$='z']) {
+    stroke: hsl(0, 100%, 30%);
+    stroke-width: 4px;
+}
+
+svg path[d$='z'] {
+    fill: hsl(0, 100%, 30%);
+}
+
+input {
+    border: none;
+    border-radius: 3px;
+}
+
+input.flash {
+    animation: 350ms 1 ease flash;
+}
+
+@keyframes flash {
+    20% {
+        background-color: hsl(0, 60%, 75%);
+    }
+}
+
+.copied {
+    position: absolute;
+    background-color: hsla(0, 100%, 25%, 80%);
+    color: white;
+    border-radius: 0.2em;
+    margin-left: 0.2em;
+    padding: 0 1ch;
+}
+
+.copybox {
+    border: 1px solid maroon;
+    margin: 1em 0;
+    padding-left: 1ch;
+    padding-right: 1ch;
+    padding-bottom: 1ex;
+    padding-top: 0;
+}
+.copybox::before {
+    display: block;
+    background: hsla(0, 100%, 30%, 10%);
+    padding: 1ex 1ch;
+    margin-left: -1ch;
+    margin-right: -1ch;
+    margin-bottom: 1ex;
+}
+
+.copybox.ottawa::before {
+    content: "Ottawa Contra Dance";
+}
+.copybox.montreal-en::before {
+    content: "ContraMontreal (English)";
+}
+.copybox.montreal-fr::before {
+    content: "ContraMontreal (français)";
+}
+
+.copybox div {
+    display: flex;
+}
+
+.copybox input {
+    flex: 1 1;    
+    text-overflow: ellipsis;
+}
+
+.copybox button {
+    margin-right: 1ch;
+}
+
+.linkbox {
+    margin: 0.5em 0;
+}
+
+.linkbox a {
+    display: inline-block;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    background-color: maroon;
+    color: white;
+    text-decoration: none;
+}
