@@ -40,6 +40,7 @@ nav a:hover {
 }
 
 svg {
+    box-sizing: border-box;
     max-width: 100%;
     height: auto;
     border: 0.3em solid hsl(0, 100%, 30%);
