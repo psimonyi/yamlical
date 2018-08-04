@@ -4,8 +4,7 @@ PRODID:yamlical.py
 METHOD:PUBLISH
 NAME:Ottawa Contra
 REFRESH-INTERVAL;VALUE=DURATION:P7D
-SOURCE;VALUE=URI:https://csclub.uwaterloo.ca/~ptsimony/calendars/Ottawa%20
- Contra%20Dance.ics
+SOURCE;VALUE=URI:https://dancecalendars.petersimonyi.ca/ottawa.ics
 URL:http://www.ottawacontra.ca/view/?schedule
 X-PUBLISHED-TTL;VALUE=DURATION:P7D
 X-WR-CALNAME:Ottawa Contra

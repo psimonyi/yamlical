@@ -34,10 +34,8 @@ calendar:
         cn: ContraMontreal
         uri: http://contramontreal.org/
     published:
-        url[en]: "https://csclub.uwaterloo.ca/~ptsimony/calendars/\
-                  ContraMontreal.en.ics"
-        url[fr]: "https://csclub.uwaterloo.ca/~ptsimony/calendars/\
-                  ContraMontreal.fr.ics"
+        url[en]: "https://dancecalendars.petersimonyi.ca/montreal.en.ics"
+        url[fr]: "https://dancecalendars.petersimonyi.ca/montreal.fr.ics"
 
 events:
     - <<: *community
