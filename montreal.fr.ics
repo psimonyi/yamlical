@@ -420,7 +420,7 @@ DTEND;TZID=America/Toronto:20181007T220000
 DTSTAMP;VALUE=DATE-TIME:20180802T221011Z
 UID:5cfef1c3-4f24-4e95-8afb-a4190d7323a1
 DESCRIPTION:Lake Effect / Esther Fraser\n\nPotluck à 17h!
-LOCATION:Maison Saint-Columba\, 2365 Grand Trunk\, Montréal
+LOCATION:Maison Saint-Columba\, 2365 rue Grand Trunk\, Montréal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
 END:VEVENT
@@ -455,7 +455,7 @@ DTEND;TZID=America/Toronto:20181202T220000
 DTSTAMP;VALUE=DATE-TIME:20180802T221011Z
 UID:223c1644-5212-4ec6-9a69-d2210fb8ccf7
 DESCRIPTION:Mavish (duo) / Mary Wesley
-LOCATION:Maison Saint-Columba\, 2365 Grand Trunk\, Montréal
+LOCATION:Maison Saint-Columba\, 2365 rue Grand Trunk\, Montréal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
 END:VEVENT
@@ -478,7 +478,7 @@ DTEND;TZID=America/Toronto:20190106T220000
 DTSTAMP;VALUE=DATE-TIME:20180802T221011Z
 UID:43037ff7-0118-4c15-9484-417b5c5cd63f
 DESCRIPTION:Everest Witman & amis / Adina Gordon\n\nPotluck à 17h!
-LOCATION:Maison Saint-Columba\, 2365 Grand Trunk\, Montréal
+LOCATION:Maison Saint-Columba\, 2365 rue Grand Trunk\, Montréal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
 END:VEVENT
@@ -501,7 +501,7 @@ DTEND;TZID=America/Toronto:20190203T220000
 DTSTAMP;VALUE=DATE-TIME:20180802T221011Z
 UID:24c0f221-ff07-4115-9576-e03729e5c86b
 DESCRIPTION:Maivish (duo) / Luke Donforth
-LOCATION:Maison Saint-Columba\, 2365 Grand Trunk\, Montréal
+LOCATION:Maison Saint-Columba\, 2365 rue Grand Trunk\, Montréal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
 END:VEVENT
@@ -524,7 +524,7 @@ DTEND;TZID=America/Toronto:20190303T220000
 DTSTAMP;VALUE=DATE-TIME:20180802T221011Z
 UID:1e400d7b-e082-46db-9c42-2aec40db8208
 DESCRIPTION:Joy Compass / Alexandra Deis-Lauby\n\nPotluck à 17h!
-LOCATION:Maison Saint-Columba\, 2365 Grand Trunk\, Montréal
+LOCATION:Maison Saint-Columba\, 2365 rue Grand Trunk\, Montréal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
 END:VEVENT
@@ -537,7 +537,7 @@ UID:63c39177-a32b-4267-9fbc-cbab0f30e5bf
 DESCRIPTION:Atelier de "flourishes" avec Alexandra Deis-Lauby\, et musique
   par Joy Compass.  Et après quoi\, un potluck à 17h et la danse réguli
  ère à 19h.
-LOCATION:Maison Saint-Columba\, 2365 Grand Trunk\, Montréal
+LOCATION:Maison Saint-Columba\, 2365 rue Grand Trunk\, Montréal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
 END:VEVENT
@@ -560,7 +560,7 @@ DTEND;TZID=America/Toronto:20190407T220000
 DTSTAMP;VALUE=DATE-TIME:20180802T221011Z
 UID:b7f877ae-bc7f-49f6-92aa-2ac094ef2389
 DESCRIPTION:Cloud Ten (trio) / Nils Fredland
-LOCATION:Maison Saint-Columba\, 2365 Grand Trunk\, Montréal
+LOCATION:Maison Saint-Columba\, 2365 rue Grand Trunk\, Montréal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
 END:VEVENT
@@ -583,7 +583,7 @@ DTEND;TZID=America/Toronto:20190505T220000
 DTSTAMP;VALUE=DATE-TIME:20180802T221011Z
 UID:67943d35-a27b-49e5-a100-a183e26c65b9
 DESCRIPTION:Nicholas\, Alex & ami (trio) / Will Mentor\n\nPotluck à 17h!
-LOCATION:Maison Saint-Columba\, 2365 Grand Trunk\, Montréal
+LOCATION:Maison Saint-Columba\, 2365 rue Grand Trunk\, Montréal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
 END:VEVENT
@@ -606,7 +606,7 @@ DTEND;TZID=America/Toronto:20190602T220000
 DTSTAMP;VALUE=DATE-TIME:20180802T221011Z
 UID:c7d9e2a7-49f6-4c77-ace8-788511d02a38
 DESCRIPTION:Sister Haggis (duo) / Bob Nicholson
-LOCATION:Maison Saint-Columba\, 2365 Grand Trunk\, Montréal
+LOCATION:Maison Saint-Columba\, 2365 rue Grand Trunk\, Montréal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
 END:VEVENT
