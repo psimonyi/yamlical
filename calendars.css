@@ -1,6 +1,7 @@
 body {
     max-width: 40em;
-    margin:auto;
+    margin: auto;
+    padding: 0 1em;
     font-family: sans-serif;
 }
 
@@ -37,6 +38,11 @@ nav a.selected {
 
 nav a:hover {
     background-color: hsla(0, 100%, 30%, 10%);
+}
+
+ol {
+    padding-left: 2ch;
+    margin-left: 0;
 }
 
 svg {
@@ -113,6 +119,7 @@ input.flash {
 
 .copybox input {
     flex: 1 1;    
+    min-width: 2em; /* Smaller than the default 'auto' */
     text-overflow: ellipsis;
 }
 
