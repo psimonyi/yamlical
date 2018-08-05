@@ -15,7 +15,7 @@ h1, h2 {
 }
 
 nav {
-    border-bottom: 1px solid hsla(0, 100%, 30%);
+    border-bottom: 1px solid hsl(0, 100%, 30%);
     display: flex;
 }
 
@@ -37,7 +37,7 @@ nav a.selected {
 }
 
 nav a:hover {
-    background-color: hsla(0, 100%, 30%, 10%);
+    background-color: hsla(0, 100%, 30%, 0.1);
 }
 
 ol {
@@ -79,7 +79,7 @@ input.flash {
 
 .copied {
     position: absolute;
-    background-color: hsla(0, 100%, 25%, 80%);
+    background-color: hsla(0, 100%, 25%, 0.8);
     color: white;
     border-radius: 0.2em;
     margin-left: 0.2em;
@@ -96,7 +96,7 @@ input.flash {
 }
 .copybox::before {
     display: block;
-    background: hsla(0, 100%, 30%, 10%);
+    background: hsla(0, 100%, 30%, 0.1);
     padding: 1ex 1ch;
     margin-left: -1ch;
     margin-right: -1ch;
