@@ -83,8 +83,27 @@ input.flash {
     background-color: hsla(0, 100%, 25%, 0.8);
     color: white;
     border-radius: 0.2em;
-    margin-left: 0.2em;
+    --margin-left: 0.2em;
     padding: 0 1ch;
+    /* The 1500ms here matches how long the JS creates the element for. */
+    animation: 1500ms 1 linear info;
+}
+
+@keyframes info {
+    from {
+        margin-left: calc(var(--margin-left) - 0.5em);
+        opacity: 0;
+    }
+    /* 0% to 4% of 1500ms = 60ms */
+    4%, 92% {
+        margin-left: var(--margin-left);
+        opacity: 1;
+    }
+    /* 92% to 100% of 1500ms = 120ms */
+    to {
+        margin-left: calc(var(--margin-left) + 1em);
+        opacity: 0;
+    }
 }
 
 .copybox {
