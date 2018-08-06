@@ -69,12 +69,12 @@ input {
 }
 
 input.flash {
-    animation: 350ms 1 ease flash;
+    animation: 200ms 1 linear flash;
 }
 
 @keyframes flash {
     20% {
-        background-color: hsl(0, 60%, 75%);
+        color: rgba(0, 0, 0, 0);
     }
 }
 
