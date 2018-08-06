@@ -46,16 +46,17 @@ ol {
 }
 
 svg {
-    box-sizing: border-box;
-    max-width: 100%;
+    max-width: calc(100% - 2 * 0.25em);
     height: auto;
-    border: 0.3em solid hsl(0, 100%, 30%);
+    border: 0.25em solid hsl(0, 100%, 30%);
     margin: 1em 0;
 }
 
 svg path:not([d$='z']) {
     stroke: hsl(0, 100%, 30%);
-    stroke-width: 4px;
+    stroke-width: 0.25em;
+    /* Square endcaps fix subpixel rounding at the edge of the image. */
+    stroke-linecap: square;
 }
 
 svg path[d$='z'] {
