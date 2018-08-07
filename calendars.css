@@ -148,6 +148,7 @@ input.flash {
 
 .copybox button {
     margin-right: 1ch;
+    font-size: inherit;
 }
 
 .linkbox {
