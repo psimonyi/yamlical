@@ -48,6 +48,7 @@ ol {
 }
 
 svg {
+    display: block;
     max-width: calc(100% - 2 * 0.25em);
     height: auto;
     border: 0.25em solid hsl(0, 100%, 30%);
