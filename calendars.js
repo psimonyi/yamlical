@@ -1,11 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
-    let links = Array.from(document.querySelectorAll('nav>a'));
-    for (let link of links) {
+    let navlinks = Array.from(document.querySelectorAll('nav>a'));
+    let inlinelinks = document.querySelectorAll('section a[href^="#"]');
+    for (let link of [...navlinks, ...inlinelinks]) {
         link.addEventListener('click', showSection);
     }
 
     showSection({
-        target: links.find(a => a.hash === location.hash) || links[0],
+        target: navlinks.find(a => a.hash === location.hash) || navlinks[0],
         preventDefault: () => {},
     });
 
