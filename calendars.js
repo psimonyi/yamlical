@@ -39,7 +39,6 @@ function showSection(event) {
         let item = section.firstElementChild.nextElementSibling;
         let rect = item.getBoundingClientRect();
         let viewport_height = document.documentElement.clientHeight;
-        console.log(rect.top, viewport_height);
         if (rect.top >= viewport_height) {
             section.scrollIntoView({behavior: 'smooth', block: 'start'});
         }
