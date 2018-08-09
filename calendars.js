@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     showSection({
         target: navlinks.find(a => a.hash === location.hash) || navlinks[0],
-        preventDefault: () => {},
     });
 
     let inputs = document.querySelectorAll('input');
@@ -28,7 +27,23 @@ function showSection(event) {
     for (let link of document.querySelectorAll('nav>a')) {
         link.classList[link === target ? 'add' : 'remove']('selected');
     }
-    event.preventDefault();
+
+    if (event.preventDefault) {
+        // This isn't the dummy object from the initial page load.
+        // Get the first thing after the heading.  If it's on screen, the whole
+        // heading is too, and that should be enough for the user to see that
+        // the section changed.  Otherwise, we'll scroll the page to show the
+        // section.
+        event.preventDefault();
+        let section = document.getElementById(id);
+        let item = section.firstElementChild.nextElementSibling;
+        let rect = item.getBoundingClientRect();
+        let viewport_height = document.documentElement.clientHeight;
+        console.log(rect.top, viewport_height);
+        if (rect.top >= viewport_height) {
+            section.scrollIntoView({behavior: 'smooth', block: 'start'});
+        }
+    }
 }
 
 function copyText(input, event) {
