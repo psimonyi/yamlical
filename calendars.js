@@ -53,8 +53,6 @@ function copyText(input, event) {
     if (copied) {
         input.setSelectionRange(0, 0);
         button.focus();
-        input.classList.remove('flash');
-        requestAnimationFrame(() => input.classList.add('flash'));
 
         let span = document.createElement('span');
         span.textContent = "Copied!";

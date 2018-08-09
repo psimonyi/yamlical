@@ -71,16 +71,6 @@ input {
     border-radius: 3px;
 }
 
-input.flash {
-    animation: 200ms 1 linear flash;
-}
-
-@keyframes flash {
-    20% {
-        color: rgba(0, 0, 0, 0);
-    }
-}
-
 .copied {
     position: absolute;
     background-color: hsla(0, 100%, 25%, 0.8);
