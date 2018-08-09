@@ -24,8 +24,8 @@ function showSection(event) {
     for (let section of document.querySelectorAll('section')) {
         section.style.display = section.id === id ? '' : 'none';
     }
-    for (let link of document.querySelectorAll('nav>a')) {
-        link.classList[link === target ? 'add' : 'remove']('selected');
+    for (let a of document.querySelectorAll('nav>a')) {
+        a.classList[a.hash === target.hash ? 'add' : 'remove']('selected');
     }
 
     if (event.preventDefault) {
