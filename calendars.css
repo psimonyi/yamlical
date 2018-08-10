@@ -77,22 +77,21 @@ input {
     color: white;
     border-radius: 0.2em;
     --margin-left: 0.2em;
+    margin-left: var(--margin-left);
     padding: 0 1ch;
     /* The 1500ms here matches how long the JS creates the element for. */
-    animation: 1500ms 1 linear info;
+    animation: slide-in 67ms linear,
+               slide-out 133ms linear calc(1500ms - 133ms);
 }
 
-@keyframes info {
+@keyframes slide-in {
     from {
         margin-left: calc(var(--margin-left) - 0.5em);
         opacity: 0;
     }
-    /* 0% to 4% of 1500ms = 60ms */
-    4%, 92% {
-        margin-left: var(--margin-left);
-        opacity: 1;
-    }
-    /* 92% to 100% of 1500ms = 120ms */
+}
+
+@keyframes slide-out {
     to {
         margin-left: calc(var(--margin-left) + 1em);
         opacity: 0;
