@@ -80,8 +80,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="Calendar"
-     style="display:inline"
+     inkscape:label="Calendar16"
+     style="display:none"
      sodipodi:insensitive="true">
     <rect
        transform="translate(0,-975)"
@@ -149,6 +149,80 @@
        cx="12.5"
        id="circle876"
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
+  </g>
+  <g
+     style="display:inline"
+     inkscape:label="Calendar32"
+     id="g50"
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
+    <rect
+       y="3.0000327"
+       x="0.5"
+       height="12.499968"
+       width="15.000001"
+       id="rect30"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#d6d6d6;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 16,12.25 h -16"
+       id="path860"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path32"
+       d="m 16,8.75 h -16"
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#d6d6d6;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#d6d6d6;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 16,5.25 h -16"
+       id="path34"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#d6d6d6;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 11.75,3 v 13"
+       id="path36"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path38"
+       d="m 8.25,3 v 13"
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#d6d6d6;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path40"
+       d="m 4.25,3 v 13"
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#d6d6d6;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       rx="0.5"
+       ry="0.5"
+       y="0"
+       x="0"
+       height="3"
+       width="16"
+       id="rect42"
+       style="display:inline;opacity:1;fill:#990000;fill-opacity:1;stroke:none;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
+    <rect
+       ry="1"
+       rx="1"
+       y="1.25"
+       x="0.25000003"
+       height="14.5"
+       width="15.5"
+       id="rect44"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#990000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
+    <circle
+       r="0.5"
+       cy="1.5"
+       cx="3.5"
+       id="circle46"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
+    <circle
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="circle48"
+       cx="12.5"
+       cy="1.5"
+       r="0.5" />
   </g>
   <g
      inkscape:label="Dancers"
