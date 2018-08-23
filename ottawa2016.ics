@@ -4,7 +4,7 @@ METHOD:PUBLISH
 PRODID:-//Ximian//NONSGML Evolution Calendar//EN
 VERSION:2.0
 BEGIN:VTIMEZONE
-TZID:/freeassociation.sourceforge.net/America/Toronto
+TZID:America/Toronto
 X-LIC-LOCATION:America/Toronto
 BEGIN:STANDARD
 TZNAME:EST
@@ -831,42 +831,36 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:2016-09-02T11:53:26-0400-31189-1000-1-00000038@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T115349
 SUMMARY:Contra dance
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
 DESCRIPTION:Caller: Ken Panton\nBand: Old Sod Band
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170415T193000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170415T230000
+DTSTART;TZID=America/Toronto:20170415T193000
+DTEND;TZID=America/Toronto:20170415T230000
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:53:53-0400-31189-1000-1-0000003A@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T115408
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170425T193000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170425T220000
+DTSTART;TZID=America/Toronto:20170425T193000
+DTEND;TZID=America/Toronto:20170425T220000
 SUMMARY:Community Talent contra dance
 LOCATION:Orange Hall\, 41 Rosemount Ave.
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:34:02-0400-31189-1000-1-00000014@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T113457
 SUMMARY:Contra dance
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
 DESCRIPTION:Caller: David Eisenstadter\nBand: Genticorum
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20161203T193000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20161203T230000
+DTSTART;TZID=America/Toronto:20161203T193000
+DTEND;TZID=America/Toronto:20161203T230000
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:26:51-0400-31189-1000-1-00000006@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T112757
 SUMMARY:Hey Fever! Early registration deadline
 DESCRIPTION:Regular ticket prices go up $10 after this.\nhttp:
@@ -877,117 +871,99 @@ DTEND;VALUE=DATE:20160920
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:41:12-0400-31189-1000-1-0000001F@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T114212
 SUMMARY:Family dance
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
 DESCRIPTION:Caller: Catherine Burns\nBand: Greg Brown and Paul 
  Hawtin\nAdmission: $10/adult\, free for kids
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170121T153000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170121T170000
+DTSTART;TZID=America/Toronto:20170121T153000
+DTEND;TZID=America/Toronto:20170121T170000
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:52:51-0400-31189-1000-1-00000036@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T115318
 SUMMARY:Contra dance
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
 DESCRIPTION:Caller: Dugan Murphy\nBand: Peach Jam
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170401T193000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170401T230000
+DTSTART;TZID=America/Toronto:20170401T193000
+DTEND;TZID=America/Toronto:20170401T230000
 END:VEVENT
 BEGIN:VEVENT
 UID:20160902T152158Z-30665-1000-1-0@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T152158Z
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20161015T193000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20161015T230000
+DTSTART;TZID=America/Toronto:20161015T193000
+DTEND;TZID=America/Toronto:20161015T230000
 SUMMARY:Contra dance
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
 DESCRIPTION:Caller: Ken Panton\nBand: Laura Risk & Nicholas Williams
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:13:59-0400-30819-1000-1-00000008@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T111432
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20160903T180000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20160903T190000
+DTSTART;TZID=America/Toronto:20160903T180000
+DTEND;TZID=America/Toronto:20160903T190000
 SUMMARY:Annual General Meeting
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:31:10-0400-31189-1000-1-0000000C@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T113238
 SUMMARY:Family dance
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
 DESCRIPTION:Caller: Catherine Burns\nBand: Greg Brown and Paul 
  Hawtin\nAdmission: $10/adult\, free for kids
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20161119T153000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20161119T170000
+DTSTART;TZID=America/Toronto:20161119T153000
+DTEND;TZID=America/Toronto:20161119T170000
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:42:17-0400-31189-1000-1-00000021@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T114233
 SUMMARY:Community Talent contra dance
 LOCATION:Orange Hall\, 41 Rosemount Ave.
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170124T193000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170124T220000
+DTSTART;TZID=America/Toronto:20170124T193000
+DTEND;TZID=America/Toronto:20170124T220000
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:09:47-0400-30819-1000-1-00000002@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T111458
 SUMMARY:Alternative Music contra dance
 LOCATION:Churchill Seniors' Recreation Centre\, 345 Richmond Rd.
 DESCRIPTION:Caller: Lisa Greenleaf\nRecorded music\nFollowed by pot-luck 
  dinner.
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20160903T150000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20160903T170000
+DTSTART;TZID=America/Toronto:20160903T150000
+DTEND;TZID=America/Toronto:20160903T170000
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:16:57-0400-30819-1000-1-0000000C@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T111829
 SUMMARY:Contra dance
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20160917T193000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20160917T230000
+DTSTART;TZID=America/Toronto:20160917T193000
+DTEND;TZID=America/Toronto:20160917T230000
 DESCRIPTION:Caller: Catherine Burns\nBand: Peach Jam
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:19:41-0400-30819-1000-1-00000013@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T112131
 SUMMARY:Contra dance
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
 DESCRIPTION:Caller: June Harman\nBand: Richard Forest\, Mario Loiselle\, 
  Greg Brown & James Stephens\nFree for youth under 30
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20161001T193000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20161001T230000
+DTSTART;TZID=America/Toronto:20161001T193000
+DTEND;TZID=America/Toronto:20161001T230000
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:38:44-0400-31189-1000-1-0000001A@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T114020
 SUMMARY:New Year's Contra Ball
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
@@ -995,26 +971,22 @@ DESCRIPTION:Caller: Marian Rose\nBand: Frost & Fire\nNo introductory
  lesson.\nDress up in your finery (e.g. a costume\, gown\, tails\, mask\, 
  ...)\, to celebrate the new year. We'll dance mostly contras but also a 
  few other styles to make it a real party. We'll all have a BALL!
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170107T200000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170107T230000
+DTSTART;TZID=America/Toronto:20170107T200000
+DTEND;TZID=America/Toronto:20170107T230000
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:45:18-0400-31189-1000-1-00000027@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T114550
 SUMMARY:Contra dance
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
 DESCRIPTION:Caller: Catherine Burns\nBand: Godknowswhat!
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170218T193000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170218T230000
+DTSTART;TZID=America/Toronto:20170218T193000
+DTEND;TZID=America/Toronto:20170218T230000
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:24:06-0400-31189-1000-1-00000004@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T120253
 SUMMARY:Hey Fever! dance weekend
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
@@ -1022,216 +994,180 @@ DESCRIPTION:Registration required. http:
  //www.ottawacontra.ca/heyFever/registration.asp\nCallers: Sarah 
  VanNorstrand and Rick Mohr\nBands: Great Bear Trio and the Free Raisins
 URL:http://www.ottawacontra.ca/heyFever/
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20161104T190000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20161106T154500
+DTSTART;TZID=America/Toronto:20161104T190000
+DTEND;TZID=America/Toronto:20161106T154500
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:46:28-0400-31189-1000-1-0000002B@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T114716
 SUMMARY:Contra dance
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
 DESCRIPTION:Caller: Adina Gordon\nBand: Peregrine Road\nFree for youth 
  under 30
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170304T193000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170304T230000
+DTSTART;TZID=America/Toronto:20170304T193000
+DTEND;TZID=America/Toronto:20170304T230000
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:52:32-0400-31189-1000-1-00000035@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T115245
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170328T193000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170328T220000
+DTSTART;TZID=America/Toronto:20170328T193000
+DTEND;TZID=America/Toronto:20170328T220000
 SUMMARY:Community Talent contra dance
 LOCATION:Orange Hall\, 41 Rosemount Ave.
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:12:21-0400-30819-1000-1-00000005@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T111345
 SUMMARY:Contra dance
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
 DESCRIPTION:Band: Old Sod Band\nCaller: Lisa Greenleaf
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20160903T193000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20160903T230000
+DTSTART;TZID=America/Toronto:20160903T193000
+DTEND;TZID=America/Toronto:20160903T230000
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:23:21-0400-31189-1000-1-00000002@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T112338
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20161025T193000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20161025T220000
+DTSTART;TZID=America/Toronto:20161025T193000
+DTEND;TZID=America/Toronto:20161025T220000
 SUMMARY:Community Talent contra dance
 LOCATION:Orange Hall\, 41 Rosemount Ave.
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:37:07-0400-31189-1000-1-00000018@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T113835
 SUMMARY:Contra dance
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
 DESCRIPTION:Caller: Catherine Burns\nBand: Old Sod Band\nChristmas dance 
  – pot-luck snacks\, carols\, other fun at the break.
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20161217T193000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20161217T230000
+DTSTART;TZID=America/Toronto:20161217T193000
+DTEND;TZID=America/Toronto:20161217T230000
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:40:26-0400-31189-1000-1-0000001C@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T114101
 SUMMARY:Contra dance
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
 DESCRIPTION:Caller: June Harman\nBand: Old Sod Band
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170121T193000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170121T230000
+DTSTART;TZID=America/Toronto:20170121T193000
+DTEND;TZID=America/Toronto:20170121T230000
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:30:09-0400-31189-1000-1-0000000A@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T113109
 SUMMARY:Contra dance
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
 DESCRIPTION:Caller: Catherine Burns\nBand: Godknowswhat!
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20161119T193000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20161119T230000
+DTSTART;TZID=America/Toronto:20161119T193000
+DTEND;TZID=America/Toronto:20161119T230000
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:59:35-0400-31189-1000-1-00000047@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T120034
 SUMMARY:Contra dance
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
 DESCRIPTION:Callers: Ottawa Callers Collective\nBand: Old Sod 
  Band\nDessert pot-luck at the break.  Final dance of the season.
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170617T193000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170617T230000
+DTSTART;TZID=America/Toronto:20170617T193000
+DTEND;TZID=America/Toronto:20170617T230000
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:51:35-0400-31189-1000-1-00000033@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T115229
 SUMMARY:Family dance
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
 DESCRIPTION:Caller: David Smukler\nBand: Stolen Goods\nAdmission: 
  $10/adult\, free for kids
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170318T153000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170318T170000
+DTSTART;TZID=America/Toronto:20170318T153000
+DTEND;TZID=America/Toronto:20170318T170000
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:18:55-0400-30819-1000-1-00000012@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T112822
 SUMMARY:Community Talent contra dance
 LOCATION:Orange Hall\, 41 Rosemount Ave.
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20160927T193000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20160927T220000
+DTSTART;TZID=America/Toronto:20160927T193000
+DTEND;TZID=America/Toronto:20160927T220000
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:55:53-0400-31189-1000-1-0000003F@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T115632
 SUMMARY:Contra dance
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
 DESCRIPTION:Callers: Catherine Burns and Peter Simonyi\nBand: Old Sod 
  Band
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170520T193000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170520T230000
+DTSTART;TZID=America/Toronto:20170520T193000
+DTEND;TZID=America/Toronto:20170520T230000
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:57:38-0400-31189-1000-1-00000043@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T115811
 SUMMARY:Contra dance
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
 DESCRIPTION:Caller: Will Mentor\nBand: Barefoot
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170603T193000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170603T230000
+DTSTART;TZID=America/Toronto:20170603T193000
+DTEND;TZID=America/Toronto:20170603T230000
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:15:02-0400-30819-1000-1-0000000A@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T111648
 SUMMARY:Contra dance
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
 DESCRIPTION:Caller: Ottawa Callers Collective & Lisa Greenleaf\nBand: 
  Stolen Goods\nFree for everyone
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20160906T193000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20160906T220000
+DTSTART;TZID=America/Toronto:20160906T193000
+DTEND;TZID=America/Toronto:20160906T220000
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:46:11-0400-31189-1000-1-0000002A@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T114623
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170228T193000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170228T220000
+DTSTART;TZID=America/Toronto:20170228T193000
+DTEND;TZID=America/Toronto:20170228T220000
 SUMMARY:Community Talent contra dance
 LOCATION:Orange Hall\, 41 Rosemount Ave.
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:33:27-0400-31189-1000-1-00000011@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T113342
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20161129T193000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20161129T220000
+DTSTART;TZID=America/Toronto:20161129T193000
+DTEND;TZID=America/Toronto:20161129T220000
 SUMMARY:Community Talent contra dance
 LOCATION:Orange Hall\, 41 Rosemount Ave.
 DESCRIPTION:Note: This is the 5th Tuesday instead of the usual 4th.
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:35:00-0400-31189-1000-1-00000016@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T113702
 SUMMARY:Quebecois squares + contra dance
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20161203T150000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20161203T173000
+DTSTART;TZID=America/Toronto:20161203T150000
+DTEND;TZID=America/Toronto:20161203T173000
 DESCRIPTION:Callers: Yvon Neveu & Dave Eisenstadter\nBand: 
  Genticorum\nFollowed by dinner at local restaurants.
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:43:26-0400-31189-1000-1-00000025@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T114509
 SUMMARY:Afternoon contra dance
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170204T153000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170204T173000
+DTSTART;TZID=America/Toronto:20170204T153000
+DTEND;TZID=America/Toronto:20170204T173000
 DESCRIPTION:Caller: Luke Donforth\nBand: Nicholas Williams\, George 
  Wilson\, and David Kaynor\nFollowed by a pot-luck dinner.\n"Beg\, Borrow 
  and Steal Contras": Contra has a long and continuing tradition of 
@@ -1240,89 +1176,75 @@ DESCRIPTION:Caller: Luke Donforth\nBand: Nicholas Williams\, George
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:42:38-0400-31189-1000-1-00000023@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T114325
 SUMMARY:Contra dance
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170204T193000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170204T230000
+DTSTART;TZID=America/Toronto:20170204T193000
+DTEND;TZID=America/Toronto:20170204T230000
 DESCRIPTION:Caller: Luke Donforth\nBand: Nicholas Williams\, George 
  Wilson\, and David Kaynor\nPreceded by a pot-luck dinner.
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:47:52-0400-31189-1000-1-0000002F@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T114900
 SUMMARY:Mostly Waltz dance
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170304T150000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170304T173000
+DTSTART;TZID=America/Toronto:20170304T150000
+DTEND;TZID=America/Toronto:20170304T173000
 DESCRIPTION:Beginner lesson at 3:00\, dance at 3:30\nLead by Julie 
  Bishop\nFollowed by dinner out at local restaurants.
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:49:07-0400-31189-1000-1-00000031@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T115133
 SUMMARY:Contra dance
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170318T193000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170318T230000
+DTSTART;TZID=America/Toronto:20170318T193000
+DTEND;TZID=America/Toronto:20170318T230000
 DESCRIPTION:Caller: David Smukler\nBand: Stolen Goods
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:54:54-0400-31189-1000-1-0000003D@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T115549
 SUMMARY:Family dance
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170506T153000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170506T170000
+DTSTART;TZID=America/Toronto:20170506T153000
+DTEND;TZID=America/Toronto:20170506T170000
 DESCRIPTION:Caller: Mary Wesley\nBand: Sassafrass Stomp\nAdmission: 
  $10/adult\, free for kids\nFollowed by a pot-luck dinner at 5:30.
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:54:15-0400-31189-1000-1-0000003B@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T115453
 SUMMARY:Contra dance
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170506T193000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170506T230000
+DTSTART;TZID=America/Toronto:20170506T193000
+DTEND;TZID=America/Toronto:20170506T230000
 DESCRIPTION:Caller: Mary Wesley\nBand: Sassafrass Stomp
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:56:39-0400-31189-1000-1-00000041@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T115732
 SUMMARY:Volunteer Appreciation contra dance
 LOCATION:Orange Hall\, 41 Rosemount Ave.
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170523T193000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170523T220000
+DTSTART;TZID=America/Toronto:20170523T193000
+DTEND;TZID=America/Toronto:20170523T220000
 DESCRIPTION:Free\, for volunteers only
 END:VEVENT
 BEGIN:VEVENT
 UID:2016-09-02T11:58:14-0400-31189-1000-1-00000045@phyllis
-ORGANIZER;CN=Ottawa Contra Dance:http://ottawacontra.ca
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca/
 DTSTAMP:20160902T115932
 SUMMARY:Afternoon contra dance
 LOCATION:Churchill Recreation Centre\, 345 Richmond Rd.
-DTSTART;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170603T153000
-DTEND;TZID=/freeassociation.sourceforge.net/America/Toronto:
- 20170603T173000
+DTSTART;TZID=America/Toronto:20170603T153000
+DTEND;TZID=America/Toronto:20170603T173000
 DESCRIPTION:Caller: Will Mentor\nBand: Barefoot\nTheme: "Different 
  Formations"\nFollowed by dinner at local restaurants.
 END:VEVENT
