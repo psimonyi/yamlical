@@ -277,7 +277,7 @@ events:
 
     - <<: *dance
       date:   Jan 5, 2019
-      band:   Everest Witman & Friends
+      band: Everest Witman, Martin Aucoin and Capucine Maldague
       caller: Adina Gordon
       montreal: true
       title: Ottawa Contra Ball
@@ -387,13 +387,13 @@ events:
 
     - <<: *dance
       date:   May 4, 2019
-      band:   Nicholas Williams and Alex Kehler
+      band: Alex Kehler, Ryan McKasson and Eric McDonald
       caller: Will Mentor
       montreal: true
 
     - <<: *afternoon
       date:   May 4, 2019
-      band:   Nicholas Williams and Alex Kehler
+      band: Alex Kehler, Ryan McKasson and Eric McDonald
       caller: Will Mentor
       topic: Challenging Contra Dance
       detail: "Come have your brain and body challenged with a great afternoon of advanced dances! This session will both stretch your abilities and be VERY fun! (Geared towards dancers with some experience; not suitable for beginners)."
