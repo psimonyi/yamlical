@@ -1,0 +1,21 @@
+#!/usr/bin/bash
+
+# Given several ICS files, concatenate the events.
+# Use the calendar-level metadata (e.g. calendar name, source URL, timezone
+# definitions) from the *last* calendar specified.
+#
+# Warning: This is pretty fragile text editing.  Make sure TZIDs still match,
+# and the file layout is the same (events are the last thing in the file), etc.
+#
+# Usage: icscat part1.ics part2.ics ... partN.ics > out.ics
+
+# Use the preamble of the last file.
+# Preamble is from start to (but not including) the first BEGIN:VEVENT.
+sed -nre '/BEGIN:VEVENT/ q; p' "${!#}"
+
+for ics; do # for each positional argument
+    # Print from the first BEGIN:VEVENT to (but not including) END:VCALENDAR
+    sed -nre '/BEGIN:VEVENT/,$ { /END:VCALENDAR/ q; p }' "$ics"
+done
+
+printf 'END:VCALENDAR\r\n'
