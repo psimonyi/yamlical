@@ -30,9 +30,9 @@ BEGIN:VEVENT
 SUMMARY:ContraMontreal community dance
 DTSTART;TZID=America/Toronto:20180908T193000
 DTEND;TZID=America/Toronto:20180908T230000
-DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+DTSTAMP;VALUE=DATE-TIME:20180829T213442Z
 UID:45e06065-8579-451d-a919-d0c39a97bae6
-DESCRIPTION:Ewan Macintyre & Friends / On Call
+DESCRIPTION:Ewan Macintyre\, Shena Tschofen & Ian Belcourt / On Call
 LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
@@ -41,9 +41,9 @@ BEGIN:VEVENT
 SUMMARY:ContraMontreal community dance
 DTSTART;TZID=America/Toronto:20180922T193000
 DTEND;TZID=America/Toronto:20180922T230000
-DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+DTSTAMP;VALUE=DATE-TIME:20180829T213442Z
 UID:9aef1589-80f9-4dff-b04f-48bdf07f4643
-DESCRIPTION:Alexis Chartrand & friend / On Call
+DESCRIPTION:Alexis Chartrand & Colin Savoie-Levac / On Call
 LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
@@ -63,9 +63,9 @@ BEGIN:VEVENT
 SUMMARY:ContraMontreal community dance
 DTSTART;TZID=America/Toronto:20181027T193000
 DTEND;TZID=America/Toronto:20181027T230000
-DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+DTSTAMP;VALUE=DATE-TIME:20180829T213442Z
 UID:7bdd2444-b3df-4ca3-87db-993eb87977e5
-DESCRIPTION:TBA / On Call
+DESCRIPTION:Richard Forest & friend / On Call
 LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
@@ -74,9 +74,9 @@ BEGIN:VEVENT
 SUMMARY:ContraMontreal community dance
 DTSTART;TZID=America/Toronto:20181124T193000
 DTEND;TZID=America/Toronto:20181124T230000
-DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+DTSTAMP;VALUE=DATE-TIME:20180829T213442Z
 UID:11ba721e-d67c-4caf-85b9-a6d0bb2def2a
-DESCRIPTION:Richard Forest & friend / On Call
+DESCRIPTION:Carmen Guérard\, Peter Senn and Sylvie Ladouceur / On Call
 LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
@@ -107,9 +107,10 @@ BEGIN:VEVENT
 SUMMARY:ContraMontreal big dance
 DTSTART;TZID=America/Toronto:20190106T183000
 DTEND;TZID=America/Toronto:20190106T220000
-DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+DTSTAMP;VALUE=DATE-TIME:20180829T213442Z
 UID:93d3b1c9-0378-4c15-ab6b-40976a45f3af
-DESCRIPTION:Everest Witman & Friends / Adina Gordon\n\nPotluck at 5pm!
+DESCRIPTION:Everest Witman\, Capucine Maldague & Martin Aucoin / Adina Gor
+ don\n\nPotluck at 5pm!
 LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
@@ -207,10 +208,23 @@ BEGIN:VEVENT
 SUMMARY:ContraMontreal big dance
 DTSTART;TZID=America/Toronto:20190505T183000
 DTEND;TZID=America/Toronto:20190505T220000
-DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+DTSTAMP;VALUE=DATE-TIME:20180829T213442Z
 UID:a40143bf-a231-43b1-9fdc-2b32dd7790bb
-DESCRIPTION:Nicholas\, Alex & friend (trio) / Will Mentor\n\nPotluck at 5p
- m!
+DESCRIPTION:Alex Kehler\, Eric McDonald & Ryan McKasson / Will Mentor\n\nP
+ otluck at 5pm!
+LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal challenging contras
+DTSTART;TZID=America/Toronto:20190505T150000
+DTEND;TZID=America/Toronto:20190505T170000
+DTSTAMP;VALUE=DATE-TIME:20180829T213442Z
+UID:d98faa10-c4d4-40f4-b216-f537d886e8dc
+DESCRIPTION:Challenging contras with Will Mentor and music by Alex Kehler\
+ , Eric McDonald & Ryan McKasson.  Followed by a potluck at 5pm and the reg
+ ular dance at 7pm.
 LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
