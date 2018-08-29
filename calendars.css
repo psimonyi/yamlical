@@ -152,3 +152,9 @@ input {
     color: white;
     text-decoration: none;
 }
+
+/* Firefox doesn't seem to draw a focus ring on these. */
+.linkbox a:focus {
+    box-shadow: inset 0 0 0 2px maroon,
+                inset 0 0 0 3px;
+}
