@@ -3,10 +3,10 @@ VERSION:2.0
 PRODID:yamlical.py
 METHOD:PUBLISH
 NAME:Ottawa Contra
-REFRESH-INTERVAL;VALUE=DURATION:P7D
+REFRESH-INTERVAL;VALUE=DURATION:P1D
 SOURCE;VALUE=URI:https://dancecalendars.petersimonyi.ca/ottawa.ics
 URL:http://www.ottawacontra.ca/view/?schedule
-X-PUBLISHED-TTL;VALUE=DURATION:P7D
+X-PUBLISHED-TTL;VALUE=DURATION:P1D
 X-WR-CALNAME:Ottawa Contra
 X-WR-TIMEZONE:America/Toronto
 BEGIN:VTIMEZONE
@@ -1397,7 +1397,7 @@ BEGIN:VEVENT
 SUMMARY:Ottawa Contra Ball
 DTSTART;TZID=America/Toronto:20190105T193000
 DTEND;TZID=America/Toronto:20190105T230000
-DTSTAMP;VALUE=DATE-TIME:20180801T225248Z
+DTSTAMP;VALUE=DATE-TIME:20180829T211243Z
 UID:cb452f42-4526-4cb4-8b4a-9e235dafb32f
 DESCRIPTION:This dance features Everest Witman\, Martin Aucoin and Capucin
  e Maldague with Adina Gordon.\n\n*Different location*: This dance is at We
@@ -1524,7 +1524,7 @@ BEGIN:VEVENT
 SUMMARY:Ottawa Community Dance
 DTSTART;TZID=America/Toronto:20190202T183000
 DTEND;TZID=America/Toronto:20190202T193000
-DTSTAMP;VALUE=DATE-TIME:20180801T225248Z
+DTSTAMP;VALUE=DATE-TIME:20180829T211243Z
 UID:319b37ac-f524-4ebb-8b16-18e7a98dae53
 DESCRIPTION:Think big barn dance party! This lovely event has varied progr
  amming with accessible dances that are a little more structured than famil
@@ -1629,7 +1629,7 @@ BEGIN:VEVENT
 SUMMARY:Ottawa Community Dance
 DTSTART;TZID=America/Toronto:20190302T183000
 DTEND;TZID=America/Toronto:20190302T193000
-DTSTAMP;VALUE=DATE-TIME:20180801T225248Z
+DTSTAMP;VALUE=DATE-TIME:20180829T211243Z
 UID:845b6b4e-6ccc-42cb-b55e-28ab307632a0
 DESCRIPTION:Think big barn dance party! This lovely event has varied progr
  amming with accessible dances that are a little more structured than famil
@@ -1755,7 +1755,7 @@ BEGIN:VEVENT
 SUMMARY:Ottawa Community Dance
 DTSTART;TZID=America/Toronto:20190406T183000
 DTEND;TZID=America/Toronto:20190406T193000
-DTSTAMP;VALUE=DATE-TIME:20180801T225248Z
+DTSTAMP;VALUE=DATE-TIME:20180829T211243Z
 UID:aecf27eb-846c-4ce6-ada9-ab3298aef2a8
 DESCRIPTION:Think big barn dance party! This lovely event has varied progr
  amming with accessible dances that are a little more structured than famil
@@ -1820,7 +1820,7 @@ BEGIN:VEVENT
 SUMMARY:Ottawa Contra Dance
 DTSTART;TZID=America/Toronto:20190504T193000
 DTEND;TZID=America/Toronto:20190504T230000
-DTSTAMP;VALUE=DATE-TIME:20180801T225248Z
+DTSTAMP;VALUE=DATE-TIME:20180829T211243Z
 UID:e2e66585-2eb1-4d78-b761-3aa4cb0c6ce4
 DESCRIPTION:This dance features Alex Kehler\, Ryan McKasson and Eric McDon
  ald with Will Mentor.\n\nMake it a weekend! There's a dance with the same 
@@ -1841,7 +1841,7 @@ BEGIN:VEVENT
 SUMMARY:Ottawa Contra Afternoon Dance: Challenging Contra Dance
 DTSTART;TZID=America/Toronto:20190504T150000
 DTEND;TZID=America/Toronto:20190504T170000
-DTSTAMP;VALUE=DATE-TIME:20180801T225248Z
+DTSTAMP;VALUE=DATE-TIME:20180829T211243Z
 UID:72b4c093-0734-4bc5-80ae-d02f629a058a
 DESCRIPTION:An afternoon dance for experienced dancers: "Challenging Contr
  a Dance" with Will Mentor and music by Alex Kehler\, Ryan McKasson and Eri
@@ -1862,7 +1862,7 @@ BEGIN:VEVENT
 SUMMARY:Ottawa Community Dance
 DTSTART;TZID=America/Toronto:20190504T183000
 DTEND;TZID=America/Toronto:20190504T193000
-DTSTAMP;VALUE=DATE-TIME:20180801T225248Z
+DTSTAMP;VALUE=DATE-TIME:20180829T211243Z
 UID:64a54d64-0515-4bc4-9fbe-80a1fbaa71bb
 DESCRIPTION:Think big barn dance party! This lovely event has varied progr
  amming with accessible dances that are a little more structured than famil
