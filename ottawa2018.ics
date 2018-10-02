@@ -163,8 +163,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ottawa Contra AGM and Pot-luck
 DTSTART;TZID=America/Toronto:20181023T170000
-DTEND;TZID=America/Toronto:20181023T193000
-DTSTAMP;VALUE=DATE-TIME:20181002T170656Z
+DTEND;TZID=America/Toronto:20181023T191500
+DTSTAMP;VALUE=DATE-TIME:20181002T172202Z
 UID:c68f55f0-288b-4f04-8886-ea4aa7fc5fd1
 DESCRIPTION:Rescheduled from September due to the tornado. We'll start the
   evening with a pot-luck dinner at 5pm — bring food to share\, your own 
