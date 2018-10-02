@@ -48,10 +48,10 @@ ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
 URL:http://ottawacontra.ca/view/?schedule#Sep8
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ottawa Contra AGM and Pot-luck
+SUMMARY:(cancelled) Ottawa Contra AGM and Pot-luck
 DTSTART;TZID=America/Toronto:20180922T170000
 DTEND;TZID=America/Toronto:20180922T193000
-DTSTAMP;VALUE=DATE-TIME:20180801T225248Z
+DTSTAMP;VALUE=DATE-TIME:20181002T170656Z
 UID:5e02d465-2cf1-468c-a9ab-981562ddaf14
 DESCRIPTION:We'll start the evening with a pot-luck dinner at 5pm — brin
  g food to share\, your own plate & cutlery. Then join us for our Ottawa Co
@@ -61,10 +61,10 @@ LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
 ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ottawa Contra Dance
+SUMMARY:(cancelled) Ottawa Contra Dance
 DTSTART;TZID=America/Toronto:20180922T193000
 DTEND;TZID=America/Toronto:20180922T230000
-DTSTAMP;VALUE=DATE-TIME:20180801T225248Z
+DTSTAMP;VALUE=DATE-TIME:20181002T170656Z
 UID:41d0120e-c3ba-41e2-a852-2ff3267d113a
 DESCRIPTION:This dance features the Old Sod Band with June Harman.\n\nhttp
  ://ottawacontra.ca/view/?schedule#Sep22\n\n7:30–8:00 is an introduction 
@@ -157,6 +157,19 @@ DESCRIPTION:A great mid-week dance held in a beautiful century hall on the
  ng: light casual clothing (it gets warm)\, regular indoor shoes (to protec
  t the floor and for comfort dancing)\, a water bottle (stay hydrated)\, an
  d a smile!
+LOCATION:41 Rosemount Ave.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra AGM and Pot-luck
+DTSTART;TZID=America/Toronto:20181023T170000
+DTEND;TZID=America/Toronto:20181023T193000
+DTSTAMP;VALUE=DATE-TIME:20181002T170656Z
+UID:c68f55f0-288b-4f04-8886-ea4aa7fc5fd1
+DESCRIPTION:Rescheduled from September due to the tornado. We'll start the
+  evening with a pot-luck dinner at 5pm — bring food to share\, your own 
+ plate & cutlery. Then join us for our Ottawa Contra AGM at 6pm. Find out w
+ hat the contra committee has been doing all year.
 LOCATION:41 Rosemount Ave.\, Ottawa
 ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
 END:VEVENT

@@ -184,7 +184,7 @@ events:
       our 29th season!  Remember to buy your membership or season pass to
       support Ottawa Contra Dance."
 
-    - title: Ottawa Contra AGM and Pot-luck
+    - title: (cancelled) Ottawa Contra AGM and Pot-luck
       date: Sep 22, 2018
       time: 5:00pm
       endtime: 7:30pm
@@ -195,6 +195,7 @@ events:
       doing all year."
 
     - <<: *dance
+      title: (cancelled) Ottawa Contra Dance
       date:   Sep 22, 2018
       band:   the Old Sod Band
       caller: June Harman
@@ -215,6 +216,17 @@ events:
 
     - <<: *tuesdance
       date: Oct 23, 2018
+
+    - title: Ottawa Contra AGM and Pot-luck
+      date: Oct 23, 2018
+      time: 5:00pm
+      endtime: 7:30pm
+      location: 41 Rosemount Ave., Ottawa
+      description: "Rescheduled from September due to the tornado.
+      We'll start the evening with a pot-luck dinner at 5pm —
+      bring food to share, your own plate & cutlery. Then join us for our
+      Ottawa Contra AGM at 6pm. Find out what the contra committee has been
+      doing all year."
 
     - title: Hey Fever! Contra dance weekend
       start: 2018-11-02 7:00pm
