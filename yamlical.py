@@ -161,8 +161,11 @@ def make_ical(data, args):
 
     add_timezone(cal)
 
-    organizer = vCalAddress(caldata['organizer']['uri'])
-    organizer.params['cn'] = vText(caldata['organizer']['cn'])
+    if 'organizer' in caldata:
+        organizer = vCalAddress(caldata['organizer']['uri'])
+        organizer.params['cn'] = vText(caldata['organizer']['cn'])
+    else:
+        organizer = None
 
     for evdata_raw in data['events']:
         evdata = TranslatedMap(evdata_raw, lang=args.lang)
@@ -191,8 +194,10 @@ def make_ical(data, args):
             event.add('location', apply_template(evdata, 'location'))
         if 'url' in evdata:
             event.add('url', apply_template(evdata, 'url'))
-        event.add('description', apply_template(evdata, 'description'))
-        event.add('organizer', organizer)
+        if 'description' in evdata:
+            event.add('description', apply_template(evdata, 'description'))
+        if organizer:
+            event.add('organizer', organizer)
         cal.add_component(event)
 
     return cal
