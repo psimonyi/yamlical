@@ -55,8 +55,7 @@ events:
 
     - <<: *community
       date: Saturday October 27th 2018
-      band[en]: Richard Forest & friend
-      band[fr]: Richard Forest & ami
+      band: Alexis Chartrand & Marc Maziade
 
     - <<: *community
       date: Saturday November 24th 2018
@@ -68,10 +67,14 @@ events:
       band: Mavish (duo)
       caller: Mary Wesley
 
-    - <<: *community
+    - <<: *big
+      title[en]: Benefit dance
+      title[fr]: Dance bénéfice
       date: Saturday December 8th 2018
-      band[en]: Alexis Chartrand & friend
-      band[fr]: Alexis Chartrand & ami
+      time: 7pm
+      endtime: 10:30pm
+      band: Fluton (Marie Hamilton, Grace Hendrickson-Jones, Jonathan Werk)
+      caller: Marie-Michèle Fournier & Peter Simonyi
 
     - <<: *big
       date: Sunday January 6th 2019
@@ -81,7 +84,7 @@ events:
       note[fr]: Potluck à 17h! 
 
     - <<: *community
-      date: Saturday January 26th 2019
+      date: Saturday January 12th 2019
 
     - <<: *big
       date: Sunday February 3rd 2019

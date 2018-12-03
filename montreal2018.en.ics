@@ -65,7 +65,7 @@ DTSTART;TZID=America/Toronto:20181027T193000
 DTEND;TZID=America/Toronto:20181027T230000
 DTSTAMP;VALUE=DATE-TIME:20180829T213442Z
 UID:7bdd2444-b3df-4ca3-87db-993eb87977e5
-DESCRIPTION:Richard Forest & friend / On Call
+DESCRIPTION:Alexis Chartrand & Marc Maziade / On Call
 LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
@@ -93,13 +93,14 @@ ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ContraMontreal community dance
-DTSTART;TZID=America/Toronto:20181208T193000
-DTEND;TZID=America/Toronto:20181208T230000
-DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
-UID:52ec257f-dd92-419a-9ac7-9082a0c7ed32
-DESCRIPTION:Alexis Chartrand & friend / On Call
-LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
+SUMMARY:Benefit dance
+DTSTART;TZID=America/Toronto:20181208T190000
+DTEND;TZID=America/Toronto:20181208T223000
+DTSTAMP;VALUE=DATE-TIME:20181203T233631Z
+UID:d2b86283-f9d2-42b7-8c54-bef6033b89a6
+DESCRIPTION:Fluton (Marie Hamilton\, Grace Hendrickson-Jones\, Jonathan We
+ rk) / Marie-Michèle Fournier & Peter Simonyi
+LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
 END:VEVENT
@@ -117,9 +118,9 @@ URL:http://contramontreal.org/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ContraMontreal community dance
-DTSTART;TZID=America/Toronto:20190126T193000
-DTEND;TZID=America/Toronto:20190126T230000
-DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+DTSTART;TZID=America/Toronto:20190112T193000
+DTEND;TZID=America/Toronto:20190112T230000
+DTSTAMP;VALUE=DATE-TIME:20181203T233631Z
 UID:05f4809e-2f2d-452a-85c1-590e97a5319c
 DESCRIPTION:TBA / On Call
 LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
