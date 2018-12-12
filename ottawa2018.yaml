@@ -294,8 +294,7 @@ events:
       caller: Adina Gordon
       montreal: true
       title: Ottawa Contra Ball
-      location: Westminster Presbyterian Church, 470 Roosevelt Ave. (Westboro), Ottawa
-      note_location: !jinja "*Different location*: This dance is at {{location}}.  It's close to our usual hall, which is not available on this date."
+      note_location: !jinja "Update: This dance is at the usual Churchill hall."
       note: "This is our New Year's Contra Ball! Dress up in your finery (e.g. a costume, gown, tails, ...) to celebrate the new year. We'll dance mostly contras but also a few other styles to make it a real party. Snacks will be provided at the break too."
 
     - <<: *dance
