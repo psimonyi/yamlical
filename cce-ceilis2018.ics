@@ -1,0 +1,128 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:yamlical.py
+METHOD:PUBLISH
+NAME:Ottawa Irish Arts Monthly Céilís
+URL:http://www.ottawacomhaltas.com/events.php
+X-WR-CALNAME:Ottawa Irish Arts Monthly Céilís
+X-WR-TIMEZONE:America/Toronto
+BEGIN:VTIMEZONE
+TZID:America/Toronto
+BEGIN:STANDARD
+DTSTART:20061106T020000
+RRULE:FREQ=YEARLY;BYDAY=+1SU;BYMONTH=11
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20060313T020000
+RRULE:FREQ=YEARLY;BYDAY=+2SU;BYMONTH=3
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Monthly Céilí
+DTSTART;TZID=America/Toronto:20180915T190000
+DTEND;TZID=America/Toronto:20180915T223000
+DTSTAMP;VALUE=DATE-TIME:20180916T032755Z
+UID:5592c1e0-ee9a-4f79-94c0-7cdcd200d405
+DESCRIPTION:A whole night of called group dances\, cash bar\, local entert
+ ainers\, non-alcoholic refreshments available\, door prizes\, 50/50\, with
+  free snacks at 9PM.\n\nNo experience necessary for dancing (people will h
+ elp you). A lot of fun and at a great price! $15 non members\, $10 members
+ \, $5 registered students\, 12 and under free.
+LOCATION:Blessed Sacrament Catholic Church\, 194 Fourth Avenue
+ORGANIZER;CN="Ottawa Irish Arts":http://www.ottawacomhaltas.com
+URL:http://www.ottawacomhaltas.com/events.php
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Monthly Céilí
+DTSTART;TZID=America/Toronto:20181020T190000
+DTEND;TZID=America/Toronto:20181020T223000
+DTSTAMP;VALUE=DATE-TIME:20180916T032755Z
+UID:23ba4715-44f6-48d4-a8ba-1b7fd5632af0
+DESCRIPTION:A whole night of called group dances\, cash bar\, local entert
+ ainers\, non-alcoholic refreshments available\, door prizes\, 50/50\, with
+  free snacks at 9PM.\n\nNo experience necessary for dancing (people will h
+ elp you). A lot of fun and at a great price! $15 non members\, $10 members
+ \, $5 registered students\, 12 and under free.
+LOCATION:Blessed Sacrament Catholic Church\, 194 Fourth Avenue
+ORGANIZER;CN="Ottawa Irish Arts":http://www.ottawacomhaltas.com
+URL:http://www.ottawacomhaltas.com/events.php
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Monthly Céilí
+DTSTART;TZID=America/Toronto:20181110T190000
+DTEND;TZID=America/Toronto:20181110T223000
+DTSTAMP;VALUE=DATE-TIME:20180916T032755Z
+UID:5fe6de13-394f-4a8a-ab7c-ea3ba2274436
+DESCRIPTION:A whole night of called group dances\, cash bar\, local entert
+ ainers\, non-alcoholic refreshments available\, door prizes\, 50/50\, with
+  free snacks at 9PM.\n\nNo experience necessary for dancing (people will h
+ elp you). A lot of fun and at a great price! $15 non members\, $10 members
+ \, $5 registered students\, 12 and under free.
+LOCATION:Blessed Sacrament Catholic Church\, 194 Fourth Avenue
+ORGANIZER;CN="Ottawa Irish Arts":http://www.ottawacomhaltas.com
+URL:http://www.ottawacomhaltas.com/events.php
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Monthly Céilí
+DTSTART;TZID=America/Toronto:20190112T190000
+DTEND;TZID=America/Toronto:20190112T223000
+DTSTAMP;VALUE=DATE-TIME:20180916T032755Z
+UID:b36b3b2d-95ca-4570-a681-6a913cdfb005
+DESCRIPTION:A whole night of called group dances\, cash bar\, local entert
+ ainers\, non-alcoholic refreshments available\, door prizes\, 50/50\, with
+  free snacks at 9PM.\n\nNo experience necessary for dancing (people will h
+ elp you). A lot of fun and at a great price! $15 non members\, $10 members
+ \, $5 registered students\, 12 and under free.
+LOCATION:Blessed Sacrament Catholic Church\, 194 Fourth Avenue
+ORGANIZER;CN="Ottawa Irish Arts":http://www.ottawacomhaltas.com
+URL:http://www.ottawacomhaltas.com/events.php
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Monthly Céilí
+DTSTART;TZID=America/Toronto:20190209T190000
+DTEND;TZID=America/Toronto:20190209T223000
+DTSTAMP;VALUE=DATE-TIME:20180916T032755Z
+UID:2c48d862-2c1d-45e9-9468-3dbafff97f9c
+DESCRIPTION:A whole night of called group dances\, cash bar\, local entert
+ ainers\, non-alcoholic refreshments available\, door prizes\, 50/50\, with
+  free snacks at 9PM.\n\nNo experience necessary for dancing (people will h
+ elp you). A lot of fun and at a great price! $15 non members\, $10 members
+ \, $5 registered students\, 12 and under free.
+LOCATION:Blessed Sacrament Catholic Church\, 194 Fourth Avenue
+ORGANIZER;CN="Ottawa Irish Arts":http://www.ottawacomhaltas.com
+URL:http://www.ottawacomhaltas.com/events.php
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:St. Patrick's Day Dinner and Céilí
+DTSTART;TZID=America/Toronto:20190316T190000
+DTEND;TZID=America/Toronto:20190316T223000
+DTSTAMP;VALUE=DATE-TIME:20180916T032755Z
+UID:23966616-c373-41c1-a9df-f0b8d1f3ba6b
+DESCRIPTION:Check http://www.ottawacomhaltas.com/events.php for admission\
+ , schedule\, etc.
+LOCATION:Blessed Sacrament Catholic Church\, 194 Fourth Avenue
+ORGANIZER;CN="Ottawa Irish Arts":http://www.ottawacomhaltas.com
+URL:http://www.ottawacomhaltas.com/events.php
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Monthly Céilí
+DTSTART;TZID=America/Toronto:20190413T190000
+DTEND;TZID=America/Toronto:20190413T223000
+DTSTAMP;VALUE=DATE-TIME:20180916T032755Z
+UID:221f3dc9-f826-45f6-a508-0c17d09e0b7f
+DESCRIPTION:A whole night of called group dances\, cash bar\, local entert
+ ainers\, non-alcoholic refreshments available\, door prizes\, 50/50\, with
+  free snacks at 9PM.\n\nNo experience necessary for dancing (people will h
+ elp you). A lot of fun and at a great price! $15 non members\, $10 members
+ \, $5 registered students\, 12 and under free.
+LOCATION:Blessed Sacrament Catholic Church\, 194 Fourth Avenue
+ORGANIZER;CN="Ottawa Irish Arts":http://www.ottawacomhaltas.com
+URL:http://www.ottawacomhaltas.com/events.php
+END:VEVENT
+END:VCALENDAR

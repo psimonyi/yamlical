@@ -1,0 +1,41 @@
+_common: &ceili
+    title: Monthly Céilí
+    location: Blessed Sacrament Catholic Church, 194 Fourth Avenue
+    time: 7pm
+    endtime: 10:30pm
+    url: http://www.ottawacomhaltas.com/events.php
+    description: "\
+    A whole night of called group dances, cash bar, local entertainers,
+    non-alcoholic refreshments available, door prizes, 50/50, with free snacks
+    at 9PM.
+
+
+    No experience necessary for dancing (people will help you). A lot of fun
+    and at a great price! $15 non members, $10 members, $5 registered students,
+    12 and under free."
+
+calendar:
+    name: Ottawa Irish Arts Monthly Céilís
+    url: http://www.ottawacomhaltas.com/events.php
+    organizer:
+        cn: Ottawa Irish Arts
+        uri: http://www.ottawacomhaltas.com
+
+events:
+    - <<: *ceili
+      date: September 15, 2018
+    - <<: *ceili
+      date: October 20, 2018
+    - <<: *ceili
+      date: November 10, 2018
+    - <<: *ceili
+      date: January 12, 2019
+    - <<: *ceili
+      date: February 9, 2019
+    - <<: *ceili
+      date: March 16, 2019
+      title: St. Patrick's Day Dinner and Céilí
+      description: "Check http://www.ottawacomhaltas.com/events.php
+      for admission, schedule, etc."
+    - <<: *ceili
+      date: April 13, 2019
