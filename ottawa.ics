@@ -1410,27 +1410,24 @@ BEGIN:VEVENT
 SUMMARY:Ottawa Contra Ball
 DTSTART;TZID=America/Toronto:20190105T193000
 DTEND;TZID=America/Toronto:20190105T230000
-DTSTAMP;VALUE=DATE-TIME:20180829T211243Z
+DTSTAMP;VALUE=DATE-TIME:20181212T200553Z
 UID:cb452f42-4526-4cb4-8b4a-9e235dafb32f
 DESCRIPTION:This dance features Everest Witman\, Martin Aucoin and Capucin
- e Maldague with Adina Gordon.\n\n*Different location*: This dance is at We
- stminster Presbyterian Church\, 470 Roosevelt Ave. (Westboro)\, Ottawa.  I
- t's close to our usual hall\, which is not available on this date.\n\nThis
-  is our New Year's Contra Ball! Dress up in your finery (e.g. a costume\, 
- gown\, tails\, ...) to celebrate the new year. We'll dance mostly contras 
- but also a few other styles to make it a real party. Snacks will be provid
- ed at the break too.\n\nMake it a weekend! There's a dance with the same b
- and and caller in Montreal on Sunday.  See http://contramontreal.org/\n\nh
- ttp://ottawacontra.ca/view/?schedule#Jan5\n\n7:30–8:00 is an introductio
- n to contra — recommended if you're new! Social dancing starts at 8:00.\
- n\nAdmission: $14 (members: $12) (students: $10) (ages 15 and under: free)
- \n\nContra dance for all ages and experience levels.  Everyone is welcome\
- , no dance experience required.  Come alone or with friends or family.  Wh
- at to bring: light casual clothing (it gets warm)\, regular indoor shoes (
- to protect the floor and for comfort dancing)\, a water bottle (stay hydra
- ted)\, and a smile!
-LOCATION:Westminster Presbyterian Church\, 470 Roosevelt Ave. (Westboro)\,
-  Ottawa
+ e Maldague with Adina Gordon.\n\nUpdate: This dance is at the usual Church
+ ill hall.\n\nThis is our New Year's Contra Ball! Dress up in your finery (
+ e.g. a costume\, gown\, tails\, ...) to celebrate the new year. We'll danc
+ e mostly contras but also a few other styles to make it a real party. Snac
+ ks will be provided at the break too.\n\nMake it a weekend! There's a danc
+ e with the same band and caller in Montreal on Sunday.  See http://contram
+ ontreal.org/\n\nhttp://ottawacontra.ca/view/?schedule#Jan5\n\n7:30–8:00 
+ is an introduction to contra — recommended if you're new! Social dancing
+  starts at 8:00.\n\nAdmission: $14 (members: $12) (students: $10) (ages 15
+  and under: free)\n\nContra dance for all ages and experience levels.  Eve
+ ryone is welcome\, no dance experience required.  Come alone or with frien
+ ds or family.  What to bring: light casual clothing (it gets warm)\, regul
+ ar indoor shoes (to protect the floor and for comfort dancing)\, a water b
+ ottle (stay hydrated)\, and a smile!
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
 ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
 URL:http://ottawacontra.ca/view/?schedule#Jan5
 END:VEVENT
