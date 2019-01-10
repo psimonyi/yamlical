@@ -124,9 +124,9 @@ BEGIN:VEVENT
 SUMMARY:ContraMontreal danse communautaire
 DTSTART;TZID=America/Toronto:20190112T193000
 DTEND;TZID=America/Toronto:20190112T230000
-DTSTAMP;VALUE=DATE-TIME:20181203T233628Z
+DTSTAMP;VALUE=DATE-TIME:20190110T012627Z
 UID:eb20b0fa-0232-4d11-9dd9-744f582b5187
-DESCRIPTION:TBA / On Call
+DESCRIPTION:Alexis Chartrand & Peter Senn / On Call
 LOCATION:Maison de l'Amitié\, 120 Rue Duluth est (coin De Bullion)\, Mont
  réal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
@@ -147,9 +147,9 @@ BEGIN:VEVENT
 SUMMARY:ContraMontreal danse communautaire
 DTSTART;TZID=America/Toronto:20190223T193000
 DTEND;TZID=America/Toronto:20190223T230000
-DTSTAMP;VALUE=DATE-TIME:20180802T221011Z
+DTSTAMP;VALUE=DATE-TIME:20190110T012627Z
 UID:26b832d0-ce00-4bd1-9cc0-b7a0bf423f81
-DESCRIPTION:TBA / On Call
+DESCRIPTION:Matthew Christian & Max Carmichael / On Call
 LOCATION:Maison de l'Amitié\, 120 Rue Duluth est (coin De Bullion)\, Mont
  réal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
@@ -183,9 +183,9 @@ BEGIN:VEVENT
 SUMMARY:ContraMontreal danse communautaire
 DTSTART;TZID=America/Toronto:20190323T193000
 DTEND;TZID=America/Toronto:20190323T230000
-DTSTAMP;VALUE=DATE-TIME:20180802T221011Z
+DTSTAMP;VALUE=DATE-TIME:20190110T012627Z
 UID:99fb2378-afaf-4192-a8aa-57b7dae203a0
-DESCRIPTION:TBA / On Call
+DESCRIPTION:Richard Forest et ami / On Call
 LOCATION:Maison de l'Amitié\, 120 Rue Duluth est (coin De Bullion)\, Mont
  réal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
@@ -206,9 +206,10 @@ BEGIN:VEVENT
 SUMMARY:ContraMontreal danse communautaire
 DTSTART;TZID=America/Toronto:20190427T193000
 DTEND;TZID=America/Toronto:20190427T230000
-DTSTAMP;VALUE=DATE-TIME:20180802T221011Z
+DTSTAMP;VALUE=DATE-TIME:20190110T012627Z
 UID:68ae3760-0681-4527-b8aa-8081d6c27b1a
-DESCRIPTION:TBA / On Call
+DESCRIPTION:Everest Witman (guitare et podorythmie)\, Jonathan Werk (hautb
+ ois et didgeridoo) et Grace Hendrickson-Jones (flûte) / On Call
 LOCATION:Maison de l'Amitié\, 120 Rue Duluth est (coin De Bullion)\, Mont
  réal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/

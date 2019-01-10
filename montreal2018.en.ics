@@ -120,9 +120,9 @@ BEGIN:VEVENT
 SUMMARY:ContraMontreal community dance
 DTSTART;TZID=America/Toronto:20190112T193000
 DTEND;TZID=America/Toronto:20190112T230000
-DTSTAMP;VALUE=DATE-TIME:20181203T233631Z
+DTSTAMP;VALUE=DATE-TIME:20190110T012452Z
 UID:05f4809e-2f2d-452a-85c1-590e97a5319c
-DESCRIPTION:TBA / On Call
+DESCRIPTION:Alexis Chartrand & Peter Senn / On Call
 LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
@@ -142,9 +142,9 @@ BEGIN:VEVENT
 SUMMARY:ContraMontreal community dance
 DTSTART;TZID=America/Toronto:20190223T193000
 DTEND;TZID=America/Toronto:20190223T230000
-DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+DTSTAMP;VALUE=DATE-TIME:20190110T012452Z
 UID:c853410e-0e60-41b0-baae-b1621f58c9fe
-DESCRIPTION:TBA / On Call
+DESCRIPTION:Matthew Christian & Max Carmichael / On Call
 LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
@@ -176,9 +176,9 @@ BEGIN:VEVENT
 SUMMARY:ContraMontreal community dance
 DTSTART;TZID=America/Toronto:20190323T193000
 DTEND;TZID=America/Toronto:20190323T230000
-DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+DTSTAMP;VALUE=DATE-TIME:20190110T012452Z
 UID:ffbc53d4-1e95-4472-9b2a-26b801370496
-DESCRIPTION:TBA / On Call
+DESCRIPTION:Richard Forest and friend / On Call
 LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
@@ -198,9 +198,10 @@ BEGIN:VEVENT
 SUMMARY:ContraMontreal community dance
 DTSTART;TZID=America/Toronto:20190427T193000
 DTEND;TZID=America/Toronto:20190427T230000
-DTSTAMP;VALUE=DATE-TIME:20180802T221015Z
+DTSTAMP;VALUE=DATE-TIME:20190110T012452Z
 UID:c433effb-7ac6-400a-8c14-582d3fde8417
-DESCRIPTION:TBA / On Call
+DESCRIPTION:Everest Witman (guitar and feet)\, Jonathan Werk (oboe and did
+ geridoo) and Grace Hendrickson-Jones (flute) / On Call
 LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/

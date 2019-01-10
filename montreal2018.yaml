@@ -85,6 +85,7 @@ events:
 
     - <<: *community
       date: Saturday January 12th 2019
+      band: Alexis Chartrand & Peter Senn
 
     - <<: *big
       date: Sunday February 3rd 2019
@@ -93,6 +94,7 @@ events:
 
     - <<: *community
       date: Saturday February 23rd 2019
+      band: Matthew Christian & Max Carmichael
 
     - <<: *big
       date: Sunday March 3rd 2019
@@ -116,6 +118,8 @@ events:
 
     - <<: *community
       date: Saturday March 23rd 2019
+      band[en]: Richard Forest and friend
+      band[fr]: Richard Forest et ami
 
     - <<: *big
       date: Sunday April 7th 2019
@@ -124,6 +128,10 @@ events:
 
     - <<: *community
       date: Saturday April 27th 2019
+      band[en]: Everest Witman (guitar and feet), Jonathan Werk (oboe and
+                didgeridoo) and Grace Hendrickson-Jones (flute)
+      band[fr]: Everest Witman (guitare et podorythmie), Jonathan Werk
+                (hautbois et didgeridoo) et Grace Hendrickson-Jones (flûte)
 
     - <<: *big
       date: Sunday May 5th 2019
