@@ -1942,18 +1942,19 @@ BEGIN:VEVENT
 SUMMARY:Ottawa Contra Dance
 DTSTART;TZID=America/Toronto:20190601T193000
 DTEND;TZID=America/Toronto:20190601T230000
-DTSTAMP;VALUE=DATE-TIME:20180801T225248Z
+DTSTAMP;VALUE=DATE-TIME:20190529T215316Z
 UID:ca78055c-abdf-4153-b8a7-a8f70e442186
-DESCRIPTION:This dance features Sister Haggis with Bob Nicholson.\n\nMake 
- it a weekend! There's a dance with the same band and caller in Montreal on
-  Sunday.  See http://contramontreal.org/\n\nhttp://ottawacontra.ca/view/?s
- chedule#Jun1\n\n7:30–8:00 is an introduction to contra — recommended i
- f you're new! Social dancing starts at 8:00.\n\nAdmission: $14 (members: $
- 12) (students: $10) (ages 15 and under: free)\n\nContra dance for all ages
-  and experience levels.  Everyone is welcome\, no dance experience require
- d.  Come alone or with friends or family.  What to bring: light casual clo
- thing (it gets warm)\, regular indoor shoes (to protect the floor and for 
- comfort dancing)\, a water bottle (stay hydrated)\, and a smile!
+DESCRIPTION:This dance features Jonathan\, Grace\, Ann\, and Philip with B
+ ob Nicholson.\n\nMake it a weekend! There's a dance with the same band and
+  caller in Montreal on Sunday.  See http://contramontreal.org/\n\nhttp://o
+ ttawacontra.ca/view/?schedule#Jun1\n\n7:30–8:00 is an introduction to co
+ ntra — recommended if you're new! Social dancing starts at 8:00.\n\nAdmi
+ ssion: $14 (members: $12) (students: $10) (ages 15 and under: free)\n\nCon
+ tra dance for all ages and experience levels.  Everyone is welcome\, no da
+ nce experience required.  Come alone or with friends or family.  What to b
+ ring: light casual clothing (it gets warm)\, regular indoor shoes (to prot
+ ect the floor and for comfort dancing)\, a water bottle (stay hydrated)\, 
+ and a smile!
 LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
 ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
 URL:http://ottawacontra.ca/view/?schedule#Jun1
