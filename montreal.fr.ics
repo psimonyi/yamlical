@@ -619,9 +619,10 @@ BEGIN:VEVENT
 SUMMARY:ContraMontreal grande danse
 DTSTART;TZID=America/Toronto:20190602T183000
 DTEND;TZID=America/Toronto:20190602T220000
-DTSTAMP;VALUE=DATE-TIME:20180802T221011Z
+DTSTAMP;VALUE=DATE-TIME:20190529T215418Z
 UID:c7d9e2a7-49f6-4c77-ace8-788511d02a38
-DESCRIPTION:Sister Haggis (duo) / Bob Nicholson
+DESCRIPTION:Eric McDonald & Richard Forest / Bob Nicholson\n\nPotluck à 1
+ 7h!
 LOCATION:Maison Saint-Columba\, 2365 rue Grand Trunk\, Montréal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/

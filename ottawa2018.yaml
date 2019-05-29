@@ -432,7 +432,7 @@ events:
 
     - <<: *dance
       date:   Jun 1, 2019
-      band:   Sister Haggis
+      band:   Jonathan, Grace, Ann, and Philip
       caller: Bob Nicholson
       montreal: true
 

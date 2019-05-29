@@ -159,5 +159,7 @@ events:
 
     - <<: *big
       date: Sunday June 2nd 2019
-      band: Sister Haggis (duo)
+      band: Eric McDonald & Richard Forest
       caller: Bob Nicholson 
+      note[en]: Potluck at 5pm!
+      note[fr]: Potluck à 17h!
