@@ -1,0 +1,225 @@
+types:
+    regular: &regular
+        title[en]: ContraMontreal regular dance
+        title[fr]: ContraMontreal danse régulière
+        location[en]: Saint Columba House, 2365 Grand Trunk, Montreal
+        location[fr]: Maison Saint-Columba, 2365 rue Grand Trunk, Montréal
+        time: 6:30pm
+        endtime: 10pm
+        url: http://contramontreal.org/
+        description: !jinja |
+            {{band}} / {{caller}}
+            {% if note %}
+
+            {{note}}
+            {% endif %}
+            {% if potluck %}
+
+            {{_potluck_msg}}
+            {% endif %}
+        _potluck_msg[en]: Potluck at 5pm!
+        _potluck_msg[fr]: Potluck à 17h!
+    afternoon: &afternoon
+        title[en]: ContraMontreal dance + workshop
+        title[fr]: ContraMontreal danse avec atelier
+        location[en]: Saint Columba House, 2365 Grand Trunk, Montreal
+        location[fr]: Maison Saint-Columba, 2365 rue Grand Trunk, Montréal
+        time: 3pm
+        endtime: 5pm
+        url: http://contramontreal.org/
+        description[en]: !jinja |
+            {{band}} / {{caller}}
+
+            Potluck at 5pm!
+        description[fr]: !jinja |
+            {{band}} / {{caller}}
+
+            Potluck à 17h!
+    community: &community
+        title[en]: ContraMontreal community dance
+        title[fr]: ContraMontreal danse communautaire
+        location[en]: "House of Friendship,
+            120 Duluth East (at De Bullion), Montreal"
+        location[fr]: "Maison de l'Amitié,
+            120 Rue Duluth est (coin De Bullion), Montréal"
+        time: 7:30pm
+        endtime: 11pm
+        url: http://contramontreal.org/
+        band: TBA
+        description: !jinja "{{band}} / On Call"
+
+calendar:
+    name: ContraMontreal
+    url: http://contramontreal.org/
+    languages: [en, fr]
+    organizer:
+        cn: ContraMontreal
+        uri: http://contramontreal.org/
+    published:
+        url[en]: "https://dancecalendars.petersimonyi.ca/montreal.en.ics"
+        url[fr]: "https://dancecalendars.petersimonyi.ca/montreal.fr.ics"
+
+events:
+    - date: Aug 17, 2019
+      uid[en]: add71dd8-6af4-4620-a36b-b0f97196361e
+      uid[fr]: c90bbe8d-bb32-4445-8959-ad5477ef6e76
+      time: 4pm
+      endtime: 9pm
+      title[en]: ContraMontreal Kick-off Picnic
+      title[fr]: Pique-nique communautaire
+      location: Parc St. Gabriel, Pointe St. Charles, Montreal
+      url[fr]: http://www.contramontreal.org/fr/event/pique-nique-communautaire/
+      url[en]: http://www.contramontreal.org/event/kick-off-picnic/
+
+    - date: Sep 8, 2019
+      uid[en]: 6d7773e0-92e3-4f62-a903-5b2ab2abc979
+      uid[fr]: 7f770101-d877-4759-9088-70ba499b10d8
+      <<: *regular
+      band: Spintuition
+      caller: Alex Deis-Lauby
+      potluck: true
+
+    - date: Oct 6, 2019
+      uid[en]: c2ea5c64-59de-476e-8fb5-979927ca2a46
+      uid[fr]: 57697acf-7f45-4e99-9246-f7a60bdd69ad
+      <<: *regular
+      band: Golden
+      caller: Adina Gordon
+      potluck: true
+
+    - date: Oct 6, 2019
+      uid[en]: 93a25a71-2375-4c6d-a79f-37f7a376ca4c
+      uid[fr]: 78fb363a-44ed-415e-aca3-3c5a06beca5b
+      <<: *afternoon
+      band: Golden
+      caller: Adina Gordon
+
+    - date: Oct 27, 2019
+      uid[en]: 8aadc231-e09d-4c54-b8a3-eaebbd961ebe
+      uid[fr]: 31309b84-3385-4689-ad71-542c69ada88e
+      <<: *regular
+      title[en]: ContraMontreal benefit dance
+      title[fr]: ContraMontreal danse bénéfice
+      band: Grace & Jonathan
+      caller: Marie & Peter
+      potluck: true
+
+    - date: Dec 1, 2019
+      uid[en]: d960e610-079c-4c7f-8cf7-6fdf3f32916c
+      uid[fr]: ed70dbf4-b4b0-4dc2-a593-95d70cc6363f
+      <<: *regular
+      band: Gròóvåtrøñ
+      caller: Peter Simonyi
+      potluck: true
+
+    - date: Jan 5, 2020
+      uid[en]: d0d0d474-3f71-4d99-8dd5-d3da98a840cf
+      uid[fr]: 0308ad4d-3ba2-4c8a-864a-49fb0144de6f
+      <<: *regular
+      band: Peach Jam
+      caller: David Smukler
+      potluck: true
+
+    - date: Feb 2, 2020
+      uid[en]: 4fae3f0e-6e9a-4e35-becc-a7a38ec28423
+      uid[fr]: aad0e081-9710-43f6-9054-4844294fc92e
+      <<: *regular
+      band: Cloud Ten
+      caller: Luke Donforth
+      potluck: true
+
+    - date: March 8, 2020
+      uid[en]: a0972c36-0896-4875-be73-c71972b36b56
+      uid[fr]: 07436509-d7c6-409d-bd2e-9643ea01541b
+      <<: *regular
+      band: Max Newman & Audrey Knuth
+      caller: Will Mentor
+      potluck: true
+
+    - date: March 8, 2020
+      uid[en]: c7aea902-9dc9-4234-8756-a437d0cfa832
+      uid[fr]: 970d3a8c-a6b3-48c2-8b8f-c11ba3a56713
+      <<: *afternoon
+      band: Max Newman & Audrey Knuth
+      caller: Will Mentor
+
+    - date: April 5, 2020
+      uid[en]: ccd2e6b1-276a-4662-8a6e-32e75388bd38
+      uid[fr]: eae98186-e86c-48b2-981d-19e51a1bc07c
+      <<: *regular
+      band: JWalk
+      caller: Gaye Fifer
+      potluck: true
+
+    - date: April 5, 2020
+      uid[en]: 86637a54-4b61-4b86-873b-84169250a9bf
+      uid[fr]: 4b5d7de7-50fd-4bac-bc48-45eefac99af2
+      <<: *afternoon
+      band: JWalk
+      caller: Gaye Fifer
+
+    - date: May 3, 2020
+      uid[en]: af5b619b-210a-4603-aad1-0692a2519e55
+      uid[fr]: 6c3f3d24-3190-4183-992d-31ae7cc10655
+      <<: *regular
+      band: Stomp Rocket
+      caller: Lisa Greenleaf
+      potluck: true
+
+    - date: June 7, 2020
+      uid[en]: 9e88933b-34ae-4597-b09d-8c62618a219c
+      uid[fr]: 4438be87-da35-4d62-8cf7-181f1e5b9661
+      <<: *regular
+      band: Triton
+      caller: Mary Wesley
+      potluck: true
+
+    - date: Sep 14, 2019
+      uid[en]: bbccfd42-bbfd-4238-9e12-16b9d7424e6a
+      uid[fr]: 0d06ff19-19fd-40a8-94d4-80de081462c2
+      <<: *community
+
+    - date: Oct 12, 2019
+      uid[en]: 091e3416-d85d-44b4-b9ee-b14368bff5a5
+      uid[fr]: 945203d2-ed24-4ed5-89d1-5c005ab1fdc2
+      <<: *community
+
+    - date: Nov 9, 2019
+      uid[en]: 902240e8-9bb4-45c1-88a8-8da0161a97e7
+      uid[fr]: adb5cfd3-5e0c-42bf-89a8-a7aea8f73c76
+      <<: *community
+
+    - date: Dec 14, 2019
+      uid[en]: 49832bbd-1fb3-44bb-8450-b5709ffa1f36
+      uid[fr]: a1d96a2f-d044-44de-bdf2-8db6bdf9fa2f
+      <<: *community
+
+    - date: Jan 11, 2020
+      uid[en]: 813791c4-b3a5-4c59-9a29-e11852c684e8
+      uid[fr]: 427a9edd-5a36-4a1d-a5da-7f4f20d4ba7b
+      <<: *community
+
+    - date: Feb 8, 2020
+      uid[en]: a9a40c64-7d97-47b3-ab52-a86f512fa991
+      uid[fr]: bb8a7d56-1827-4e5d-8f34-e42e9ddb83d1
+      <<: *community
+
+    - date: Feb 22, 2020
+      uid[en]: 9bd01eca-6ada-4d2c-818d-01ba0ec4b252
+      uid[fr]: 4adf898f-5484-4b3d-aecd-a08a455d1884
+      <<: *community
+
+    - date: March 14, 2020
+      uid[en]: afb31ca3-26c1-4cba-b3d9-8376adf4b54f
+      uid[fr]: 2a4839d3-7875-47bf-a9cf-aa2e37c87c94
+      <<: *community
+
+    - date: April 25, 2020
+      uid[en]: f523045a-f978-48eb-a2c6-9f5602ef6d79
+      uid[fr]: 17c1ba12-928d-4056-ba42-eceee6e0789c
+      <<: *community
+
+    - date: May 9, 2020
+      uid[en]: bd8de3a6-44af-48bb-b416-ad555cbd1b33
+      uid[fr]: f025e960-fb24-418b-b502-5bde253c2293
+      <<: *community
