@@ -1,0 +1,655 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:yamlical.py
+METHOD:PUBLISH
+NAME:Ottawa Contra
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+SOURCE;VALUE=URI:https://dancecalendars.petersimonyi.ca/ottawa.ics
+URL:http://www.ottawacontra.ca/view/?schedule
+X-PUBLISHED-TTL;VALUE=DURATION:P1D
+X-WR-CALNAME:Ottawa Contra
+X-WR-TIMEZONE:America/Toronto
+BEGIN:VTIMEZONE
+TZID:America/Toronto
+BEGIN:STANDARD
+DTSTART:20061106T020000
+RRULE:FREQ=YEARLY;BYDAY=+1SU;BYMONTH=11
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20060313T020000
+RRULE:FREQ=YEARLY;BYDAY=+2SU;BYMONTH=3
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20190907T193000
+DTEND;TZID=America/Toronto:20190907T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:0504f410-93fb-4e45-9d49-ba2d953a2b9b
+DESCRIPTION:This dance features Spintuition with Alex Deis-Lauby.\n\nMake 
+ it a weekend! There's a dance with the same band and caller in Montreal on
+  Sunday.  See http://contramontreal.org/\n\nhttp://ottawacontra.ca/view/?s
+ chedule#Sep7
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Sep7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Afternoon Dance: Contra Flourishes
+DTSTART;TZID=America/Toronto:20190907T153000
+DTEND;TZID=America/Toronto:20190907T173000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:ce7049d0-27c9-4157-afac-a086363689e4
+DESCRIPTION:"Contra Flourishes" with Alex Deis-Lauby and music by Spintuit
+ ion\n\nChoose from flourishes for swings\, petronellas\, courtesy turns\, 
+ heys\, moves that swap and more. We focus on flow\, communication\, both v
+ erbal and non-verbal\, safety and consent. Come prepared to see what these
+  flourishes are like from both sides! Geared towards intermediate and adva
+ nced dancers (not suitable for beginners).
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Sep7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20190921T193000
+DTEND;TZID=America/Toronto:20190921T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:146e3e1f-d5d6-422e-9f34-96853beb7556
+DESCRIPTION:This dance features the Old Sod Band with Ken Panton.\n\nhttp:
+ //ottawacontra.ca/view/?schedule#Sep21
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Sep21
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra AGM and Pot-luck
+DTSTART;TZID=America/Toronto:20190921T170000
+DTEND;TZID=America/Toronto:20190921T193000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:4c5dab6d-32b8-49f2-b9be-67e7511ed518
+DESCRIPTION:We'll start the evening with a pot-luck dinner at 5pm — brin
+ g food to share\, your own plate & cutlery. Then join us for our Ottawa Co
+ ntra AGM at 6pm. Find out what the contra committee has been doing all yea
+ r.
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20191005T193000
+DTEND;TZID=America/Toronto:20191005T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:589a0075-bf0c-40ff-884d-c1a05b8cc96b
+DESCRIPTION:This dance features Golden with Adina Gordon.\n\nMake it a wee
+ kend! There's a dance with the same band and caller in Montreal on Sunday.
+   See http://contramontreal.org/\n\nhttp://ottawacontra.ca/view/?schedule#
+ Oct5
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Oct5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zesty English Country Dance
+DTSTART;TZID=America/Toronto:20191005T183000
+DTEND;TZID=America/Toronto:20191005T193000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:a6eb77f9-5115-4445-b25b-3b1dd4d6e71c
+DESCRIPTION:English dance is similar to contra dance\, with some delightfu
+ l differences.\n\nThis dance is held in the upstairs hall.\n\nAdmission: s
+ uggested donation of $5
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Oct5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20191019T193000
+DTEND;TZID=America/Toronto:20191019T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:5d36d8a5-49db-4b4b-a9e7-0f1a5c1b0f01
+DESCRIPTION:This dance features Maivish with Catherine Burns.\n\nSpecial f
+ or this dance: to encourage lots of young dancers to come enjoy contra\, y
+ outh under 30 get in free to this evening dance. Tell your friends!\n\nhtt
+ p://ottawacontra.ca/view/?schedule#Oct19
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Oct19
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wednesday Night Contra Dance
+DTSTART;TZID=America/Toronto:20191023T184500
+DTEND;TZID=America/Toronto:20191023T213000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:6c808963-0dec-4bb5-99f0-5ff3dbc5a70f
+DESCRIPTION:This is a great mid-week dance with local callers and musician
+ s. 6:45 — intro to contra\; 7:00 — dancing starts.\n\nAdmission: $5\n\
+ nEveryone is welcome\, no dance experience required.  Come alone or with f
+ riends or family.  What to bring: light casual clothing (it gets warm)\, r
+ egular indoor shoes (to protect the floor and for comfort dancing)\, a wat
+ er bottle (stay hydrated)\, and a smile!
+LOCATION:Hintonburg Community Centre\, 1064 Wellington St. West
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hey Fever! Contra dance weekend
+DTSTART;TZID=America/Toronto:20191101T190000
+DTEND;TZID=America/Toronto:20191103T154500
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:fe153eb9-3493-49e1-8806-915ac5a84ad7
+DESCRIPTION:Our very own dance weekend!\nImportant: Registration is requir
+ ed.  You cannot purchase tickets at the door on Saturday night.  Sign up e
+ arly\, as this has sold out in past years.\nRegistration: http://www.ottaw
+ acontra.ca/heyFever/registration.asp
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://www.ottawacontra.ca/heyFever/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hey Fever! Early registration deadline
+DTSTART;TZID=America/Toronto:20190909T000000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:f78bb163-d3da-4994-8ff2-4e897e3c7a29
+DESCRIPTION:Regular admission weekend passes cost $11.30 less if you buy t
+ hem before September 9th. http://www.ottawacontra.ca/heyFever/registration
+ .asp
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://www.ottawacontra.ca/heyFever/registration.asp
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20191116T193000
+DTEND;TZID=America/Toronto:20191116T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:513049bb-9ecd-4ce3-9043-ece06c498ff3
+DESCRIPTION:This dance features Les Quatres Coins with June Harman.\n\nhtt
+ p://ottawacontra.ca/view/?schedule#Nov16
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Nov16
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wednesday Night Contra Dance
+DTSTART;TZID=America/Toronto:20191127T184500
+DTEND;TZID=America/Toronto:20191127T213000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:11dca0d9-314c-435a-a0ce-df6823f46df8
+DESCRIPTION:This is a great mid-week dance with local callers and musician
+ s. 6:45 — intro to contra\; 7:00 — dancing starts.\n\nAdmission: $5\n\
+ nEveryone is welcome\, no dance experience required.  Come alone or with f
+ riends or family.  What to bring: light casual clothing (it gets warm)\, r
+ egular indoor shoes (to protect the floor and for comfort dancing)\, a wat
+ er bottle (stay hydrated)\, and a smile!
+LOCATION:Hintonburg Community Centre\, 1064 Wellington St. West
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20191207T193000
+DTEND;TZID=America/Toronto:20191207T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:52a1a746-b371-49f8-8000-4e0384991a33
+DESCRIPTION:This dance features Turning Stile with Sarah VanNorstrand.\n\n
+ http://ottawacontra.ca/view/?schedule#Dec7
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Dec7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Family Dance
+DTSTART;TZID=America/Toronto:20191207T153000
+DTEND;TZID=America/Toronto:20191207T170000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:fe6c7d6a-ac61-46d7-8e56-f3ec56e49cce
+DESCRIPTION:Young kids dancing with parents\, friends\, and others.\n\nFea
+ turing music by Turning Stile with dances led by Sarah VanNorstrand.\n\nTh
+ ere is always live music and all the kid-accessible dances are explained a
+ nd guided by the caller.  Everyone welcome including those without kids.\n
+ \nAfter the dance\, join us for a pot-luck dinner at 5pm.  Bring something
+  to share (and a plate and cutlery) and enjoy dinner with other families.
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://www.ottawacontra.ca/view/?familydance
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zesty English Country Dance
+DTSTART;TZID=America/Toronto:20191207T183000
+DTEND;TZID=America/Toronto:20191207T193000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:bd52b4c1-ba31-47ea-b3de-12126fa51ff8
+DESCRIPTION:English dance is similar to contra dance\, with some delightfu
+ l differences.\n\nThis dance is held in the upstairs hall.\n\nAdmission: s
+ uggested donation of $5
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Dec7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20191221T193000
+DTEND;TZID=America/Toronto:20191221T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:1a360e16-b88a-4596-a9eb-4c74f2add898
+DESCRIPTION:This dance features the Old Sod Band with Catherine Burns.\n\n
+ This is our seasonal dance with pot-luck snacks\, carols\, and other fun a
+ t the break! Bring a sweet or savory snack to share. Wear red and green! H
+ o ho ho!\n\nhttp://ottawacontra.ca/view/?schedule#Dec21
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Dec21
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20200104T193000
+DTEND;TZID=America/Toronto:20200104T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:fe09712e-0084-4e52-9d6b-5df65414e426
+DESCRIPTION:This dance features Peach Jam with David Smukler.\n\nThis is o
+ ur New Year's Contra Ball! Dress up in your finery  to celebrate the new y
+ ear! We'll dance mostly contras but also a few other styles to make it a r
+ eal party.\n\nMake it a weekend! There's a dance with the same band and ca
+ ller in Montreal on Sunday.  See http://contramontreal.org/\n\nhttp://otta
+ wacontra.ca/view/?schedule#Jan4
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Jan4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20200118T193000
+DTEND;TZID=America/Toronto:20200118T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:82041791-8000-427f-bde4-995792a847ab
+DESCRIPTION:This dance features Les Quatres Coins with Peter Simonyi.\n\nL
+ et's celebrate Robbie Burns — wear plaid!\n\nhttp://ottawacontra.ca/view
+ /?schedule#Jan18
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Jan18
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Community Dance
+DTSTART;TZID=America/Toronto:20200118T183000
+DTEND;TZID=America/Toronto:20200118T193000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:f8578e7e-219d-4eac-926f-8e4e2520a7dd
+DESCRIPTION:Think big barn dance party!  Varied and accessible dances grea
+ t school-aged kids as well as lots of fun for adults!\n\nThe All-Comers Ba
+ nd plays for these dances\, and you can join them!\n\nCommunity dancers ar
+ e welcome to stay for the evening contra beginner lesson and the first two
+  contra dances (approx. 8:30pm) for free.\n\nPlus\, join us for a pot-luck
+  dinner before the dance at 5:30pm. Bring something to share (and a plate 
+ and cutlery).\n\nAdmission: suggested donation of $5
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Jan18
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20200201T193000
+DTEND;TZID=America/Toronto:20200201T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:ed333a28-5026-496e-ba1c-1169f08de0cd
+DESCRIPTION:This dance features Cloud Ten with Luke Donforth.\n\nMake it a
+  weekend! There's a dance with the same band and caller in Montreal on Sun
+ day.  See http://contramontreal.org/\n\nhttp://ottawacontra.ca/view/?sched
+ ule#Feb1
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Feb1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Afternoon Dance: Challenging Contra Dance
+DTSTART;TZID=America/Toronto:20200201T153000
+DTEND;TZID=America/Toronto:20200201T173000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:0a193205-f4d2-42a2-8863-8ac1a127fc5b
+DESCRIPTION:"Challenging Contra Dance" with Luke Donforth and music by Clo
+ ud Ten\n\nWarm up your legs and stretch your brain with an afternoon sessi
+ on full of advanced dances. And for a little added bonus\, there will be a
+  few tips on recovery points and how to support each other during these tr
+ icky dances. This session will both challenge your abilities and be VERY f
+ un! Geared towards intermediate and advanced dancers (not suitable for beg
+ inners).\n\nThere is a pot-luck dinner between the afternoon and evening d
+ ances\, starting at 5:30.  Bring a meal item to share (plus a plate & cutl
+ ery). These are popular and friendly!
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Feb1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zesty English Country Dance
+DTSTART;TZID=America/Toronto:20200201T183000
+DTEND;TZID=America/Toronto:20200201T193000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:8ca30425-3ad4-4d78-8588-b8406bf3515c
+DESCRIPTION:English dance is similar to contra dance\, with some delightfu
+ l differences.\n\nThis dance is held in the upstairs hall.\n\nAdmission: s
+ uggested donation of $5
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Feb1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20200215T193000
+DTEND;TZID=America/Toronto:20200215T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:17f25d53-42fe-46e0-95fb-a89f0edd015e
+DESCRIPTION:This dance features the Old Sod Band with June Harman.\n\nhttp
+ ://ottawacontra.ca/view/?schedule#Feb15
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Feb15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wednesday Night Contra Dance
+DTSTART;TZID=America/Toronto:20200226T184500
+DTEND;TZID=America/Toronto:20200226T213000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:32882fae-7953-49bb-b49f-bafe1676d1fb
+DESCRIPTION:This is a great mid-week dance with local callers and musician
+ s. 6:45 — intro to contra\; 7:00 — dancing starts.\n\nAdmission: $5\n\
+ nEveryone is welcome\, no dance experience required.  Come alone or with f
+ riends or family.  What to bring: light casual clothing (it gets warm)\, r
+ egular indoor shoes (to protect the floor and for comfort dancing)\, a wat
+ er bottle (stay hydrated)\, and a smile!
+LOCATION:Hintonburg Community Centre\, 1064 Wellington St. West
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance (gender neutral!)
+DTSTART;TZID=America/Toronto:20200307T193000
+DTEND;TZID=America/Toronto:20200307T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:5144ebee-e092-4b72-bd7c-c1622d3eb018
+DESCRIPTION:This dance features Max Newman & Audrey Knuth with Will Mentor
+ .\n\nSpecial for this dance: to encourage lots of young dancers to come en
+ joy contra\, youth under 30 get in free to this evening dance. Tell your f
+ riends!\n\nThis dance will use the gender-free terms Larks & Ravens in the
+  calling.\n\nMake it a weekend! There's a dance with the same band and cal
+ ler in Montreal on Sunday.  See http://contramontreal.org/\n\nhttp://ottaw
+ acontra.ca/view/?schedule#Mar7
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Mar7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Afternoon Dance: Playing with Roles and Positions
+DTSTART;TZID=America/Toronto:20200307T153000
+DTEND;TZID=America/Toronto:20200307T173000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:75985163-ea28-4539-b950-6234347a6141
+DESCRIPTION:"Playing with Roles and Positions" with Will Mentor and music 
+ by Max Newman & Audrey Knuth\n\nCome out for an afternoon full of contra d
+ ances while we play with roles and positions on the dance floor. We'll hav
+ e Will masterfully lead us through some experiments and learning all while
+  we enjoy some fabulous dancing to Max Newman & Audrey Knuth! Geared towar
+ ds intermediate and advanced dancers (not suitable for beginners).
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Mar7
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20200321T193000
+DTEND;TZID=America/Toronto:20200321T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:80cdbafc-3941-42e9-b67d-04f26e078164
+DESCRIPTION:This dance features Peach Jam with Ken Panton.\n\nDon't forget
+  to wear green for St Patty's day!\n\nhttp://ottawacontra.ca/view/?schedul
+ e#Mar21
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Mar21
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Community Dance
+DTSTART;TZID=America/Toronto:20200321T183000
+DTEND;TZID=America/Toronto:20200321T193000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:c5cd0b68-6445-4821-aa30-0945f5f16cc6
+DESCRIPTION:Think big barn dance party!  Varied and accessible dances grea
+ t school-aged kids as well as lots of fun for adults!\n\nThe All-Comers Ba
+ nd plays for these dances\, and you can join them!\n\nCommunity dancers ar
+ e welcome to stay for the evening contra beginner lesson and the first two
+  contra dances (approx. 8:30pm) for free.\n\nPlus\, join us for a pot-luck
+  dinner before the dance at 5:30pm. Bring something to share (and a plate 
+ and cutlery).\n\nAdmission: suggested donation of $5
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Mar21
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wednesday Night Contra Dance
+DTSTART;TZID=America/Toronto:20200325T184500
+DTEND;TZID=America/Toronto:20200325T213000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:b801d34f-3382-4491-a550-91eefe698641
+DESCRIPTION:This is a great mid-week dance with local callers and musician
+ s. 6:45 — intro to contra\; 7:00 — dancing starts.\n\nAdmission: $5\n\
+ nEveryone is welcome\, no dance experience required.  Come alone or with f
+ riends or family.  What to bring: light casual clothing (it gets warm)\, r
+ egular indoor shoes (to protect the floor and for comfort dancing)\, a wat
+ er bottle (stay hydrated)\, and a smile!
+LOCATION:Hintonburg Community Centre\, 1064 Wellington St. West
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20200404T193000
+DTEND;TZID=America/Toronto:20200404T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:7b8430a6-47b6-4912-bc56-e314cd0927fb
+DESCRIPTION:This dance features JWalk with Gaye Fifer.\n\nMake it a weeken
+ d! There's a dance with the same band and caller in Montreal on Sunday.  S
+ ee http://contramontreal.org/\n\nhttp://ottawacontra.ca/view/?schedule#Apr
+ 4
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Apr4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Afternoon Dance: Intermediate Waltz
+DTSTART;TZID=America/Toronto:20200404T153000
+DTEND;TZID=America/Toronto:20200404T173000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:3a64f558-d5dc-4236-abe0-2ba0c8460aae
+DESCRIPTION:"Intermediate Waltz" with Gaye Fifer and music by JWalk\n\nGay
+ e will teach a few ways to play with intermediate waltz moves while connec
+ ting to your partner and to the music. She focuses on the importance of cl
+ ear\, timely leads and aware\, in-the-moment following. In between teachin
+ g you'll get lots of fantastic waltzing time with JWalk!  Geared towards i
+ ntermediate and advanced dancers (not suitable for beginners).\n\nThere is
+  a pot-luck dinner between the afternoon and evening dances\, starting at 
+ 5:30.  Bring a meal item to share (plus a plate & cutlery). These are popu
+ lar and friendly!
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Apr4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance (gender neutral!)
+DTSTART;TZID=America/Toronto:20200418T193000
+DTEND;TZID=America/Toronto:20200418T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:1fa5d2a4-f2fa-4994-92c3-e96c564ce46e
+DESCRIPTION:This dance features Les Quatres Coins with Peter Simonyi.\n\nT
+ his dance will use the gender-free terms Larks & Ravens in the calling.\n\
+ nhttp://ottawacontra.ca/view/?schedule#Apr18
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Apr18
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zesty English Country Dance
+DTSTART;TZID=America/Toronto:20200418T183000
+DTEND;TZID=America/Toronto:20200418T193000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:d96a7b65-2602-43a4-b65b-ab2aa4122aff
+DESCRIPTION:English dance is similar to contra dance\, with some delightfu
+ l differences.\n\nThis dance is held in the upstairs hall.\n\nAdmission: s
+ uggested donation of $5
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Apr18
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wednesday Night Contra Dance
+DTSTART;TZID=America/Toronto:20200422T184500
+DTEND;TZID=America/Toronto:20200422T213000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:a11448c2-8028-46c6-a3f2-d3daea16556d
+DESCRIPTION:This is a great mid-week dance with local callers and musician
+ s. 6:45 — intro to contra\; 7:00 — dancing starts.\n\nAdmission: $5\n\
+ nEveryone is welcome\, no dance experience required.  Come alone or with f
+ riends or family.  What to bring: light casual clothing (it gets warm)\, r
+ egular indoor shoes (to protect the floor and for comfort dancing)\, a wat
+ er bottle (stay hydrated)\, and a smile!
+LOCATION:Hintonburg Community Centre\, 1064 Wellington St. West
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20200502T193000
+DTEND;TZID=America/Toronto:20200502T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:d63382c4-37e0-401e-b713-e36a0d28c4dc
+DESCRIPTION:This dance features Stomp Rocket with Lisa Greenleaf.\n\nMake 
+ it a weekend! There's a dance with the same band and caller in Montreal on
+  Sunday.  See http://contramontreal.org/\n\nhttp://ottawacontra.ca/view/?s
+ chedule#May2
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#May2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Afternoon Dance: Challenging Dances of Many Formatio
+ ns
+DTSTART;TZID=America/Toronto:20200502T153000
+DTEND;TZID=America/Toronto:20200502T173000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:72fdfde9-58fd-4ef4-8591-b50f4ed0ceda
+DESCRIPTION:"Challenging Dances of Many Formations" with Lisa Greenleaf an
+ d music by Stomp Rocket\n\nExpect an awesome afternoon of dancing with fri
+ ends\, to fantastic music\, in formations that are rarely seen during a ty
+ pical evening contra dance. All dances geared for those looking for challe
+ nge and fun! Expect big smiles and super rockin' music! Geared towards int
+ ermediate and advanced dancers (not suitable for beginners).
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#May2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20200516T193000
+DTEND;TZID=America/Toronto:20200516T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:04618262-651c-43bb-9482-e539e0ad8356
+DESCRIPTION:This dance features Becky Tracy + Keith Murphy with Catherine 
+ Burns.\n\nhttp://ottawacontra.ca/view/?schedule#May16
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#May16
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Community Dance
+DTSTART;TZID=America/Toronto:20200516T183000
+DTEND;TZID=America/Toronto:20200516T193000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:47b856d3-6ec3-457c-a821-353c6979dae5
+DESCRIPTION:Think big barn dance party!  Varied and accessible dances grea
+ t school-aged kids as well as lots of fun for adults!\n\nThe All-Comers Ba
+ nd plays for these dances\, and you can join them!\n\nCommunity dancers ar
+ e welcome to stay for the evening contra beginner lesson and the first two
+  contra dances (approx. 8:30pm) for free.\n\nPlus\, join us for a pot-luck
+  dinner before the dance at 5:30pm. Bring something to share (and a plate 
+ and cutlery).\n\nAdmission: suggested donation of $5
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#May16
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Volunteer Appreciation Party + Dance
+DTSTART;TZID=America/Toronto:20200527T184500
+DTEND;TZID=America/Toronto:20200527T213000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:92290048-88e0-435c-8850-42513dd59d52
+DESCRIPTION:This is a great mid-week dance with local callers and musician
+ s. 6:45 — intro to contra\; 7:00 — dancing starts.\n\nAdmission: $5\n\
+ nEveryone is welcome\, no dance experience required.  Come alone or with f
+ riends or family.  What to bring: light casual clothing (it gets warm)\, r
+ egular indoor shoes (to protect the floor and for comfort dancing)\, a wat
+ er bottle (stay hydrated)\, and a smile!
+LOCATION:Hintonburg Community Centre\, 1064 Wellington St. West
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20200606T193000
+DTEND;TZID=America/Toronto:20200606T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:ab996a08-89fd-4a26-b87f-0dd746607d30
+DESCRIPTION:This dance features Triton with Mary Wesley.\n\nMake it a week
+ end! There's a dance with the same band and caller in Montreal on Sunday. 
+  See http://contramontreal.org/\n\nhttp://ottawacontra.ca/view/?schedule#J
+ un6
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Jun6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Afternoon Dance: Balfolk & Breton Dances
+DTSTART;TZID=America/Toronto:20200606T153000
+DTEND;TZID=America/Toronto:20200606T173000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:c1a3b1c5-031d-478e-9013-c3463ae1d6e4
+DESCRIPTION:"Balfolk & Breton Dances" with Mary Wesley and music by Triton
+ \n\nCome take a trip to France with Mary Wesley and Triton! Balfolk dancin
+ g is popular social dancing from Western Europe\, a recent revival of trad
+ itional\, mostly French\, folk dances. These include Breton dances from th
+ e northwestern\, historically celtic region of France known as Brittany. B
+ alfolk and Breton dances range in form from partnered dances (waltz\, scho
+ ttish\, mazurka)\, circle and longways sets (chappelloise and bourées) an
+ d "la danse en chaîne\," chain dances combining a variety of steps and ar
+ m movements (hanter dro\, andro\, and many more)! These dances and the tun
+ es that go with them are beautiful and mesmerizing. Venez dansez! All danc
+ es are accessible to beginners and will be enthusiastically taught.
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Jun6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ottawa Contra Dance
+DTSTART;TZID=America/Toronto:20200620T193000
+DTEND;TZID=America/Toronto:20200620T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:692b9c32-51e4-4867-a9f4-1ac562448cc8
+DESCRIPTION:This dance features Stolen Goods - our community band! with th
+ e Ottawa Callers Collective.\n\nSince this is our last dance of the season
+  we'll have a dessert pot-luck at the break!\n\nhttp://ottawacontra.ca/vie
+ w/?schedule#Jun20
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Jun20
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zesty English Country Dance
+DTSTART;TZID=America/Toronto:20200620T183000
+DTEND;TZID=America/Toronto:20200620T193000
+DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+UID:9cacc458-a551-49e5-b7c6-44d43ea6c2ce
+DESCRIPTION:English dance is similar to contra dance\, with some delightfu
+ l differences.\n\nThis dance is held in the upstairs hall.\n\nAdmission: s
+ uggested donation of $5
+LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
+ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
+URL:http://ottawacontra.ca/view/?schedule#Jun20
+END:VEVENT
+END:VCALENDAR
