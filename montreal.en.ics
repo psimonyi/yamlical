@@ -618,4 +618,267 @@ LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal Kick-off Picnic
+DTSTART;TZID=America/Toronto:20190817T160000
+DTEND;TZID=America/Toronto:20190817T210000
+DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+UID:add71dd8-6af4-4620-a36b-b0f97196361e
+LOCATION:Parc St. Gabriel\, Pointe St. Charles\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://www.contramontreal.org/event/kick-off-picnic/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal regular dance
+DTSTART;TZID=America/Toronto:20190908T183000
+DTEND;TZID=America/Toronto:20190908T220000
+DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+UID:6d7773e0-92e3-4f62-a903-5b2ab2abc979
+DESCRIPTION:Spintuition / Alex Deis-Lauby\n\nPotluck at 5pm!
+LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal regular dance
+DTSTART;TZID=America/Toronto:20191006T183000
+DTEND;TZID=America/Toronto:20191006T220000
+DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+UID:c2ea5c64-59de-476e-8fb5-979927ca2a46
+DESCRIPTION:Golden / Adina Gordon\n\nPotluck at 5pm!
+LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal dance + workshop
+DTSTART;TZID=America/Toronto:20191006T150000
+DTEND;TZID=America/Toronto:20191006T170000
+DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+UID:93a25a71-2375-4c6d-a79f-37f7a376ca4c
+DESCRIPTION:Golden / Adina Gordon\n\nPotluck at 5pm!
+LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal benefit dance
+DTSTART;TZID=America/Toronto:20191027T183000
+DTEND;TZID=America/Toronto:20191027T220000
+DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+UID:8aadc231-e09d-4c54-b8a3-eaebbd961ebe
+DESCRIPTION:Grace & Jonathan / Marie & Peter\n\nPotluck at 5pm!
+LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal regular dance
+DTSTART;TZID=America/Toronto:20191201T183000
+DTEND;TZID=America/Toronto:20191201T220000
+DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+UID:d960e610-079c-4c7f-8cf7-6fdf3f32916c
+DESCRIPTION:Gròóvåtrøñ / Peter Simonyi\n\nPotluck at 5pm!
+LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal regular dance
+DTSTART;TZID=America/Toronto:20200105T183000
+DTEND;TZID=America/Toronto:20200105T220000
+DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+UID:d0d0d474-3f71-4d99-8dd5-d3da98a840cf
+DESCRIPTION:Peach Jam / David Smukler\n\nPotluck at 5pm!
+LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal regular dance
+DTSTART;TZID=America/Toronto:20200202T183000
+DTEND;TZID=America/Toronto:20200202T220000
+DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+UID:4fae3f0e-6e9a-4e35-becc-a7a38ec28423
+DESCRIPTION:Cloud Ten / Luke Donforth\n\nPotluck at 5pm!
+LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal regular dance
+DTSTART;TZID=America/Toronto:20200308T183000
+DTEND;TZID=America/Toronto:20200308T220000
+DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+UID:a0972c36-0896-4875-be73-c71972b36b56
+DESCRIPTION:Max Newman & Audrey Knuth / Will Mentor\n\nPotluck at 5pm!
+LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal dance + workshop
+DTSTART;TZID=America/Toronto:20200308T150000
+DTEND;TZID=America/Toronto:20200308T170000
+DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+UID:c7aea902-9dc9-4234-8756-a437d0cfa832
+DESCRIPTION:Max Newman & Audrey Knuth / Will Mentor\n\nPotluck at 5pm!
+LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal regular dance
+DTSTART;TZID=America/Toronto:20200405T183000
+DTEND;TZID=America/Toronto:20200405T220000
+DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+UID:ccd2e6b1-276a-4662-8a6e-32e75388bd38
+DESCRIPTION:JWalk / Gaye Fifer\n\nPotluck at 5pm!
+LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal dance + workshop
+DTSTART;TZID=America/Toronto:20200405T150000
+DTEND;TZID=America/Toronto:20200405T170000
+DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+UID:86637a54-4b61-4b86-873b-84169250a9bf
+DESCRIPTION:JWalk / Gaye Fifer\n\nPotluck at 5pm!
+LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal regular dance
+DTSTART;TZID=America/Toronto:20200503T183000
+DTEND;TZID=America/Toronto:20200503T220000
+DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+UID:af5b619b-210a-4603-aad1-0692a2519e55
+DESCRIPTION:Stomp Rocket / Lisa Greenleaf\n\nPotluck at 5pm!
+LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal regular dance
+DTSTART;TZID=America/Toronto:20200607T183000
+DTEND;TZID=America/Toronto:20200607T220000
+DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+UID:9e88933b-34ae-4597-b09d-8c62618a219c
+DESCRIPTION:Triton / Mary Wesley\n\nPotluck at 5pm!
+LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20190914T193000
+DTEND;TZID=America/Toronto:20190914T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+UID:bbccfd42-bbfd-4238-9e12-16b9d7424e6a
+DESCRIPTION:TBA / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20191012T193000
+DTEND;TZID=America/Toronto:20191012T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+UID:091e3416-d85d-44b4-b9ee-b14368bff5a5
+DESCRIPTION:TBA / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20191109T193000
+DTEND;TZID=America/Toronto:20191109T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+UID:902240e8-9bb4-45c1-88a8-8da0161a97e7
+DESCRIPTION:TBA / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20191214T193000
+DTEND;TZID=America/Toronto:20191214T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+UID:49832bbd-1fb3-44bb-8450-b5709ffa1f36
+DESCRIPTION:TBA / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20200111T193000
+DTEND;TZID=America/Toronto:20200111T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+UID:813791c4-b3a5-4c59-9a29-e11852c684e8
+DESCRIPTION:TBA / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20200208T193000
+DTEND;TZID=America/Toronto:20200208T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+UID:a9a40c64-7d97-47b3-ab52-a86f512fa991
+DESCRIPTION:TBA / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20200222T193000
+DTEND;TZID=America/Toronto:20200222T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+UID:9bd01eca-6ada-4d2c-818d-01ba0ec4b252
+DESCRIPTION:TBA / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20200314T193000
+DTEND;TZID=America/Toronto:20200314T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+UID:afb31ca3-26c1-4cba-b3d9-8376adf4b54f
+DESCRIPTION:TBA / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20200425T193000
+DTEND;TZID=America/Toronto:20200425T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+UID:f523045a-f978-48eb-a2c6-9f5602ef6d79
+DESCRIPTION:TBA / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ContraMontreal community dance
+DTSTART;TZID=America/Toronto:20200509T193000
+DTEND;TZID=America/Toronto:20200509T230000
+DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+UID:bd8de3a6-44af-48bb-b416-ad555cbd1b33
+DESCRIPTION:TBA / On Call
+LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
+ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+URL:http://contramontreal.org/
+END:VEVENT
 END:VCALENDAR
