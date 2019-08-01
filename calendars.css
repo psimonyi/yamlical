@@ -14,6 +14,14 @@ h1, h2, h3 {
     color: hsl(0, 100%, 30%);
 }
 
+h1 img {
+    display: block;
+    margin: auto;
+    margin-bottom: 0.5ex;
+    max-width: 40vw;
+    max-height: 30vh;
+}
+
 nav {
     margin-left: 2ch;
     margin-right: 2ch;
