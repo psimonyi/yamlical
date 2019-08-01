@@ -109,6 +109,10 @@ class TranslatedMap(collections.abc.Mapping):
             return self._mapping[tr_key]
         return self._mapping[key]
 
+    def __contains__(self, key):
+        tr_key = '{key}[{lang}]'.format(key=key, lang=self.lang)
+        return tr_key in self._mapping or key in self._mapping
+
     def __iter__(self):
         tag = '[{lang}]'.format(lang=self.lang)
         for key in self._mapping:
@@ -119,6 +123,16 @@ class TranslatedMap(collections.abc.Mapping):
 
     def __len__(self):
         return sum(1 for _ in iter(self))
+
+    def setdefault(self, key, default=None):
+        '''Return `self[key]`, setting it to default if it was unset.
+
+        If an assignment is made, it is with an untranslated key.
+        '''
+        if key in self:
+            return self[key]
+        self[key] = default
+        return default
 
 TIME_FORMATS = ['h:mmA', 'h:mm A', 'hA', 'h A']
 DATE_FORMATS = ['dddd, MMMM D, YYYY',
@@ -186,7 +200,7 @@ def make_ical(data, args):
                 end = arrow.get(evdata['end'], DT_FORMATS)
 
         event = Event()
-        uid = evdata_raw.setdefault('uid', make_uid()) # Add uid if needed.
+        uid = evdata.setdefault('uid', make_uid()) # Add uid if needed.
         event.add('uid', uid)
         event.add('dtstamp', datetime.utcnow()) # TODO
         event.add('dtstart', dt_ical(start))
