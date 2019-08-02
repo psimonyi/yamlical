@@ -55,6 +55,11 @@ ol {
     margin-left: 0;
 }
 
+li {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 svg {
     display: block;
     max-width: calc(100% - 2 * 0.25em);
