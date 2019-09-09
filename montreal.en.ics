@@ -772,10 +772,10 @@ ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ContraMontreal community dance
+SUMMARY:(cancelled) ContraMontreal community dance
 DTSTART;TZID=America/Toronto:20190914T193000
 DTEND;TZID=America/Toronto:20190914T230000
-DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+DTSTAMP;VALUE=DATE-TIME:20190909T192623Z
 UID:bbccfd42-bbfd-4238-9e12-16b9d7424e6a
 DESCRIPTION:TBA / On Call
 LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal

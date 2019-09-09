@@ -178,6 +178,8 @@ events:
       uid[en]: bbccfd42-bbfd-4238-9e12-16b9d7424e6a
       uid[fr]: 0d06ff19-19fd-40a8-94d4-80de081462c2
       <<: *community
+      title[en]: (cancelled) ContraMontreal community dance
+      title[fr]: (annulé) ContraMontreal danse communautaire
 
     - date: Oct 12, 2019
       uid[en]: 091e3416-d85d-44b4-b9ee-b14368bff5a5
