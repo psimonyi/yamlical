@@ -141,6 +141,7 @@ DATE_FORMATS = ['dddd, MMMM D, YYYY',
                 'dddd MMMM Do YYYY',
                 'MMM D, YYYY',
                 'MMM D  YYYY',
+                'MMM  D  YYYY',
                 'MMMM D  YYYY',
                 'MMM Do, YYYY',
                 'MMMM D, YYYY']
