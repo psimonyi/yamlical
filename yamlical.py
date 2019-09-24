@@ -131,7 +131,7 @@ class TranslatedMap(collections.abc.Mapping):
         '''
         if key in self:
             return self[key]
-        self[key] = default
+        self._mapping[key] = default
         return default
 
 TIME_FORMATS = ['h:mmA', 'h:mm A', 'hA', 'h A']
