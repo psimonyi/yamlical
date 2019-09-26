@@ -59,10 +59,10 @@ ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ContraMontreal danse avec atelier
+SUMMARY:ContraMontreal: contras avancés
 DTSTART;TZID=America/Toronto:20191006T150000
 DTEND;TZID=America/Toronto:20191006T170000
-DTSTAMP;VALUE=DATE-TIME:20190801T130743Z
+DTSTAMP;VALUE=DATE-TIME:20190926T200650Z
 UID:78fb363a-44ed-415e-aca3-3c5a06beca5b
 DESCRIPTION:Golden / Adina Gordon\n\nPotluck à 17h!
 LOCATION:Maison Saint-Columba\, 2365 rue Grand Trunk\, Montréal

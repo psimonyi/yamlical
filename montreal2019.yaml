@@ -93,6 +93,8 @@ events:
       <<: *afternoon
       band: Golden
       caller: Adina Gordon
+      title[en]: "ContraMontreal: challenging contras"
+      title[fr]: "ContraMontreal: contras avancés"
 
     - date: Oct 27, 2019
       uid[en]: 8aadc231-e09d-4c54-b8a3-eaebbd961ebe
