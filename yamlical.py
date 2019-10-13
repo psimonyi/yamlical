@@ -19,10 +19,15 @@ from ruamel.yaml import YAML
 def main():
     parser = ArgumentParser()
     parser.add_argument('yaml', metavar='IN.yaml', type=Path)
-    parser.add_argument('ical', metavar='OUT.ical', type=Path)
+    parser.add_argument('ical', metavar='OUT.ical', type=Path, nargs='?',
+        help="""ICS file path.  May contain '{lang}', which is replaced with
+        the language code for each language.  If omitted, the stem of the YAML
+        file name is used in the pattern {name}.{lang}.ics (multilingual) or
+        {name}.ics (unilingual YAML spec).""")
     parser.add_argument('--update-yaml', action='store_true')
     parser.add_argument('--print-uids', action='store_true')
-    parser.add_argument('--lang')
+    parser.add_argument('--lang',
+        help="Produce ICS files for the specified language only.")
     args = parser.parse_args()
     return do_main(args)
 
@@ -37,16 +42,39 @@ def do_main(args):
     if 'events' not in data:
         raise FormatError("missing top-level key 'events'")
 
-    cal = make_ical(data, args)
-    with args.ical.open('wb') as f:
-        f.write(cal.to_ical())
+    langs = data['calendar'].get('languages', [])
+    multilingual = len(langs) > 1
 
-    if args.update_yaml:
-        yaml.dump(data, args.yaml)
+    if args.lang:
+        langs = [args.lang]
 
-    if args.print_uids:
-        for evdata in data['events']:
-            print(evdata['uid'])
+    if len(langs) > 1 and args.ical and '{lang}' not in args.ical:
+        print("multiple languages requested, but output filename is static")
+        raise RuntimeError
+
+    for lang in langs:
+        if args.ical is None:
+            if multilingual:
+                name = "{}.{}.ics".format(args.yaml.stem, lang)
+                ical = args.yaml.parent / name
+            else:
+                name = "{}.ics".format(args.yaml.stem)
+                ical = args.yaml.parent / name
+        else:
+            ical = args.ical.format(lang=lang)
+
+        cal = make_ical(data, lang)
+        with ical.open('wb') as f:
+            f.write(cal.to_ical())
+
+        # This is probably broken
+        if args.update_yaml:
+            yaml.dump(data, args.yaml)
+
+        # This should probably be different too
+        if args.print_uids:
+            for evdata in data['events']:
+                print(evdata['uid'])
 
 class YamlJinjaTemplate:
     yaml_tag = '!jinja'
@@ -157,8 +185,8 @@ DT_FORMATS = ['YYYY-MM-DD h:mmA', 'YYYY-MM-DD h:mm']
 # TZID should really be data.calendar.timezone
 TZID = 'America/Toronto'
 
-def make_ical(data, args):
-    caldata = TranslatedMap(data['calendar'], lang=args.lang)
+def make_ical(data, lang):
+    caldata = TranslatedMap(data['calendar'], lang=lang)
 
     cal = Calendar()
     cal.add('prodid', 'yamlical.py')
@@ -173,7 +201,7 @@ def make_ical(data, args):
     if 'url' in caldata:
         cal.add('url', caldata['url'])
     if 'published' in caldata:
-        pubdata = TranslatedMap(caldata['published'], lang=args.lang)
+        pubdata = TranslatedMap(caldata['published'], lang=lang)
         url = vUri(pubdata['url'])
         url.params['value'] = 'URI'
         cal.add('source', url)
@@ -192,7 +220,7 @@ def make_ical(data, args):
         organizer = None
 
     for evdata_raw in data['events']:
-        evdata = TranslatedMap(evdata_raw, lang=args.lang)
+        evdata = TranslatedMap(evdata_raw, lang=lang)
         end = None # default if not specified
         if 'date' in evdata:
             # Calculate the start and end timestamps from time/endtime.
