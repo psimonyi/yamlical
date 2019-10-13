@@ -134,6 +134,13 @@ class TranslatedMap(collections.abc.Mapping):
         self._mapping[key] = default
         return default
 
+    def get(self, key, default=None):
+        try:
+            return self[key]
+        except KeyError:
+            return default
+
+
 TIME_FORMATS = ['h:mmA', 'h:mm A', 'hA', 'h A']
 DATE_FORMATS = ['dddd, MMMM D, YYYY',
                 'dddd, MMMM Do, YYYY',
@@ -215,6 +222,8 @@ def make_ical(data, args):
             event.add('description', apply_template(evdata, 'description'))
         if organizer:
             event.add('organizer', organizer)
+        if evdata.get('cancelled', False):
+            event.add('status', 'CANCELLED')
         cal.add_component(event)
 
     return cal
