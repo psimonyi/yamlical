@@ -63,7 +63,13 @@ def do_main(args):
         else:
             ical = args.ical.format(lang=lang)
 
-        cal = make_ical(data, lang)
+        try:
+            with ical.open('rb') as f:
+                old = get_events(Calendar.from_ical(f.read()))
+        except FileNotFoundError:
+            old = None
+
+        cal = make_ical(data, lang, old)
         with ical.open('wb') as f:
             f.write(cal.to_ical())
 
@@ -75,6 +81,10 @@ def do_main(args):
         if args.print_uids:
             for evdata in data['events']:
                 print(evdata['uid'])
+
+def get_events(cal):
+    events = [c for c in cal.subcomponents if c.name == 'VEVENT']
+    return {str(event.get('UID')): event for event in events}
 
 class YamlJinjaTemplate:
     yaml_tag = '!jinja'
@@ -185,7 +195,7 @@ DT_FORMATS = ['YYYY-MM-DD h:mmA', 'YYYY-MM-DD h:mm']
 # TZID should really be data.calendar.timezone
 TZID = 'America/Toronto'
 
-def make_ical(data, lang):
+def make_ical(data, lang, old):
     caldata = TranslatedMap(data['calendar'], lang=lang)
 
     cal = Calendar()
@@ -238,7 +248,6 @@ def make_ical(data, lang):
         event = Event()
         uid = evdata.setdefault('uid', make_uid()) # Add uid if needed.
         event.add('uid', uid)
-        event.add('dtstamp', datetime.utcnow()) # TODO
         event.add('dtstart', dt_ical(start))
         if end: event.add('dtend', dt_ical(end))
         event.add('summary', apply_template(evdata, 'title'))
@@ -252,9 +261,31 @@ def make_ical(data, lang):
             event.add('organizer', organizer)
         if evdata.get('cancelled', False):
             event.add('status', 'CANCELLED')
+
+        if old and uid in old and events_equal(event, old[uid]):
+            event['DTSTAMP'] = old[uid]['DTSTAMP']
+        else:
+            event.add('dtstamp', datetime.utcnow())
+
         cal.add_component(event)
 
     return cal
+
+def events_equal(event_a, event_b):
+    '''Return whether two events are the same, ignoring DTSTAMP and comparing
+    values by how they will be serialized.'''
+    akeys = set(event_a.keys()) - {'DTSTAMP'}
+    bkeys = set(event_b.keys()) - {'DTSTAMP'}
+
+    if akeys != bkeys:
+        return False
+
+    for key in akeys:
+        a, b = event_a[key], event_b[key]
+        if a != b and (a.to_ical() != b.to_ical() or a.params != b.params):
+            return False
+
+    return True
 
 jinja_env = jinja2.Environment(
     trim_blocks=True,
