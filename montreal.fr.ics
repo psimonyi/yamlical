@@ -854,18 +854,6 @@ URL:http://contramontreal.org/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ContraMontreal danse communautaire
-DTSTART;TZID=America/Toronto:20200222T193000
-DTEND;TZID=America/Toronto:20200222T230000
-DTSTAMP;VALUE=DATE-TIME:20190801T130743Z
-UID:4adf898f-5484-4b3d-aecd-a08a455d1884
-DESCRIPTION:TBA / On Call
-LOCATION:Maison de l'Amitié\, 120 Rue Duluth est (coin De Bullion)\, Mont
- réal
-ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
-URL:http://contramontreal.org/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ContraMontreal danse communautaire
 DTSTART;TZID=America/Toronto:20200314T193000
 DTEND;TZID=America/Toronto:20200314T230000
 DTSTAMP;VALUE=DATE-TIME:20190801T130743Z
