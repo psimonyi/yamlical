@@ -247,17 +247,6 @@ URL:http://contramontreal.org/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ContraMontreal community dance
-DTSTART;TZID=America/Toronto:20200222T193000
-DTEND;TZID=America/Toronto:20200222T230000
-DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
-UID:9bd01eca-6ada-4d2c-818d-01ba0ec4b252
-DESCRIPTION:TBA / On Call
-LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
-ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
-URL:http://contramontreal.org/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ContraMontreal community dance
 DTSTART;TZID=America/Toronto:20200314T193000
 DTEND;TZID=America/Toronto:20200314T230000
 DTSTAMP;VALUE=DATE-TIME:20190801T130737Z

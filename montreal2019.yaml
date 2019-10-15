@@ -208,11 +208,6 @@ events:
       uid[fr]: bb8a7d56-1827-4e5d-8f34-e42e9ddb83d1
       <<: *community
 
-    - date: Feb 22, 2020
-      uid[en]: 9bd01eca-6ada-4d2c-818d-01ba0ec4b252
-      uid[fr]: 4adf898f-5484-4b3d-aecd-a08a455d1884
-      <<: *community
-
     - date: March 14, 2020
       uid[en]: afb31ca3-26c1-4cba-b3d9-8376adf4b54f
       uid[fr]: 2a4839d3-7875-47bf-a9cf-aa2e37c87c94
