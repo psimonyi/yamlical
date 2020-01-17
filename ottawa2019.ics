@@ -166,10 +166,10 @@ BEGIN:VEVENT
 SUMMARY:Ottawa Contra Dance
 DTSTART;TZID=America/Toronto:20191116T193000
 DTEND;TZID=America/Toronto:20191116T230000
-DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+DTSTAMP;VALUE=DATE-TIME:20200117T055526Z
 UID:513049bb-9ecd-4ce3-9043-ece06c498ff3
-DESCRIPTION:This dance features Les Quatres Coins with June Harman.\n\nhtt
- p://ottawacontra.ca/view/?schedule#Nov16
+DESCRIPTION:This dance features Les Quatre Coins with June Harman.\n\nhttp
+ ://ottawacontra.ca/view/?schedule#Nov16
 LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
 ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
 URL:http://ottawacontra.ca/view/?schedule#Nov16
@@ -264,11 +264,11 @@ BEGIN:VEVENT
 SUMMARY:Ottawa Contra Dance
 DTSTART;TZID=America/Toronto:20200118T193000
 DTEND;TZID=America/Toronto:20200118T230000
-DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+DTSTAMP;VALUE=DATE-TIME:20200117T055526Z
 UID:82041791-8000-427f-bde4-995792a847ab
-DESCRIPTION:This dance features Les Quatres Coins with Peter Simonyi.\n\nL
- et's celebrate Robbie Burns — wear plaid!\n\nhttp://ottawacontra.ca/view
- /?schedule#Jan18
+DESCRIPTION:This dance features Les Quatre Coins with Peter Simonyi.\n\nLe
+ t's celebrate Robbie Burns — wear plaid!\n\nhttp://ottawacontra.ca/view/
+ ?schedule#Jan18
 LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
 ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
 URL:http://ottawacontra.ca/view/?schedule#Jan18
@@ -364,18 +364,18 @@ LOCATION:Hintonburg Community Centre\, 1064 Wellington St. West
 ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ottawa Contra Dance (gender neutral!)
+SUMMARY:Ottawa Contra Dance (Larks & Ravens)
 DTSTART;TZID=America/Toronto:20200307T193000
 DTEND;TZID=America/Toronto:20200307T230000
-DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+DTSTAMP;VALUE=DATE-TIME:20200117T055301Z
 UID:5144ebee-e092-4b72-bd7c-c1622d3eb018
 DESCRIPTION:This dance features Max Newman & Audrey Knuth with Will Mentor
  .\n\nSpecial for this dance: to encourage lots of young dancers to come en
  joy contra\, youth under 30 get in free to this evening dance. Tell your f
- riends!\n\nThis dance will use the gender-free terms Larks & Ravens in the
-  calling.\n\nMake it a weekend! There's a dance with the same band and cal
- ler in Montreal on Sunday.  See http://contramontreal.org/\n\nhttp://ottaw
- acontra.ca/view/?schedule#Mar7
+ riends!\n\nThis dance will be called with the gender-free terms Larks & Ra
+ vens.\n\nMake it a weekend! There's a dance with the same band and caller 
+ in Montreal on Sunday.  See http://contramontreal.org/\n\nhttp://ottawacon
+ tra.ca/view/?schedule#Mar7
 LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
 ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
 URL:http://ottawacontra.ca/view/?schedule#Mar7
@@ -397,14 +397,15 @@ ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
 URL:http://ottawacontra.ca/view/?schedule#Mar7
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ottawa Contra Dance
+SUMMARY:Ottawa Contra Dance (Larks & Ravens)
 DTSTART;TZID=America/Toronto:20200321T193000
 DTEND;TZID=America/Toronto:20200321T230000
-DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+DTSTAMP;VALUE=DATE-TIME:20200117T055301Z
 UID:80cdbafc-3941-42e9-b67d-04f26e078164
-DESCRIPTION:This dance features Peach Jam with Ken Panton.\n\nDon't forget
-  to wear green for St Patty's day!\n\nhttp://ottawacontra.ca/view/?schedul
- e#Mar21
+DESCRIPTION:This dance features Peach Jam with Peter Simonyi.\n\nThis danc
+ e will be called with the gender-free terms Larks & Ravens.\n\nDon't forge
+ t to wear green for St Patty's day!\n\nhttp://ottawacontra.ca/view/?schedu
+ le#Mar21
 LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
 ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
 URL:http://ottawacontra.ca/view/?schedule#Mar21
@@ -475,14 +476,13 @@ ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
 URL:http://ottawacontra.ca/view/?schedule#Apr4
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ottawa Contra Dance (gender neutral!)
+SUMMARY:Ottawa Contra Dance
 DTSTART;TZID=America/Toronto:20200418T193000
 DTEND;TZID=America/Toronto:20200418T230000
-DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+DTSTAMP;VALUE=DATE-TIME:20200117T055526Z
 UID:1fa5d2a4-f2fa-4994-92c3-e96c564ce46e
-DESCRIPTION:This dance features Les Quatres Coins with Peter Simonyi.\n\nT
- his dance will use the gender-free terms Larks & Ravens in the calling.\n\
- nhttp://ottawacontra.ca/view/?schedule#Apr18
+DESCRIPTION:This dance features Les Quatre Coins with Ken Panton.\n\nhttp:
+ //ottawacontra.ca/view/?schedule#Apr18
 LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
 ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
 URL:http://ottawacontra.ca/view/?schedule#Apr18

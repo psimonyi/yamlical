@@ -212,7 +212,7 @@ events:
     - date: Nov 16, 2019
       uid: 513049bb-9ecd-4ce3-9043-ece06c498ff3
       <<: *dance
-      band: Les Quatres Coins
+      band: Les Quatre Coins
       caller: June Harman
 
     - date: Nov 27, 2019
@@ -258,7 +258,7 @@ events:
     - date: Jan 18, 2020
       uid: 82041791-8000-427f-bde4-995792a847ab
       <<: *dance
-      band: Les Quatres Coins
+      band: Les Quatre Coins
       caller: Peter Simonyi
       note: Let's celebrate Robbie Burns — wear plaid!
 
@@ -308,9 +308,9 @@ events:
       band: Max Newman & Audrey Knuth
       caller: Will Mentor
       youth: true
-      title: Ottawa Contra Dance (gender neutral!)
-      note: This dance will use the gender-free terms Larks & Ravens in the
-          calling.
+      title: Ottawa Contra Dance (Larks & Ravens)
+      note: This dance will be called with the gender-free terms Larks &
+          Ravens.
       montreal: true
 
     - date: Mar 7, 2020
@@ -330,8 +330,13 @@ events:
       uid: 80cdbafc-3941-42e9-b67d-04f26e078164
       <<: *dance
       band: Peach Jam
-      caller: Ken Panton
-      note: Don't forget to wear green for St Patty's day!
+      caller: Peter Simonyi
+      title: Ottawa Contra Dance (Larks & Ravens)
+      note: This dance will be called with the gender-free terms Larks &
+          Ravens.
+
+
+          Don't forget to wear green for St Patty's day!
 
     - date: Mar 21, 2020
       uid: c5cd0b68-6445-4821-aa30-0945f5f16cc6
@@ -366,11 +371,8 @@ events:
     - date: Apr 18, 2020
       uid: 1fa5d2a4-f2fa-4994-92c3-e96c564ce46e
       <<: *dance
-      band: Les Quatres Coins
-      caller: Peter Simonyi
-      title: Ottawa Contra Dance (gender neutral!)
-      note: This dance will use the gender-free terms Larks & Ravens in the
-          calling.
+      band: Les Quatre Coins
+      caller: Ken Panton
 
     - date: Apr 18, 2020
       uid: d96a7b65-2602-43a4-b65b-ab2aa4122aff
