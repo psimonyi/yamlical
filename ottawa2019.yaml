@@ -308,9 +308,9 @@ events:
       band: Max Newman & Audrey Knuth
       caller: Will Mentor
       youth: true
-      title: Ottawa Contra Dance (Larks & Ravens)
+      title: Ottawa Contra Dance (Larks & Robins)
       note: This dance will be called with the gender-free terms Larks &
-          Ravens.
+          Robins.
       montreal: true
 
     - date: Mar 7, 2020
@@ -331,9 +331,9 @@ events:
       <<: *dance
       band: Peach Jam
       caller: Peter Simonyi
-      title: Ottawa Contra Dance (Larks & Ravens)
+      title: Ottawa Contra Dance (Larks & Robins)
       note: This dance will be called with the gender-free terms Larks &
-          Ravens.
+          Robins.
 
 
           Don't forget to wear green for St Patty's day!
