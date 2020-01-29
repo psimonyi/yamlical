@@ -152,13 +152,36 @@ events:
       band: JWalk
       caller: Gaye Fifer
       potluck: true
+      time: 7:30pm
+      endtime: 10pm
+      title[en]: ContraMontreal techno contra dance
+      title[fr]: ContraMontreal danse techno
+      description[en]: !jinja |
+          {{band}} / {{caller}}
+
+          Potluck at 6pm!
+      description[fr]: !jinja |
+          {{band}} / {{caller}}
+
+          Potluck à 18h!
 
     - date: April 5, 2020
       uid[en]: 86637a54-4b61-4b86-873b-84169250a9bf
       uid[fr]: 4b5d7de7-50fd-4bac-bc48-45eefac99af2
-      <<: *afternoon
+      <<: *regular
       band: JWalk
       caller: Gaye Fifer
+      potluck: true
+      time: 2:30pm
+      endtime: 6pm
+      description[en]: !jinja |
+          {{band}} / {{caller}}
+
+          Potluck at 6pm!
+      description[fr]: !jinja |
+          {{band}} / {{caller}}
+
+          Potluck à 18h!
 
     - date: May 3, 2020
       uid[en]: af5b619b-210a-4603-aad1-0692a2519e55
@@ -207,11 +230,13 @@ events:
       uid[en]: a9a40c64-7d97-47b3-ab52-a86f512fa991
       uid[fr]: bb8a7d56-1827-4e5d-8f34-e42e9ddb83d1
       <<: *community
+      band: Overnight Goats
 
     - date: March 14, 2020
       uid[en]: afb31ca3-26c1-4cba-b3d9-8376adf4b54f
       uid[fr]: 2a4839d3-7875-47bf-a9cf-aa2e37c87c94
       <<: *community
+      band: Ewan McIntyre, Bethany Walsh & Heather Goodfellow
 
     - date: April 25, 2020
       uid[en]: f523045a-f978-48eb-a2c6-9f5602ef6d79
@@ -222,3 +247,4 @@ events:
       uid[en]: bd8de3a6-44af-48bb-b416-ad555cbd1b33
       uid[fr]: f025e960-fb24-418b-b502-5bde253c2293
       <<: *community
+      band: Steve Jones & Martine Billette

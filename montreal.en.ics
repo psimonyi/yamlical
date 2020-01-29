@@ -728,23 +728,23 @@ ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ContraMontreal regular dance
-DTSTART;TZID=America/Toronto:20200405T183000
+SUMMARY:ContraMontreal techno contra dance
+DTSTART;TZID=America/Toronto:20200405T193000
 DTEND;TZID=America/Toronto:20200405T220000
-DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+DTSTAMP;VALUE=DATE-TIME:20200129T092329Z
 UID:ccd2e6b1-276a-4662-8a6e-32e75388bd38
-DESCRIPTION:JWalk / Gaye Fifer\n\nPotluck at 5pm!
+DESCRIPTION:JWalk / Gaye Fifer\n\nPotluck at 6pm!
 LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ContraMontreal dance + workshop
-DTSTART;TZID=America/Toronto:20200405T150000
-DTEND;TZID=America/Toronto:20200405T170000
-DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+SUMMARY:ContraMontreal regular dance
+DTSTART;TZID=America/Toronto:20200405T143000
+DTEND;TZID=America/Toronto:20200405T180000
+DTSTAMP;VALUE=DATE-TIME:20200129T092329Z
 UID:86637a54-4b61-4b86-873b-84169250a9bf
-DESCRIPTION:JWalk / Gaye Fifer\n\nPotluck at 5pm!
+DESCRIPTION:JWalk / Gaye Fifer\n\nPotluck at 6pm!
 LOCATION:Saint Columba House\, 2365 Grand Trunk\, Montreal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
@@ -830,9 +830,9 @@ BEGIN:VEVENT
 SUMMARY:ContraMontreal community dance
 DTSTART;TZID=America/Toronto:20200208T193000
 DTEND;TZID=America/Toronto:20200208T230000
-DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+DTSTAMP;VALUE=DATE-TIME:20200129T092329Z
 UID:a9a40c64-7d97-47b3-ab52-a86f512fa991
-DESCRIPTION:TBA / On Call
+DESCRIPTION:Overnight Goats / On Call
 LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
@@ -841,9 +841,9 @@ BEGIN:VEVENT
 SUMMARY:ContraMontreal community dance
 DTSTART;TZID=America/Toronto:20200314T193000
 DTEND;TZID=America/Toronto:20200314T230000
-DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+DTSTAMP;VALUE=DATE-TIME:20200129T092329Z
 UID:afb31ca3-26c1-4cba-b3d9-8376adf4b54f
-DESCRIPTION:TBA / On Call
+DESCRIPTION:Ewan McIntyre\, Bethany Walsh & Heather Goodfellow / On Call
 LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
@@ -863,9 +863,9 @@ BEGIN:VEVENT
 SUMMARY:ContraMontreal community dance
 DTSTART;TZID=America/Toronto:20200509T193000
 DTEND;TZID=America/Toronto:20200509T230000
-DTSTAMP;VALUE=DATE-TIME:20190801T130737Z
+DTSTAMP;VALUE=DATE-TIME:20200129T092329Z
 UID:bd8de3a6-44af-48bb-b416-ad555cbd1b33
-DESCRIPTION:TBA / On Call
+DESCRIPTION:Steve Jones & Martine Billette / On Call
 LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
