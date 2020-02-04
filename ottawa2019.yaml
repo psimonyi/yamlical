@@ -453,7 +453,3 @@ events:
       caller: the Ottawa Callers Collective
       note: Since this is our last dance of the season we'll have a dessert
           pot-luck at the break!
-
-    - date: Jun 20, 2020
-      uid: 9cacc458-a551-49e5-b7c6-44d43ea6c2ce
-      <<: *zecd
