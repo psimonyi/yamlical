@@ -2623,17 +2623,4 @@ LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
 ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
 URL:http://ottawacontra.ca/view/?schedule#Jun20
 END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Zesty English Country Dance
-DTSTART;TZID=America/Toronto:20200620T183000
-DTEND;TZID=America/Toronto:20200620T193000
-DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
-UID:9cacc458-a551-49e5-b7c6-44d43ea6c2ce
-DESCRIPTION:English dance is similar to contra dance\, with some delightfu
- l differences.\n\nThis dance is held in the upstairs hall.\n\nAdmission: s
- uggested donation of $5
-LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
-ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
-URL:http://ottawacontra.ca/view/?schedule#Jun20
-END:VEVENT
 END:VCALENDAR
