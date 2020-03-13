@@ -252,10 +252,10 @@ ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ContraMontreal danse communautaire
+SUMMARY:(annulé) ContraMontreal danse communautaire
 DTSTART;TZID=America/Toronto:20200314T193000
 DTEND;TZID=America/Toronto:20200314T230000
-DTSTAMP;VALUE=DATE-TIME:20200129T092329Z
+DTSTAMP;VALUE=DATE-TIME:20200313T065939Z
 UID:2a4839d3-7875-47bf-a9cf-aa2e37c87c94
 DESCRIPTION:Ewan McIntyre\, Bethany Walsh & Heather Goodfellow / On Call
 LOCATION:Maison de l'Amitié\, 120 Rue Duluth est (coin De Bullion)\, Mont
