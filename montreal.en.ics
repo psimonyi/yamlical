@@ -838,10 +838,10 @@ ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ContraMontreal community dance
+SUMMARY:(cancelled) ContraMontreal community dance
 DTSTART;TZID=America/Toronto:20200314T193000
 DTEND;TZID=America/Toronto:20200314T230000
-DTSTAMP;VALUE=DATE-TIME:20200129T092329Z
+DTSTAMP;VALUE=DATE-TIME:20200313T065939Z
 UID:afb31ca3-26c1-4cba-b3d9-8376adf4b54f
 DESCRIPTION:Ewan McIntyre\, Bethany Walsh & Heather Goodfellow / On Call
 LOCATION:House of Friendship\, 120 Duluth East (at De Bullion)\, Montreal
