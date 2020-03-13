@@ -415,11 +415,6 @@ events:
     - date: May 27, 2020
       uid: 92290048-88e0-435c-8850-42513dd59d52
       <<: *wednesday
-      title: Volunteer Appreciation Party + Dance
-      note: This final Wednesday dance of the season is FREE for volunteers
-          (i.e. anyone who has helped at some time during our dance season).
-          It's the Volunteer Appreciation Party! Non-volunteers are welcome to
-          attend too for $5.
 
     - date: Jun 6, 2020
       uid: ab996a08-89fd-4a26-b87f-0dd746607d30

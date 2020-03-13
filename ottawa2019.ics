@@ -576,10 +576,10 @@ ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
 URL:http://ottawacontra.ca/view/?schedule#May16
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Volunteer Appreciation Party + Dance
+SUMMARY:Wednesday Night Contra Dance
 DTSTART;TZID=America/Toronto:20200527T184500
 DTEND;TZID=America/Toronto:20200527T213000
-DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+DTSTAMP;VALUE=DATE-TIME:20200313T070943Z
 UID:92290048-88e0-435c-8850-42513dd59d52
 DESCRIPTION:This is a great mid-week dance with local callers and musician
  s. 6:45 — intro to contra\; 7:00 — dancing starts.\n\nAdmission: $5\n\
