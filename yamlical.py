@@ -147,6 +147,10 @@ class TranslatedMap(collections.abc.Mapping):
             return self._mapping[tr_key]
         return self._mapping[key]
 
+    def __setitem__(self, key, value):
+        tr_key = '{key}[{lang}]'.format(key=key, lang=self.lang)
+        self._mapping[tr_key] = value
+
     def __contains__(self, key):
         tr_key = '{key}[{lang}]'.format(key=key, lang=self.lang)
         return tr_key in self._mapping or key in self._mapping
@@ -177,6 +181,10 @@ class TranslatedMap(collections.abc.Mapping):
             return self[key]
         except KeyError:
             return default
+
+    def update(self, other):
+        for key in other:
+            self[key] = other[key]
 
 
 TIME_FORMATS = ['h:mmA', 'h:mm A', 'hA', 'h A']
@@ -231,6 +239,9 @@ def make_ical(data, lang, old):
 
     for evdata_raw in data['events']:
         evdata = TranslatedMap(evdata_raw, lang=lang)
+        if 'overlay' in evdata:
+            apply_overlay(evdata, TranslatedMap(evdata['overlay'], lang=lang))
+
         end = None # default if not specified
         if 'date' in evdata:
             # Calculate the start and end timestamps from time/endtime.
@@ -299,6 +310,30 @@ def template_urldate(date):
     return arrow.get(date, DATE_FORMATS).format('MMMD')
 
 jinja_env.filters['urldate'] = template_urldate
+
+def apply_overlay(evdata, overlay):
+    '''Modify evdata by overlaying the `overlay` mapping.
+
+    Every entry in overlay is copied into evdata, replacing an entry with a
+    matching key if it exists.  When the overlay entry's value is a Jinja
+    template, however, it is handled specially: the template may only refer to
+    its own field name, and the replacement value is the underlying value
+    before the overlay is applied.
+
+    If the underlying value is a template that refers to overridden
+    fields, the used value for those templates will not be overridden.
+    '''
+    computed_overlay = {}
+    for field, value in overlay.items():
+        if isinstance(value, YamlJinjaTemplate):
+            orig_value = apply_template(evdata, field)
+            new_value = value.template.render({field: orig_value})
+        else:
+            new_value = value
+        computed_overlay[field] = new_value
+
+    evdata.update(computed_overlay)
+    return evdata
 
 def apply_template(evdata, field, _progress=[]):
     '''If evdata[field] is a template, return the rendered template.
