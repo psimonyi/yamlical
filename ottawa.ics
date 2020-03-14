@@ -2381,80 +2381,82 @@ ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
 URL:http://ottawacontra.ca/view/?schedule#Mar7
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ottawa Contra Dance (Larks & Robins)
+SUMMARY:Cancelled: Ottawa Contra Dance (Larks & Robins)
 DTSTART;TZID=America/Toronto:20200321T193000
 DTEND;TZID=America/Toronto:20200321T230000
-DTSTAMP;VALUE=DATE-TIME:20200124T053846Z
+DTSTAMP;VALUE=DATE-TIME:20200314T031815Z
 UID:80cdbafc-3941-42e9-b67d-04f26e078164
-DESCRIPTION:This dance features Peach Jam with Peter Simonyi.\n\nThis danc
- e will be called with the gender-free terms Larks & Robins.\n\nDon't forge
- t to wear green for St Patty's day!\n\nhttp://ottawacontra.ca/view/?schedu
- le#Mar21
+DESCRIPTION:This event has been cancelled.\n\n\nThis dance features Peach 
+ Jam with Peter Simonyi.\n\nThis dance will be called with the gender-free 
+ terms Larks & Robins.\n\nDon't forget to wear green for St Patty's day!\n\
+ nhttp://ottawacontra.ca/view/?schedule#Mar21
 LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
 ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
 URL:http://ottawacontra.ca/view/?schedule#Mar21
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ottawa Community Dance
+SUMMARY:Cancelled: Ottawa Community Dance
 DTSTART;TZID=America/Toronto:20200321T183000
 DTEND;TZID=America/Toronto:20200321T193000
-DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+DTSTAMP;VALUE=DATE-TIME:20200314T031815Z
 UID:c5cd0b68-6445-4821-aa30-0945f5f16cc6
-DESCRIPTION:Think big barn dance party!  Varied and accessible dances grea
- t school-aged kids as well as lots of fun for adults!\n\nThe All-Comers Ba
- nd plays for these dances\, and you can join them!\n\nCommunity dancers ar
- e welcome to stay for the evening contra beginner lesson and the first two
-  contra dances (approx. 8:30pm) for free.\n\nPlus\, join us for a pot-luck
-  dinner before the dance at 5:30pm. Bring something to share (and a plate 
- and cutlery).\n\nAdmission: suggested donation of $5
+DESCRIPTION:This event has been cancelled.\n\n\nThink big barn dance party
+ !  Varied and accessible dances great school-aged kids as well as lots of 
+ fun for adults!\n\nThe All-Comers Band plays for these dances\, and you ca
+ n join them!\n\nCommunity dancers are welcome to stay for the evening cont
+ ra beginner lesson and the first two contra dances (approx. 8:30pm) for fr
+ ee.\n\nPlus\, join us for a pot-luck dinner before the dance at 5:30pm. Br
+ ing something to share (and a plate and cutlery).\n\nAdmission: suggested 
+ donation of $5
 LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
 ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
 URL:http://ottawacontra.ca/view/?schedule#Mar21
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Wednesday Night Contra Dance
+SUMMARY:Cancelled: Wednesday Night Contra Dance
 DTSTART;TZID=America/Toronto:20200325T184500
 DTEND;TZID=America/Toronto:20200325T213000
-DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+DTSTAMP;VALUE=DATE-TIME:20200314T031815Z
 UID:b801d34f-3382-4491-a550-91eefe698641
-DESCRIPTION:This is a great mid-week dance with local callers and musician
- s. 6:45 — intro to contra\; 7:00 — dancing starts.\n\nAdmission: $5\n\
- nEveryone is welcome\, no dance experience required.  Come alone or with f
- riends or family.  What to bring: light casual clothing (it gets warm)\, r
- egular indoor shoes (to protect the floor and for comfort dancing)\, a wat
- er bottle (stay hydrated)\, and a smile!
+DESCRIPTION:This event has been cancelled.\n\n\nThis is a great mid-week d
+ ance with local callers and musicians. 6:45 — intro to contra\; 7:00 —
+  dancing starts.\n\nAdmission: $5\n\nEveryone is welcome\, no dance experi
+ ence required.  Come alone or with friends or family.  What to bring: ligh
+ t casual clothing (it gets warm)\, regular indoor shoes (to protect the fl
+ oor and for comfort dancing)\, a water bottle (stay hydrated)\, and a smil
+ e!
 LOCATION:Hintonburg Community Centre\, 1064 Wellington St. West
 ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ottawa Contra Dance
+SUMMARY:Cancelled: Ottawa Contra Dance
 DTSTART;TZID=America/Toronto:20200404T193000
 DTEND;TZID=America/Toronto:20200404T230000
-DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+DTSTAMP;VALUE=DATE-TIME:20200314T031815Z
 UID:7b8430a6-47b6-4912-bc56-e314cd0927fb
-DESCRIPTION:This dance features JWalk with Gaye Fifer.\n\nMake it a weeken
- d! There's a dance with the same band and caller in Montreal on Sunday.  S
- ee http://contramontreal.org/\n\nhttp://ottawacontra.ca/view/?schedule#Apr
- 4
+DESCRIPTION:This event has been cancelled.\n\n\nThis dance features JWalk 
+ with Gaye Fifer.\n\nMake it a weekend! There's a dance with the same band 
+ and caller in Montreal on Sunday.  See http://contramontreal.org/\n\nhttp:
+ //ottawacontra.ca/view/?schedule#Apr4
 LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
 ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
 URL:http://ottawacontra.ca/view/?schedule#Apr4
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ottawa Contra Afternoon Dance: Intermediate Waltz
+SUMMARY:Cancelled: Ottawa Contra Afternoon Dance: Intermediate Waltz
 DTSTART;TZID=America/Toronto:20200404T153000
 DTEND;TZID=America/Toronto:20200404T173000
-DTSTAMP;VALUE=DATE-TIME:20190801T074614Z
+DTSTAMP;VALUE=DATE-TIME:20200314T031815Z
 UID:3a64f558-d5dc-4236-abe0-2ba0c8460aae
-DESCRIPTION:"Intermediate Waltz" with Gaye Fifer and music by JWalk\n\nGay
- e will teach a few ways to play with intermediate waltz moves while connec
- ting to your partner and to the music. She focuses on the importance of cl
- ear\, timely leads and aware\, in-the-moment following. In between teachin
- g you'll get lots of fantastic waltzing time with JWalk!  Geared towards i
- ntermediate and advanced dancers (not suitable for beginners).\n\nThere is
-  a pot-luck dinner between the afternoon and evening dances\, starting at 
- 5:30.  Bring a meal item to share (plus a plate & cutlery). These are popu
- lar and friendly!
+DESCRIPTION:This event has been cancelled.\n\n\n"Intermediate Waltz" with 
+ Gaye Fifer and music by JWalk\n\nGaye will teach a few ways to play with i
+ ntermediate waltz moves while connecting to your partner and to the music.
+  She focuses on the importance of clear\, timely leads and aware\, in-the-
+ moment following. In between teaching you'll get lots of fantastic waltzin
+ g time with JWalk!  Geared towards intermediate and advanced dancers (not 
+ suitable for beginners).\n\nThere is a pot-luck dinner between the afterno
+ on and evening dances\, starting at 5:30.  Bring a meal item to share (plu
+ s a plate & cutlery). These are popular and friendly!
 LOCATION:Churchill Seniors Recreation Centre\, 345 Richmond Rd.\, Ottawa
 ORGANIZER;CN="Ottawa Contra Dance":http://ottawacontra.ca
 URL:http://ottawacontra.ca/view/?schedule#Apr4

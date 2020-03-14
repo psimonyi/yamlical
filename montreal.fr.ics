@@ -737,23 +737,25 @@ ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ContraMontreal danse techno
+SUMMARY:(annulé) ContraMontreal danse techno
 DTSTART;TZID=America/Toronto:20200405T193000
 DTEND;TZID=America/Toronto:20200405T220000
-DTSTAMP;VALUE=DATE-TIME:20200129T092329Z
+DTSTAMP;VALUE=DATE-TIME:20200314T033340Z
 UID:eae98186-e86c-48b2-981d-19e51a1bc07c
-DESCRIPTION:JWalk / Gaye Fifer\n\nPotluck à 18h!
+DESCRIPTION:Cet événement a été annulé.\n\nJWalk / Gaye Fifer\n\nPotl
+ uck à 18h!
 LOCATION:Maison Saint-Columba\, 2365 rue Grand Trunk\, Montréal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ContraMontreal danse régulière
+SUMMARY:(annulé) ContraMontreal danse régulière
 DTSTART;TZID=America/Toronto:20200405T143000
 DTEND;TZID=America/Toronto:20200405T180000
-DTSTAMP;VALUE=DATE-TIME:20200129T092329Z
+DTSTAMP;VALUE=DATE-TIME:20200314T033340Z
 UID:4b5d7de7-50fd-4bac-bc48-45eefac99af2
-DESCRIPTION:JWalk / Gaye Fifer\n\nPotluck à 18h!
+DESCRIPTION:Cet événement a été annulé.\n\nJWalk / Gaye Fifer\n\nPotl
+ uck à 18h!
 LOCATION:Maison Saint-Columba\, 2365 rue Grand Trunk\, Montréal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
 URL:http://contramontreal.org/
@@ -856,9 +858,10 @@ BEGIN:VEVENT
 SUMMARY:(annulé) ContraMontreal danse communautaire
 DTSTART;TZID=America/Toronto:20200314T193000
 DTEND;TZID=America/Toronto:20200314T230000
-DTSTAMP;VALUE=DATE-TIME:20200313T065939Z
+DTSTAMP;VALUE=DATE-TIME:20200314T033341Z
 UID:2a4839d3-7875-47bf-a9cf-aa2e37c87c94
-DESCRIPTION:Ewan McIntyre\, Bethany Walsh & Heather Goodfellow / On Call
+DESCRIPTION:Cet événement a été annulé.\n\nEwan McIntyre\, Bethany Wa
+ lsh & Heather Goodfellow / On Call
 LOCATION:Maison de l'Amitié\, 120 Rue Duluth est (coin De Bullion)\, Mont
  réal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/

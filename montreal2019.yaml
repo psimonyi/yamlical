@@ -1,4 +1,17 @@
 types:
+    cancelled: &cancelled
+        title[en]: !jinja "(cancelled) {{title}}"
+        title[fr]: !jinja "(annulé) {{title}}"
+
+        description[en]: !jinja |
+            This event has been cancelled.
+
+            {{description}}
+        description[fr]: !jinja |
+            Cet événement a été annulé.
+
+            {{description}}
+
     regular: &regular
         title[en]: ContraMontreal regular dance
         title[fr]: ContraMontreal danse régulière
@@ -164,6 +177,7 @@ events:
           {{band}} / {{caller}}
 
           Potluck à 18h!
+      overlay: *cancelled
 
     - date: April 5, 2020
       uid[en]: 86637a54-4b61-4b86-873b-84169250a9bf
@@ -182,6 +196,7 @@ events:
           {{band}} / {{caller}}
 
           Potluck à 18h!
+      overlay: *cancelled
 
     - date: May 3, 2020
       uid[en]: af5b619b-210a-4603-aad1-0692a2519e55
@@ -237,8 +252,7 @@ events:
       uid[fr]: 2a4839d3-7875-47bf-a9cf-aa2e37c87c94
       <<: *community
       band: Ewan McIntyre, Bethany Walsh & Heather Goodfellow
-      title[en]: (cancelled) ContraMontreal community dance
-      title[fr]: (annulé) ContraMontreal danse communautaire
+      overlay: *cancelled
 
     - date: April 25, 2020
       uid[en]: f523045a-f978-48eb-a2c6-9f5602ef6d79

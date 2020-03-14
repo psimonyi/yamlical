@@ -2,6 +2,14 @@
 ---
 
 common:
+    _cancelled: &cancelled
+        title: !jinja "Cancelled: {{title}}"
+        description: !jinja |
+            This event has been cancelled.
+
+
+            {{description}}
+
     _dance: &dance
         title: Ottawa Contra Dance
         time: 7:30pm
@@ -337,15 +345,18 @@ events:
 
 
           Don't forget to wear green for St Patty's day!
+      overlay: *cancelled
 
     - date: Mar 21, 2020
       uid: c5cd0b68-6445-4821-aa30-0945f5f16cc6
       <<: *community
       potluck: true
+      overlay: *cancelled
 
     - date: Mar 25, 2020
       uid: b801d34f-3382-4491-a550-91eefe698641
       <<: *wednesday
+      overlay: *cancelled
 
     - date: Apr 4, 2020
       uid: 7b8430a6-47b6-4912-bc56-e314cd0927fb
@@ -353,6 +364,7 @@ events:
       band: JWalk
       caller: Gaye Fifer
       montreal: true
+      overlay: *cancelled
 
     - date: Apr 4, 2020
       uid: 3a64f558-d5dc-4236-abe0-2ba0c8460aae
@@ -367,6 +379,7 @@ events:
           JWalk!  Geared towards intermediate and advanced dancers (not
           suitable for beginners).
       potluck: true
+      overlay: *cancelled
 
     - date: Apr 18, 2020
       uid: 1fa5d2a4-f2fa-4994-92c3-e96c564ce46e
