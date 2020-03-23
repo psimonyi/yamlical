@@ -139,46 +139,52 @@ BEGIN:VEVENT
 SUMMARY:(annulé) ContraMontreal danse techno
 DTSTART;TZID=America/Toronto:20200405T193000
 DTEND;TZID=America/Toronto:20200405T220000
-DTSTAMP;VALUE=DATE-TIME:20200314T033340Z
+DTSTAMP;VALUE=DATE-TIME:20200323T160423Z
 UID:eae98186-e86c-48b2-981d-19e51a1bc07c
 DESCRIPTION:Cet événement a été annulé.\n\nJWalk / Gaye Fifer\n\nPotl
  uck à 18h!
 LOCATION:Maison Saint-Columba\, 2365 rue Grand Trunk\, Montréal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+STATUS:CANCELLED
 URL:http://contramontreal.org/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(annulé) ContraMontreal danse régulière
 DTSTART;TZID=America/Toronto:20200405T143000
 DTEND;TZID=America/Toronto:20200405T180000
-DTSTAMP;VALUE=DATE-TIME:20200314T033340Z
+DTSTAMP;VALUE=DATE-TIME:20200323T160423Z
 UID:4b5d7de7-50fd-4bac-bc48-45eefac99af2
 DESCRIPTION:Cet événement a été annulé.\n\nJWalk / Gaye Fifer\n\nPotl
  uck à 18h!
 LOCATION:Maison Saint-Columba\, 2365 rue Grand Trunk\, Montréal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+STATUS:CANCELLED
 URL:http://contramontreal.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ContraMontreal danse régulière
+SUMMARY:(annulé) ContraMontreal danse régulière
 DTSTART;TZID=America/Toronto:20200503T183000
 DTEND;TZID=America/Toronto:20200503T220000
-DTSTAMP;VALUE=DATE-TIME:20190801T130743Z
+DTSTAMP;VALUE=DATE-TIME:20200323T160423Z
 UID:6c3f3d24-3190-4183-992d-31ae7cc10655
-DESCRIPTION:Stomp Rocket / Lisa Greenleaf\n\nPotluck à 17h!
+DESCRIPTION:Cet événement a été annulé.\n\nStomp Rocket / Lisa Greenl
+ eaf\n\nPotluck à 17h!
 LOCATION:Maison Saint-Columba\, 2365 rue Grand Trunk\, Montréal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+STATUS:CANCELLED
 URL:http://contramontreal.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ContraMontreal danse régulière
+SUMMARY:(annulé) ContraMontreal danse régulière
 DTSTART;TZID=America/Toronto:20200607T183000
 DTEND;TZID=America/Toronto:20200607T220000
-DTSTAMP;VALUE=DATE-TIME:20190801T130743Z
+DTSTAMP;VALUE=DATE-TIME:20200323T160423Z
 UID:4438be87-da35-4d62-8cf7-181f1e5b9661
-DESCRIPTION:Triton / Mary Wesley\n\nPotluck à 17h!
+DESCRIPTION:Cet événement a été annulé.\n\nTriton / Mary Wesley\n\nPo
+ tluck à 17h!
 LOCATION:Maison Saint-Columba\, 2365 rue Grand Trunk\, Montréal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+STATUS:CANCELLED
 URL:http://contramontreal.org/
 END:VEVENT
 BEGIN:VEVENT
@@ -257,37 +263,41 @@ BEGIN:VEVENT
 SUMMARY:(annulé) ContraMontreal danse communautaire
 DTSTART;TZID=America/Toronto:20200314T193000
 DTEND;TZID=America/Toronto:20200314T230000
-DTSTAMP;VALUE=DATE-TIME:20200314T033341Z
+DTSTAMP;VALUE=DATE-TIME:20200323T160423Z
 UID:2a4839d3-7875-47bf-a9cf-aa2e37c87c94
 DESCRIPTION:Cet événement a été annulé.\n\nEwan McIntyre\, Bethany Wa
  lsh & Heather Goodfellow / On Call
 LOCATION:Maison de l'Amitié\, 120 Rue Duluth est (coin De Bullion)\, Mont
  réal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+STATUS:CANCELLED
 URL:http://contramontreal.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ContraMontreal danse communautaire
+SUMMARY:(annulé) ContraMontreal danse communautaire
 DTSTART;TZID=America/Toronto:20200425T193000
 DTEND;TZID=America/Toronto:20200425T230000
-DTSTAMP;VALUE=DATE-TIME:20190801T130743Z
+DTSTAMP;VALUE=DATE-TIME:20200323T160423Z
 UID:17c1ba12-928d-4056-ba42-eceee6e0789c
-DESCRIPTION:TBA / On Call
+DESCRIPTION:Cet événement a été annulé.\n\nTBA / On Call
 LOCATION:Maison de l'Amitié\, 120 Rue Duluth est (coin De Bullion)\, Mont
  réal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+STATUS:CANCELLED
 URL:http://contramontreal.org/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ContraMontreal danse communautaire
+SUMMARY:(annulé) ContraMontreal danse communautaire
 DTSTART;TZID=America/Toronto:20200509T193000
 DTEND;TZID=America/Toronto:20200509T230000
-DTSTAMP;VALUE=DATE-TIME:20200129T092329Z
+DTSTAMP;VALUE=DATE-TIME:20200323T160423Z
 UID:f025e960-fb24-418b-b502-5bde253c2293
-DESCRIPTION:Steve Jones & Martine Billette / On Call
+DESCRIPTION:Cet événement a été annulé.\n\nSteve Jones & Martine Bill
+ ette / On Call
 LOCATION:Maison de l'Amitié\, 120 Rue Duluth est (coin De Bullion)\, Mont
  réal
 ORGANIZER;CN=ContraMontreal:http://contramontreal.org/
+STATUS:CANCELLED
 URL:http://contramontreal.org/
 END:VEVENT
 END:VCALENDAR

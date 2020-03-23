@@ -11,6 +11,7 @@ types:
             Cet événement a été annulé.
 
             {{description}}
+        cancelled: true
 
     regular: &regular
         title[en]: ContraMontreal regular dance
@@ -205,6 +206,7 @@ events:
       band: Stomp Rocket
       caller: Lisa Greenleaf
       potluck: true
+      overlay: *cancelled
 
     - date: June 7, 2020
       uid[en]: 9e88933b-34ae-4597-b09d-8c62618a219c
@@ -213,6 +215,7 @@ events:
       band: Triton
       caller: Mary Wesley
       potluck: true
+      overlay: *cancelled
 
     - date: Sep 14, 2019
       uid[en]: bbccfd42-bbfd-4238-9e12-16b9d7424e6a
@@ -258,9 +261,11 @@ events:
       uid[en]: f523045a-f978-48eb-a2c6-9f5602ef6d79
       uid[fr]: 17c1ba12-928d-4056-ba42-eceee6e0789c
       <<: *community
+      overlay: *cancelled
 
     - date: May 9, 2020
       uid[en]: bd8de3a6-44af-48bb-b416-ad555cbd1b33
       uid[fr]: f025e960-fb24-418b-b502-5bde253c2293
       <<: *community
       band: Steve Jones & Martine Billette
+      overlay: *cancelled

@@ -9,6 +9,7 @@ common:
 
 
             {{description}}
+        cancelled: true
 
     _dance: &dance
         title: Ottawa Contra Dance
@@ -386,14 +387,17 @@ events:
       <<: *dance
       band: Les Quatre Coins
       caller: Ken Panton
+      overlay: *cancelled
 
     - date: Apr 18, 2020
       uid: d96a7b65-2602-43a4-b65b-ab2aa4122aff
       <<: *zecd
+      overlay: *cancelled
 
     - date: Apr 22, 2020
       uid: a11448c2-8028-46c6-a3f2-d3daea16556d
       <<: *wednesday
+      overlay: *cancelled
 
     - date: May 2, 2020
       uid: d63382c4-37e0-401e-b713-e36a0d28c4dc
@@ -401,6 +405,7 @@ events:
       band: Stomp Rocket
       caller: Lisa Greenleaf
       montreal: true
+      overlay: *cancelled
 
     - date: May 2, 2020
       uid: 72fdfde9-58fd-4ef4-8591-b50f4ed0ceda
@@ -413,21 +418,25 @@ events:
           contra dance. All dances geared for those looking for challenge and
           fun! Expect big smiles and super rockin' music! Geared towards
           intermediate and advanced dancers (not suitable for beginners).
+      overlay: *cancelled
 
     - date: May 16, 2020
       uid: 04618262-651c-43bb-9482-e539e0ad8356
       <<: *dance
       band: Becky Tracy + Keith Murphy
       caller: Catherine Burns
+      overlay: *cancelled
 
     - date: May 16, 2020
       uid: 47b856d3-6ec3-457c-a821-353c6979dae5
       <<: *community
       potluck: true
+      overlay: *cancelled
 
     - date: May 27, 2020
       uid: 92290048-88e0-435c-8850-42513dd59d52
       <<: *wednesday
+      overlay: *cancelled
 
     - date: Jun 6, 2020
       uid: ab996a08-89fd-4a26-b87f-0dd746607d30
@@ -435,6 +444,7 @@ events:
       band: Triton
       caller: Mary Wesley
       montreal: true
+      overlay: *cancelled
 
     - date: Jun 6, 2020
       uid: c1a3b1c5-031d-478e-9013-c3463ae1d6e4
@@ -453,6 +463,7 @@ events:
           dro, andro, and many more)! These dances and the tunes that go with
           them are beautiful and mesmerizing. Venez dansez! All dances are
           accessible to beginners and will be enthusiastically taught.
+      overlay: *cancelled
 
     - date: Jun 20, 2020
       uid: 692b9c32-51e4-4867-a9f4-1ac562448cc8
@@ -461,3 +472,4 @@ events:
       caller: the Ottawa Callers Collective
       note: Since this is our last dance of the season we'll have a dessert
           pot-luck at the break!
+      overlay: *cancelled
